@@ -5,7 +5,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <title>Avoonix</title>
+    <title>Avoonix the Fox</title>
+
+
+
+
+
+    <meta name="title" content="Avoonix the Fox">
+    <meta name="description" content="Hewwo! I'm Avoonix, a pink furry fox from Austria :3">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.avoonix.com/">
+    <meta property="og:title" content="Avoonix the Fox">
+    <meta property="og:description" content="Hewwo! I'm Avoonix, a pink furry fox from Austria :3">
+    <meta property="og:image" content="https://www.gravatar.com/avatar/54e7f50cd61226db4ea418f5a41bb0a6?size=512">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.avoonix.com/">
+    <meta property="twitter:title" content="Avoonix the Fox">
+    <meta property="twitter:description" content="Hewwo! I'm Avoonix, a pink furry fox from Austria :3">
+    <meta property="twitter:image" content="https://www.gravatar.com/avatar/54e7f50cd61226db4ea418f5a41bb0a6?size=512">
+
+
+
+
+
+
     <style>
         html,
         body {
@@ -53,6 +78,7 @@
             border-radius: 100%;
             max-width: 200px;
             width: 100%;
+            object-fit: cover;
         }
 
         .container {
@@ -76,8 +102,15 @@
             text-align: center;
         }
 
-        .profile-container p {
+        .profile-container h1 {
             margin-top: 0;
+            margin-bottom: .3em;
+            font-weight: lighter;
+            font-size: 1.6em;
+        }
+
+        .hidden {
+            display: none;
         }
     </style>
 </head>
@@ -85,11 +118,11 @@
 <body>
     <!-- icons from https://npm.im/@mdi/svg -->
 
-    <div class="container">
+    <div class="container" itemscope itemtype="http://schema.org/Person">
         <div class="profile-container">
-            <img class="profile-picture"
+            <img itemprop="image" alt="Avoonix" class="profile-picture" width="200" height="200"
                 src="https://www.gravatar.com/avatar/54e7f50cd61226db4ea418f5a41bb0a6?size=200" />
-            <p>Avoonix</p>
+            <h1 itemprop="name">Avoonix</h1>
         </div>
 
         <a href="https://steamcommunity.com/id/avoonix">
@@ -124,7 +157,13 @@
             <span>Telegram</span>
         </a>
 
+        <div class="hidden">
+            <span itemprop="alternateName">Avoo</span>
+            <a itemprop="url" href="https://www.avoonix.com/">https://www.avoonix.com/</a>
+        </div>
+
     </div>
+
 </body>
 
 </html>
