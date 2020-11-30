@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+  
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+	[plugins.inputs]
+    baseUrl = "https://avoonix.com"
+    sitemapPath = "/sitemap.xml"
+    providers = [
+      "google",
+      "bing",
+      "yandex"
+    ]
