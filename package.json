@@ -1,0 +1,9 @@
+{
+  "name": "avoonix.github.io",
+  "dependencies": {
+    "mustache": "^4.1.0"
+  },
+  "scripts": {
+    "generate": "node generate.js"
+  }
+}

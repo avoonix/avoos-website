@@ -1,9 +1,10 @@
 [build]
-  publish = "."
+  publish = "./output"
+  command = "npm run generate"
   
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
-	[plugins.inputs]
+  [plugins.inputs]
     baseUrl = "https://avoonix.com"
     sitemapPath = "/sitemap.xml"
     providers = [

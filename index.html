@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{lang}}">
   <head>
     <!-- Source code: https://github.com/avoonix/avoonix.github.io/ -->
 
@@ -7,26 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="shortlink" href="https://avoonix.com/" />
-    <link rel="canonical" href="https://avoonix.com/" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="alternate" href="https://avoonix.com/" hreflang="en" />
+    <link rel="alternate" href="https://avoonix.com/de" hreflang="de" />
     <link rel="alternate" href="https://avoonix.com/" hreflang="x-default" />
 
-    <title>Avoonix the Fox</title>
-    <meta name="title" content="Avoonix the Fox" />
-    <meta name="description" content="Hewwo! I'm Avoonix, a pink furry fox from Austria :3" />
+    <title>{{title}}</title>
+    <meta name="title" content="{{title}}" />
+    <meta name="description" content="{{description}}" />
     <meta name="theme-color" content="#f066c2" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://avoonix.com/" />
-    <meta property="og:title" content="Avoonix the Fox" />
-    <meta property="og:description" content="Hewwo! I'm Avoonix, a pink furry fox from Austria :3" />
+    <meta property="og:url" content="https://avoonix.com/{{path}}" />
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:description" content="{{description}}" />
     <meta property="og:image" content="https://www.gravatar.com/avatar/54e7f50cd61226db4ea418f5a41bb0a6?size=512" />
 
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://avoonix.com/" />
-    <meta property="twitter:title" content="Avoonix the Fox" />
-    <meta property="twitter:description" content="Hewwo! I'm Avoonix, a pink furry fox from Austria :3" />
+    <meta property="twitter:url" content="https://avoonix.com/{{path}}" />
+    <meta property="twitter:title" content="{{title}}" />
+    <meta property="twitter:description" content="{{description}}" />
     <meta property="twitter:image" content="https://www.gravatar.com/avatar/54e7f50cd61226db4ea418f5a41bb0a6?size=512" />
     <meta property="twitter:site" content="@avoonix" />
 
@@ -131,7 +131,7 @@
         <h1 itemprop="name">Avoonix</h1>
       </div>
 
-      <a href="https://steamcommunity.com/id/avoonix" title="Steam Profile">
+      <a href="https://steamcommunity.com/id/avoonix" title="Steam {{profile}}">
         <svg viewBox="0 0 24 24">
           <path
             fill="currentColor"
@@ -141,7 +141,7 @@
         <span>Steam</span>
       </a>
 
-      <a href="https://github.com/avoonix" title="GitHub Profile">
+      <a href="https://github.com/avoonix" title="GitHub {{profile}}">
         <svg viewBox="0 0 24 24">
           <path
             fill="currentColor"
@@ -151,7 +151,7 @@
         <span>GitHub</span>
       </a>
 
-      <a href="https://www.furaffinity.net/user/avoonix" title="Fur Affinity Profile">
+      <a href="https://www.furaffinity.net/user/avoonix" title="Fur Affinity {{profile}}">
         <svg viewBox="0 0 24 24">
           <path
             fill="currentColor"
@@ -161,7 +161,7 @@
         <span>Fur Affinity</span>
       </a>
 
-      <a href="https://twitter.com/avoonix" title="Twitter Profile">
+      <a href="https://twitter.com/avoonix" title="Twitter {{profile}}">
         <svg viewBox="0 0 24 24">
           <path
             fill="currentColor"
@@ -171,7 +171,7 @@
         <span>Twitter</span>
       </a>
 
-      <a href="https://t.me/avoonix" title="Contact">
+      <a href="https://t.me/avoonix" title="{{contact}}">
         <svg viewBox="0 0 24 24">
           <path
             fill="currentColor"
@@ -186,7 +186,9 @@
         <a itemprop="url" href="https://avoonix.com/" title="Website" rel="me">
           https://avoonix.com/
         </a>
-        <p itemprop="description">A pink furry fox</p>
+        <p itemprop="description">{{itemDescription}}</p>
+        <a href="https://avoonix.com/de">German</a>
+        <a href="https://avoonix.com/">English</a>
       </div>
     </div>
   </body>
