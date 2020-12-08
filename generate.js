@@ -9,6 +9,18 @@ const writeFile = (filename, data) => {
   fs.writeFileSync(filename, data);
 };
 
+const copyFile = (source, destination) => {
+  const data = fs.readFileSync(source);
+  writeFile(destination, data);
+};
+
+const copyFiles = (source, destination) => {
+  const files = fs.readdirSync(source);
+  for (const file of files) {
+    copyFile(`${source}/${file}`, `${destination}/${file}`);
+  }
+};
+
 const languages = [
   {
     path: "",
@@ -36,3 +48,5 @@ for (const language of languages) {
   const output = Mustache.render(template, language);
   writeFile(`./output/${language.path}/index.html`, output);
 }
+
+copyFiles("./public", "./output");
