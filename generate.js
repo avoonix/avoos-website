@@ -56,7 +56,7 @@ const languages = [
 ];
 
 const common = {
-  profilePictureUrl: "https://www.avoonix.com/images/day.webp",
+  profilePictureUrl: "https://avoonix.com/images/day.webp",
   additionalTags: "",
 };
 
