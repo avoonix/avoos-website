@@ -21,14 +21,16 @@
     <meta property="og:url" content="https://avoonix.com/{{path}}" />
     <meta property="og:title" content="{{title}}" />
     <meta property="og:description" content="{{description}}" />
-    <meta property="og:image" content="https://www.gravatar.com/avatar/54e7f50cd61226db4ea418f5a41bb0a6?size=512" />
+    <meta property="og:image" content="{{&profilePictureUrl}}" />
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://avoonix.com/{{path}}" />
     <meta property="twitter:title" content="{{title}}" />
     <meta property="twitter:description" content="{{description}}" />
-    <meta property="twitter:image" content="https://www.gravatar.com/avatar/54e7f50cd61226db4ea418f5a41bb0a6?size=512" />
+    <meta property="twitter:image" content="{{&profilePictureUrl}}" />
     <meta property="twitter:site" content="@avoonix" />
+
+    {{&additionalTags}}
 
     <style>
       html,
@@ -126,7 +128,7 @@
           width="200"
           height="200"
           title="Avoonix"
-          src="https://www.gravatar.com/avatar/54e7f50cd61226db4ea418f5a41bb0a6?size=200"
+          src="{{&profilePictureUrl}}"
         />
         <h1 itemprop="name">Avoonix</h1>
       </div>

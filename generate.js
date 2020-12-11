@@ -39,14 +39,40 @@ const languages = [
     profile: "Profil",
     contact: "Kontakt",
     itemDescription: "Ein pinker Fuchs",
+    additionalTags: `
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "de"
+          }]
+        }
+      </script>
+      `,
   },
 ];
+
+const common = {
+  profilePictureUrl: "https://www.avoonix.com/images/day.webp",
+  additionalTags: "",
+};
 
 const template = fs.readFileSync("./index.html", { encoding: "utf8" });
 
 for (const language of languages) {
-  const output = Mustache.render(template, language);
+  const output = Mustache.render(template, { ...common, ...language });
   writeFile(`./output/${language.path}/index.html`, output);
 }
 
 copyFiles("./public", "./output");
+
+const imagemin = require("imagemin");
+const imageminWebp = require("imagemin-webp");
+
+imagemin(["images/*.{jpg,png}"], {
+  destination: "output/images",
+  plugins: [imageminWebp({ preset: "drawing" })],
+});
