@@ -30,6 +30,7 @@
     <meta property="twitter:description" content="{{description}}" />
     <meta property="twitter:image" content="{{&profilePictureUrl}}" />
     <meta property="twitter:site" content="@avoonix" />
+    <meta property="twitter:creator" content="@avoonix" />
 
     {{&additionalTags}}
 
@@ -62,7 +63,7 @@
         text-decoration: none;
         display: inline-flex;
         align-items: center;
-        transition: all .2s ease-in-out;
+        transition: all 0.2s ease-in-out;
       }
 
       a:hover,
@@ -114,6 +115,43 @@
       .hidden {
         display: none;
       }
+
+      .image-container {
+        position: relative;
+        height: 200px;
+      }
+
+      .image-container::before {
+        content: "";
+        background-image: linear-gradient(
+          /* calc(-180deg + 45deg), */ red 0%,
+          red 16.6666%,
+          orange 16.6666%,
+          orange 33.333%,
+          yellow 33.333%,
+          yellow 50%,
+          green 50%,
+          green 66.6666%,
+          blue 66.6666%,
+          blue 83.3333%,
+          purple 83.3333%,
+          purple 100%
+        );
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: 50%;
+        touch-action: none;
+        pointer-events: none;
+        opacity: 0.6;
+        transition: all 0.2s ease-in-out;
+      }
+
+      .image-container:hover::before {
+        opacity: 0;
+      }
     </style>
   </head>
 
@@ -122,15 +160,17 @@
 
     <div class="container" itemscope itemtype="http://schema.org/Person">
       <div class="profile-container">
-        <img
-          itemprop="image"
-          alt="Avoonix"
-          class="profile-picture"
-          width="200"
-          height="200"
-          title="Avoonix"
-          src="{{&profilePictureUrl}}"
-        />
+        <div class="image-container">
+          <img
+            itemprop="image"
+            alt="Avoonix"
+            class="profile-picture"
+            width="200"
+            height="200"
+            title="Avoonix"
+            src="{{&profilePictureUrl}}"
+          />
+        </div>
         <h1 itemprop="name">Avoonix</h1>
       </div>
 
@@ -154,7 +194,10 @@
         <span>GitHub</span>
       </a>
 
-      <a href="https://www.furaffinity.net/user/avoonix" title="Fur Affinity {{profile}}">
+      <a
+        href="https://www.furaffinity.net/user/avoonix"
+        title="Fur Affinity {{profile}}"
+      >
         <svg viewBox="0 0 24 24">
           <path
             fill="currentColor"
