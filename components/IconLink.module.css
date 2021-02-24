@@ -1,0 +1,29 @@
+.link {
+  color: #f8cbfc;
+  border: 5px solid #f8cbfc;
+  padding: 10px;
+  margin: 5px 0;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  font-size: 2em;
+  width: 100%;
+}
+
+.link:hover,
+.link:focus {
+  background-color: #f8cbfc;
+  color: #f066c2;
+}
+
+.link svg {
+  width: 1em;
+  height: 1em;
+  padding-right: 5px;
+}
+
+.link span {
+  flex-grow: 1;
+  text-align: center;
+}

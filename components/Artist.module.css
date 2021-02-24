@@ -1,0 +1,16 @@
+.container {
+  display: block;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconContainer {
+  border-radius: 50%;
+  background-color: #f8cbfc;
+  color: #f066c2;
+  margin-right: 8px;
+  padding: 6px;
+}

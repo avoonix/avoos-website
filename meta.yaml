@@ -1,0 +1,56 @@
+gallery:
+  avoonix/day.png:
+    id: qf0
+    artist: avoonix
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2298.jpg:
+    id: B2b
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2338.png:
+    id: jaq
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2723.png:
+    id: qkf
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2724.png:
+    id: uoT
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+artists:
+  spookyfoxinc:
+    url: https://www.spookyfoxinc.com/
+  avoonix:
+    url: https://avoonix.com/
