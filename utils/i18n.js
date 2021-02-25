@@ -16,6 +16,12 @@ const resources = {
       gallery: "Gallery",
       avoonixGallery: "Avoonix' Gallery",
       galleryDescription: "{{count}} images",
+      home: "Home",
+      e6favorites: "e6 Favorites",
+      reference: "Reference",
+      back: "Back",
+      artist: "Artist",
+      copied: "Copied to clipboard!"
     },
   },
   de: {
@@ -28,6 +34,12 @@ const resources = {
       gallery: "Galerie",
       avoonixGallery: "Avoonix' Galerie",
       galleryDescription: "{{count}} Bilder",
+      home: "Startseite",
+      e6favorites: "e6 Favoriten",
+      reference: "Referenz",
+      back: "Zurück",
+      artist: "Künstler",
+      copied: "In Zwischenablage kopiert!"
     },
   },
 };

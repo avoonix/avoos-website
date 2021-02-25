@@ -18,7 +18,7 @@ export default function Gallery({ allGalleryData }) {
       }}
     >
       <div>
-        <IconLink href="/" iconPath={mdiArrowLeft} text="Home" />
+        <IconLink href="/" iconPath={mdiArrowLeft} text={t("home")} />
       </div>
       <div className={styles.grid}>
         {allGalleryData.map(({ id, date, title, ...rest }) => (

@@ -9,6 +9,9 @@ import {
   mdiTelegram,
   mdiImageMultiple,
   mdiSteam,
+  mdiHexagonOutline,
+  mdiHexagon,
+  mdiAccountHeart,
 } from "@mdi/js";
 import ProfileImage from "../components/ProfileImage";
 import { useTranslation } from "react-i18next";
@@ -61,7 +64,18 @@ export default function Home() {
           text="Telegram"
           title={t("contact")}
         />
-
+        <IconLink
+          href="https://e621.net/posts?tags=fav:Avoonix"
+          iconPath={mdiHexagon}
+          text={t("e6favorites")}
+          title={t("e6favorites")}
+        />
+        <IconLink
+          href="/gallery/ref"
+          iconPath={mdiAccountHeart}
+          text={t("reference")}
+          title={t("reference")}
+        />
         <IconLink
           href="/gallery"
           iconPath={mdiImageMultiple}

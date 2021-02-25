@@ -6,7 +6,7 @@ import { mdiArrowLeft } from "@mdi/js";
 import Artist from "../../components/Artist";
 import { useTranslation } from "react-i18next";
 
-export default function Image({ imageData, artistData }) {
+export default function Image({ imageData, artistData, children }) {
   const { t } = useTranslation();
   return (
     <Layout
@@ -16,9 +16,6 @@ export default function Image({ imageData, artistData }) {
         image: imageData.path,
       }}
     >
-      <Head>
-        <title>{imageData.title}</title>
-      </Head>
       <div>
         <IconLink
           href={`/gallery#${imageData.id}`}
@@ -26,13 +23,16 @@ export default function Image({ imageData, artistData }) {
           text={t("gallery")}
         />
       </div>
-      <img
-        src={imageData.path}
-        style={{ width: "100%" }}
-        alt={imageData.metaDescription}
-        title={imageData.metaTitle}
-      />
+      <a href={imageData.path} target="_blank">
+        <img
+          src={imageData.path}
+          style={{ width: "100%" }}
+          alt={imageData.metaDescription}
+          title={imageData.metaTitle}
+        />
+      </a>
       <Artist name={artistData.name} url={artistData.url} />
+      {children}
     </Layout>
   );
 }
