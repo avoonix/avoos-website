@@ -49,8 +49,222 @@ gallery:
       de:
         title: ""
         description: ""
+  spookyfoxinc/IMG_2337.png:
+    id: ceS
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2761.png:
+    id: xd2
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2762.png:
+    id: pOY
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2812.png:
+    id: 2g6
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2813.png:
+    id: M8f
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2814.png:
+    id: P7y
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2828.png:
+    id: PH9
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2829.png:
+    id: OF8
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2937.png:
+    id: zdn
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2938.png:
+    id: 7Ev
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2939.png:
+    id: V9n
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_2999.png:
+    id: xZs
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_3001.png:
+    id: jSj
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_3002.png:
+    id: eVS
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_3043.png:
+    id: o0B
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_3075.png:
+    id: V7O
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_3076.png:
+    id: Fxg
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  spookyfoxinc/IMG_3077.png:
+    id: Y66
+    artist: spookyfoxinc
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  asgardianartist/avoonix.png:
+    id: XAG
+    artist: asgardianartist
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  heridag/20201006_181134.png:
+    id: JK0
+    artist: heridag
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  heridag/20201006_181450.png:
+    id: MKd
+    artist: heridag
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
   avoonix:
     url: https://avoonix.com/
+  asgardianartist:
+    url: https://linktr.ee/asgardian.artist
+  heridag:
+    url: https://linktr.ee/Heridag
