@@ -8,6 +8,7 @@ export default function Layout({
   meta: { title, description, image = null },
 }) {
   const router = useRouter();
+  const pathWithoutHash = router.asPath.replace(/#.*/g, "");
 
   return (
     <div className={styles.container}>
@@ -18,20 +19,20 @@ export default function Layout({
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
-        <link rel="canonical" href={`https://avoonix.com${router.asPath}`} />
+        <link rel="canonical" href={`https://avoonix.com${pathWithoutHash}`} />
         <link
           rel="alternate"
-          href={`https://avoonix.com${router.asPath}`}
+          href={`https://avoonix.com${pathWithoutHash}`}
           hrefLang="en"
         />
         <link
           rel="alternate"
-          href={`https://de.avoonix.com${router.asPath}`}
+          href={`https://de.avoonix.com${pathWithoutHash}`}
           hrefLang="de"
         />
         <link
           rel="alternate"
-          href={`https://avoonix.com${router.asPath}`}
+          href={`https://avoonix.com${pathWithoutHash}`}
           hrefLang="x-default"
         />
 
@@ -43,7 +44,7 @@ export default function Layout({
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content={`https://avoonix.com${router.asPath}`}
+          content={`https://avoonix.com${pathWithoutHash}`}
         />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
@@ -54,7 +55,7 @@ export default function Layout({
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content={`https://avoonix.com${router.asPath}`}
+          content={`https://avoonix.com${pathWithoutHash}`}
         />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />

@@ -38,7 +38,7 @@ export default function Image({ imageData, artistData, children }) {
 }
 
 export async function getStaticPaths() {
-  const paths = getAllImageIds();
+  const paths = getAllImageIds(["ref"]);
 
   return {
     paths,
