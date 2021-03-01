@@ -11,8 +11,8 @@ export default function Image({ imageData, artistData, children }) {
   return (
     <Layout
       meta={{
-        title: imageData.metaTitle,
-        description: imageData.metaDescription,
+        title: imageData.title,
+        description: imageData.description,
         image: imageData.path,
       }}
     >
@@ -23,15 +23,19 @@ export default function Image({ imageData, artistData, children }) {
           text={t("gallery")}
         />
       </div>
-      <a href={imageData.path} target="_blank">
-        <img
-          src={imageData.path}
-          style={{ width: "100%" }}
-          alt={imageData.metaDescription}
-          title={imageData.metaTitle}
-        />
-      </a>
-      <Artist name={artistData.name} url={artistData.url} />
+      <article>
+        <article href={imageData.path} target="_blank">
+          <img
+            src={imageData.path}
+            style={{ width: "100%" }}
+            alt={imageData.description}
+            title={imageData.title}
+          />
+        </article>
+        <h1>{imageData.title}</h1>
+        <Artist name={artistData.name} url={artistData.url} />
+        <p style={{ whiteSpace: "pre-wrap" }}>{imageData.description}</p>
+      </article>
       {children}
     </Layout>
   );

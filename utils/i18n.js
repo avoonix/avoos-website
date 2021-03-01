@@ -21,7 +21,9 @@ const resources = {
       reference: "Reference",
       back: "Back",
       artist: "Artist",
-      copied: "Copied to clipboard!"
+      copied: "Copied to clipboard!",
+      fallbackDescription: "\"{{title}}\" by {{artist}}",
+      drawing: "Drawing",
     },
   },
   de: {
@@ -39,7 +41,9 @@ const resources = {
       reference: "Referenz",
       back: "Zurück",
       artist: "Künstler",
-      copied: "In Zwischenablage kopiert!"
+      copied: "In Zwischenablage kopiert!",
+      fallbackDescription: "\"{{title}}\" von {{artist}}",
+      drawing: "Zeichnung",
     },
   },
 };
@@ -52,6 +56,8 @@ i18n.use(initReactI18next).init({
     escapeValue: false,
   },
   detection: false,
+  preload: ["de", "en"],
+  load: ["de", "en"],
 });
 
 export default i18n;
