@@ -259,6 +259,46 @@ gallery:
       de:
         title: ""
         description: ""
+  sinister-jordex/1608588792.jpg:
+    id: mXG
+    artist: sinister-jordex
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  valdith-zam/1608587106.png:
+    id: wtB
+    artist: valdith-zam
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  blumen/1606077033.jpg:
+    id: kUy
+    artist: blumen
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+  adopt-empire/1603980707.jpg:
+    id: Ggo
+    artist: adopt-empire
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
@@ -268,3 +308,11 @@ artists:
     url: https://linktr.ee/asgardian.artist
   heridag:
     url: https://linktr.ee/Heridag
+  sinister-jordex:
+    url: https://www.furaffinity.net/user/sinister-jordex
+  valdith-zam:
+    url: https://www.furaffinity.net/user/valdith-zam
+  blumen:
+    url: https://www.furaffinity.net/user/blumen
+  adopt-empire:
+    url: https://www.furaffinity.net/user/adoptempire

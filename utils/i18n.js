@@ -15,7 +15,7 @@ const resources = {
       description: "Hewwo! I'm Avoonix, a pink furry fox from Austria :3",
       gallery: "Gallery",
       avoonixGallery: "Avoonix' Gallery",
-      galleryDescription: "{{count}} images",
+      galleryDescription: "{{count}} fox images",
       home: "Home",
       e6favorites: "e6 Favorites",
       reference: "Reference",
