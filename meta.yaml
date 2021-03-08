@@ -1,67 +1,88 @@
 gallery:
-  avoonix/day.png:
-    id: qf0
-    artist: avoonix
-    meta:
-      en:
-        title: "Day"
-        description: ""
-      de:
-        title: "Tag"
-        description: ""
   spookyfoxinc/IMG_2298.jpg:
     id: ref
     artist: spookyfoxinc
+    grid:
+      w: 3
+      h: 2
     meta:
       en:
         title: Avoonix Reference
         description: ""
       de:
-        title: "Avoonix Referenz"
+        title: Avoonix Referenz
         description: ""
   spookyfoxinc/IMG_2338.png:
     id: jaq
     artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
     meta:
       en:
-        title: "Hug"
+        title: Hug
         description: ""
       de:
-        title: "Umarmung"
+        title: Umarmung
         description: ""
   spookyfoxinc/IMG_2723.png:
     id: qkf
     artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
     meta:
       en:
-        title: "Please"
+        title: Please
         description: ""
       de:
-        title: "Bitte"
+        title: Bitte
         description: ""
   spookyfoxinc/IMG_2724.png:
     id: uoT
     artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
     meta:
       en:
-        title: "Heart"
+        title: Heart
         description: ""
       de:
-        title: "Herz"
+        title: Herz
         description: ""
   spookyfoxinc/IMG_2337.png:
     id: ceS
     artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
     meta:
       en:
-        title: "Walkies??"
+        title: Walkies??
         description: ""
       de:
-        title: "Gassi??"
+        title: Gassi??
+        description: ""
+  avoonix/day.png:
+    id: qf0
+    artist: avoonix
+    grid:
+      w: 2
+      h: 2
+    meta:
+      en:
+        title: Day
+        description: ""
+      de:
+        title: Tag
         description: ""
   spookyfoxinc/IMG_2761.png:
     id: xd2
     artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
     meta:
       en:
         title: "*blep*"
@@ -72,196 +93,113 @@ gallery:
   spookyfoxinc/IMG_2762.png:
     id: pOY
     artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
     meta:
       en:
-        title: "Yes"
+        title: Yes
         description: ""
       de:
-        title: "Ja"
+        title: Ja
         description: ""
   spookyfoxinc/IMG_2812.png:
     id: 2g6
     artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
     meta:
       en:
         title: "*pat pat*"
         description: ""
       de:
         title: "*pat pat*"
-        description: ""
-  spookyfoxinc/IMG_2813.png:
-    id: M8f
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: "Schadenfreude"
-        description: ""
-      de:
-        title: "Schadenfreude"
-        description: ""
-  spookyfoxinc/IMG_2814.png:
-    id: P7y
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: "Sleeping"
-        description: ""
-      de:
-        title: "Schlafen"
-        description: ""
-  spookyfoxinc/IMG_2828.png:
-    id: PH9
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: "Spooning"
-        description: ""
-      de:
-        title: "Löffeln"
-        description: ""
-  spookyfoxinc/IMG_2829.png:
-    id: OF8
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: "Licc"
-        description: ""
-      de:
-        title: "Lecken"
-        description: ""
-  spookyfoxinc/IMG_2937.png:
-    id: zdn
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: "Spreadeagle"
-        description: ""
-      de:
-        title: "Fixiert"
-        description: ""
-  spookyfoxinc/IMG_2938.png:
-    id: 7Ev
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: Ass
-        description: ""
-      de:
-        title: Arsch
-        description: ""
-  spookyfoxinc/IMG_2939.png:
-    id: V9n
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: I can't see!
-        description: ""
-      de:
-        title: Ich kann nichts sehen!
-        description: ""
-  spookyfoxinc/IMG_2999.png:
-    id: xZs
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: Horny jail
-        description: ""
-      de:
-        title: Geiles Gefängnis
-        description: ""
-  spookyfoxinc/IMG_3001.png:
-    id: jSj
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: Milk
-        description: ""
-      de:
-        title: Milch
-        description: ""
-  spookyfoxinc/IMG_3002.png:
-    id: eVS
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: Avoo presenting paws
-        description: ""
-      de:
-        title: Avoo präsentiert seine Pfoten
-        description: ""
-  spookyfoxinc/IMG_3043.png:
-    id: o0B
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: Avoo kissing Lou
-        description: ""
-      de:
-        title: Avoo küsst Lou
-        description: ""
-  spookyfoxinc/IMG_3075.png:
-    id: V7O
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: Lou going for walkies with Avoo
-        description: ""
-      de:
-        title: Lou geht mit Avoo gassi
-        description: ""
-  spookyfoxinc/IMG_3076.png:
-    id: Fxg
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: Lou pinning Avoo
-        description: ""
-      de:
-        title: Avoo festgehalten von Lou
-        description: ""
-  spookyfoxinc/IMG_3077.png:
-    id: Y66
-    artist: spookyfoxinc
-    meta:
-      en:
-        title: Lou on Avoo
-        description: ""
-      de:
-        title: Lou auf Avoo
-        description: ""
-  asgardianartist/avoonix.png:
-    id: XAG
-    artist: asgardianartist
-    meta:
-      en:
-        title: Fullbody
-        description: ""
-      de:
-        title: Ganzkörper
-        description: ""
-  heridag/20201006_181134.png:
-    id: JK0
-    artist: heridag
-    meta:
-      en:
-        title: Avoo is sus
-        description: ""
-      de:
-        title: Avoo ist sus
-        description: ""
-  heridag/20201006_181450.png:
-    id: MKd
-    artist: heridag
-    meta:
-      en:
-        title: Avoo is sus
-        description: ""
-      de:
-        title: Avoo ist sus
         description: ""
   sinister-jordex/1608588792.jpg:
     id: mXG
     artist: sinister-jordex
+    grid:
+      w: 2
+      h: 3
+    meta:
+      en:
+        title: Avoo and Lou kissing
+        description: ""
+      de:
+        title: Avoo und Lou küssen sich
+        description: ""
+  spookyfoxinc/IMG_2813.png:
+    id: M8f
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Schadenfreude
+        description: ""
+      de:
+        title: Schadenfreude
+        description: ""
+  spookyfoxinc/IMG_2814.png:
+    id: P7y
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Sleeping
+        description: ""
+      de:
+        title: Schlafen
+        description: ""
+  spookyfoxinc/IMG_2828.png:
+    id: PH9
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Spooning
+        description: ""
+      de:
+        title: Löffeln
+        description: ""
+  spookyfoxinc/IMG_2829.png:
+    id: OF8
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Licc
+        description: ""
+      de:
+        title: Lecken
+        description: ""
+  spookyfoxinc/IMG_2937.png:
+    id: zdn
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Spreadeagle
+        description: ""
+      de:
+        title: Fixiert
+        description: ""
+  blumen/1606077033.jpg:
+    id: kUy
+    artist: blumen
+    grid:
+      w: 2
+      h: 2
     meta:
       en:
         title: Avoo and Lou kissing
@@ -272,6 +210,9 @@ gallery:
   valdith-zam/1608587106.png:
     id: wtB
     artist: valdith-zam
+    grid:
+      w: 2
+      h: 2
     meta:
       en:
         title: Avoo and Lou kissing
@@ -279,25 +220,174 @@ gallery:
       de:
         title: Avoo und Lou küssen sich
         description: ""
-  blumen/1606077033.jpg:
-    id: kUy
-    artist: blumen
+  spookyfoxinc/IMG_2938.png:
+    id: 7Ev
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
     meta:
       en:
-        title: Avoo and Lou kissing
+        title: Ass
         description: ""
       de:
-        title: Avoo und Lou küssen sich
+        title: Arsch
+        description: ""
+  spookyfoxinc/IMG_2939.png:
+    id: V9n
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: I can't see!
+        description: ""
+      de:
+        title: Ich kann nichts sehen!
         description: ""
   adopt-empire/1603980707.jpg:
     id: Ggo
     artist: adopt-empire
+    grid:
+      w: 2
+      h: 3
     meta:
       en:
         title: Avoo and Lou hugging
         description: ""
       de:
         title: Avoo und Lou umarmen sich
+        description: ""
+  spookyfoxinc/IMG_2999.png:
+    id: xZs
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Horny jail
+        description: ""
+      de:
+        title: Geiles Gefängnis
+        description: ""
+  spookyfoxinc/IMG_3001.png:
+    id: jSj
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Milk
+        description: ""
+      de:
+        title: Milch
+        description: ""
+  spookyfoxinc/IMG_3002.png:
+    id: eVS
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo presenting paws
+        description: ""
+      de:
+        title: Avoo präsentiert seine Pfoten
+        description: ""
+  spookyfoxinc/IMG_3043.png:
+    id: o0B
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo kissing Lou
+        description: ""
+      de:
+        title: Avoo küsst Lou
+        description: ""
+  spookyfoxinc/IMG_3075.png:
+    id: V7O
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Lou going for walkies with Avoo
+        description: ""
+      de:
+        title: Lou geht mit Avoo gassi
+        description: ""
+  asgardianartist/avoonix.png:
+    id: XAG
+    artist: asgardianartist
+    grid:
+      w: 2
+      h: 3
+    meta:
+      en:
+        title: Fullbody
+        description: ""
+      de:
+        title: Ganzkörper
+        description: ""
+  spookyfoxinc/IMG_3076.png:
+    id: Fxg
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Lou pinning Avoo
+        description: ""
+      de:
+        title: Avoo festgehalten von Lou
+        description: ""
+  spookyfoxinc/IMG_3077.png:
+    id: Y66
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Lou on Avoo
+        description: ""
+      de:
+        title: Lou auf Avoo
+        description: ""
+  heridag/20201006_181134.png:
+    id: JK0
+    artist: heridag
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo is sus
+        description: ""
+      de:
+        title: Avoo ist sus
+        description: ""
+  heridag/20201006_181450.png:
+    id: MKd
+    artist: heridag
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo is sus
+        description: ""
+      de:
+        title: Avoo ist sus
         description: ""
 artists:
   spookyfoxinc:

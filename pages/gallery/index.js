@@ -21,11 +21,23 @@ export default function Gallery({ allGalleryData }) {
         <IconLink href="/" iconPath={mdiArrowLeft} text={t("home")} />
       </div>
       <div className={styles.grid}>
-        {allGalleryData.map(({ id, date, title, ...rest }) => (
-          <div id={id} className={styles.gridItem} key={id}>
+        {allGalleryData.map(({ id, date, title, path, grid }) => (
+          <div
+            id={id}
+            className={styles.gridItem}
+            key={id}
+            style={{
+              gridColumn: `span ${grid.w}`,
+              gridRow: `span ${grid.h}`,
+            }}
+          >
+            <div
+              className={styles.gridItemAspectRatioBox}
+              style={{ paddingTop: `${(grid.h / grid.w) * 100}%` }}
+            />
             <Link href={`/gallery/${id}`}>
               <a>
-                <img src={rest.path} className={styles.gridImage} />
+                <img src={path} className={styles.gridImage} />
               </a>
             </Link>
           </div>

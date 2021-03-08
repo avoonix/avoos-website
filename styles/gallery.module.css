@@ -1,16 +1,29 @@
 .grid {
-  /* display: grid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 12px;
-  grid-template-columns: repeat(4, 1fr); */
-  /* grid-auto-columns: auto; */
-}
-
-.gridItem {
-
 }
 
 .gridImage {
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
+  object-fit: cover;
+}
+
+.gridItem {
+  position: relative;
+}
+
+.gridItemAspectRatioBox {
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.gridItem img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
 }

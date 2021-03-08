@@ -31,6 +31,10 @@ glob(
         {
           id: nanoid(),
           artist,
+          grid: {
+            w: 1,
+            h: 1,
+          },
           meta: {
             en: {
               title: "",
