@@ -22,7 +22,7 @@ export default function Gallery({ allGalleryData }) {
         <IconLink href="/" iconPath={mdiArrowLeft} text={t("home")} />
       </div>
       <div className={styles.grid}>
-        {allGalleryData.map(({ id, path, grid, color }) => (
+        {allGalleryData.map(({ id, path, grid, color, title }) => (
           <div
             id={id}
             className={styles.gridItem}
@@ -37,7 +37,7 @@ export default function Gallery({ allGalleryData }) {
               style={{ paddingTop: `${(grid.h / grid.w) * 100}%` }}
             />
             <Link href={`/gallery/${id}`}>
-              <a>
+              <a title={title}>
                 <LazyImage loaderColor={color} src={path} />
               </a>
             </Link>
