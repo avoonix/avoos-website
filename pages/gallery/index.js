@@ -5,6 +5,7 @@ import IconLink from "../../components/IconLink";
 import { mdiArrowLeft } from "@mdi/js";
 import Layout from "../../components/Layout";
 import { useTranslation } from "react-i18next";
+import LazyImage from "../../components/LazyImage";
 
 export default function Gallery({ allGalleryData }) {
   const { t } = useTranslation();
@@ -21,7 +22,7 @@ export default function Gallery({ allGalleryData }) {
         <IconLink href="/" iconPath={mdiArrowLeft} text={t("home")} />
       </div>
       <div className={styles.grid}>
-        {allGalleryData.map(({ id, date, title, path, grid }) => (
+        {allGalleryData.map(({ id, path, grid, color }) => (
           <div
             id={id}
             className={styles.gridItem}
@@ -37,7 +38,7 @@ export default function Gallery({ allGalleryData }) {
             />
             <Link href={`/gallery/${id}`}>
               <a>
-                <img src={path} className={styles.gridImage} />
+                <LazyImage loaderColor={color} src={path} />
               </a>
             </Link>
           </div>

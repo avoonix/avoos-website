@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import YAML from "yaml";
 import { customAlphabet } from "nanoid";
+import ColorThief from "colorthief";
 
 const nanoid = customAlphabet(
   "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
@@ -22,7 +23,7 @@ glob(
   {
     cwd: imagesDirectory,
   },
-  (err, matches) => {
+  async (err, matches) => {
     for (const match of matches) {
       const segments = match.split("/");
       const artist =
@@ -52,6 +53,13 @@ glob(
         { url: "" },
         fileContents.artists[artist]
       );
+      if (!fileContents.gallery[match].color) {
+        const color = await ColorThief.getColor(
+          path.join("public/images", match)
+        );
+        fileContents.gallery[match].color =
+          "#" + color.map((c) => c.toString(16)).join("");
+      }
     }
     fs.writeFileSync("meta.yaml", YAML.stringify(fileContents), "utf8");
   }

@@ -12,6 +12,7 @@ gallery:
       de:
         title: Avoonix Referenz
         description: ""
+    color: "#f3849c"
   spookyfoxinc/IMG_2338.png:
     id: jaq
     artist: spookyfoxinc
@@ -25,6 +26,7 @@ gallery:
       de:
         title: Umarmung
         description: ""
+    color: "#e864ca"
   spookyfoxinc/IMG_2723.png:
     id: qkf
     artist: spookyfoxinc
@@ -38,6 +40,7 @@ gallery:
       de:
         title: Bitte
         description: ""
+    color: "#f6d2eb"
   spookyfoxinc/IMG_2724.png:
     id: uoT
     artist: spookyfoxinc
@@ -51,6 +54,7 @@ gallery:
       de:
         title: Herz
         description: ""
+    color: "#e95dc2"
   spookyfoxinc/IMG_2337.png:
     id: ceS
     artist: spookyfoxinc
@@ -64,6 +68,7 @@ gallery:
       de:
         title: Gassi??
         description: ""
+    color: "#e968cb"
   avoonix/day.png:
     id: qf0
     artist: avoonix
@@ -77,6 +82,7 @@ gallery:
       de:
         title: Tag
         description: ""
+    color: "#e5b6e1"
   spookyfoxinc/IMG_2761.png:
     id: xd2
     artist: spookyfoxinc
@@ -90,6 +96,7 @@ gallery:
       de:
         title: "*Blep*"
         description: ""
+    color: "#e965d0"
   spookyfoxinc/IMG_2762.png:
     id: pOY
     artist: spookyfoxinc
@@ -103,6 +110,7 @@ gallery:
       de:
         title: Ja
         description: ""
+    color: "#e75fd0"
   spookyfoxinc/IMG_2812.png:
     id: 2g6
     artist: spookyfoxinc
@@ -116,6 +124,7 @@ gallery:
       de:
         title: "*pat pat*"
         description: ""
+    color: "#ebd3ea"
   sinister-jordex/1608588792.jpg:
     id: mXG
     artist: sinister-jordex
@@ -129,6 +138,7 @@ gallery:
       de:
         title: Avoo und Lou küssen sich
         description: ""
+    color: "#ac7f83"
   spookyfoxinc/IMG_2813.png:
     id: M8f
     artist: spookyfoxinc
@@ -142,6 +152,7 @@ gallery:
       de:
         title: Schadenfreude
         description: ""
+    color: "#bac5e2"
   spookyfoxinc/IMG_2814.png:
     id: P7y
     artist: spookyfoxinc
@@ -155,6 +166,7 @@ gallery:
       de:
         title: Schlafen
         description: ""
+    color: "#ef5cc9"
   spookyfoxinc/IMG_2828.png:
     id: PH9
     artist: spookyfoxinc
@@ -168,6 +180,7 @@ gallery:
       de:
         title: Löffeln
         description: ""
+    color: "#748af7"
   spookyfoxinc/IMG_2829.png:
     id: OF8
     artist: spookyfoxinc
@@ -181,6 +194,7 @@ gallery:
       de:
         title: Lecken
         description: ""
+    color: "#f9d4e3"
   spookyfoxinc/IMG_2937.png:
     id: zdn
     artist: spookyfoxinc
@@ -194,6 +208,7 @@ gallery:
       de:
         title: Fixiert
         description: ""
+    color: "#becafb"
   blumen/1606077033.jpg:
     id: kUy
     artist: blumen
@@ -207,6 +222,7 @@ gallery:
       de:
         title: Avoo und Lou küssen sich
         description: ""
+    color: "#846571"
   valdith-zam/1608587106.png:
     id: wtB
     artist: valdith-zam
@@ -220,6 +236,7 @@ gallery:
       de:
         title: Avoo und Lou küssen sich
         description: ""
+    color: "#edacbc"
   spookyfoxinc/IMG_2938.png:
     id: 7Ev
     artist: spookyfoxinc
@@ -233,6 +250,7 @@ gallery:
       de:
         title: Arsch
         description: ""
+    color: "#d96fd5"
   spookyfoxinc/IMG_2939.png:
     id: V9n
     artist: spookyfoxinc
@@ -246,6 +264,7 @@ gallery:
       de:
         title: Ich kann nichts sehen!
         description: ""
+    color: "#f164ca"
   adopt-empire/1603980707.jpg:
     id: Ggo
     artist: adopt-empire
@@ -259,6 +278,7 @@ gallery:
       de:
         title: Avoo und Lou umarmen sich
         description: ""
+    color: "#653640"
   spookyfoxinc/IMG_2999.png:
     id: xZs
     artist: spookyfoxinc
@@ -272,6 +292,7 @@ gallery:
       de:
         title: Geiles Gefängnis
         description: ""
+    color: "#e680c2"
   spookyfoxinc/IMG_3001.png:
     id: jSj
     artist: spookyfoxinc
@@ -285,6 +306,7 @@ gallery:
       de:
         title: Milch
         description: ""
+    color: "#fad3d9"
   spookyfoxinc/IMG_3002.png:
     id: eVS
     artist: spookyfoxinc
@@ -298,6 +320,7 @@ gallery:
       de:
         title: Avoo präsentiert seine Pfoten
         description: ""
+    color: "#f7d3f2"
   spookyfoxinc/IMG_3043.png:
     id: o0B
     artist: spookyfoxinc
@@ -311,6 +334,7 @@ gallery:
       de:
         title: Avoo küsst Lou
         description: ""
+    color: "#e369b8"
   spookyfoxinc/IMG_3075.png:
     id: V7O
     artist: spookyfoxinc
@@ -324,6 +348,7 @@ gallery:
       de:
         title: Lou geht mit Avoo gassi
         description: ""
+    color: "#4d274b"
   asgardianartist/avoonix.png:
     id: XAG
     artist: asgardianartist
@@ -337,6 +362,7 @@ gallery:
       de:
         title: Ganzkörper
         description: ""
+    color: "#e763c0"
   spookyfoxinc/IMG_3076.png:
     id: Fxg
     artist: spookyfoxinc
@@ -350,6 +376,7 @@ gallery:
       de:
         title: Avoo festgehalten von Lou
         description: ""
+    color: "#9d6d7d"
   spookyfoxinc/IMG_3077.png:
     id: Y66
     artist: spookyfoxinc
@@ -363,6 +390,7 @@ gallery:
       de:
         title: Lou auf Avoo
         description: ""
+    color: "#d77db1"
   heridag/20201006_181134.png:
     id: JK0
     artist: heridag
@@ -376,6 +404,7 @@ gallery:
       de:
         title: Avoo ist sus
         description: ""
+    color: "#be4aa3"
   heridag/20201006_181450.png:
     id: MKd
     artist: heridag
@@ -389,6 +418,7 @@ gallery:
       de:
         title: Avoo ist sus
         description: ""
+    color: "#be4aa3"
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
