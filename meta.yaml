@@ -209,6 +209,76 @@ gallery:
         title: Fixiert
         description: ""
     color: "#becafb"
+  zombineko/1b.png:
+    id: Y3t
+    artist: zombineko
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo in diaper
+        description: ""
+      de:
+        title: Avoo in Windel
+        description: ""
+    color: "#c7b7be"
+  zombineko/1a.png:
+    id: QFD
+    artist: zombineko
+    grid:
+      w: 3
+      h: 4
+    meta:
+      en:
+        title: Avoo in diaper
+        description: ""
+      de:
+        title: Avoo in Windel
+        description: ""
+    color: "#c6b8c3"
+  zombineko/1c.png:
+    id: BWU
+    artist: zombineko
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo in diaper
+        description: ""
+      de:
+        title: Avoo in Windel
+        description: ""
+    color: "#c9b9bd"
+  zombineko/1d.png:
+    id: KVt
+    artist: zombineko
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo in diaper
+        description: ""
+      de:
+        title: Avoo in Windel
+        description: ""
+    color: "#c9b9bb"
+  zombineko/1e.png:
+    id: S60
+    artist: zombineko
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo in diaper
+        description: ""
+      de:
+        title: Avoo in Windel
+        description: ""
+    color: "#c9b9bb"
   blumen/1606077033.jpg:
     id: kUy
     artist: blumen
@@ -436,3 +506,5 @@ artists:
     url: https://www.furaffinity.net/user/blumen
   adopt-empire:
     url: https://www.furaffinity.net/user/adoptempire
+  zombineko:
+    url: https://www.furaffinity.net/user/zombineko
