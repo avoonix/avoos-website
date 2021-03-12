@@ -26,4 +26,5 @@ yarn-error.log*
 
 # misc
 public/sitemap.xml
+public/_redirects
 package-lock.json

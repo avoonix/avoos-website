@@ -34,6 +34,16 @@ async function generateSiteMap() {
       </urlset>
   `;
 
+  fs.writeFileSync(
+    "public/_redirects",
+    [
+      "/de https://de.avoonix.com",
+      "/en https://avoonix.com",
+      "/reference /gallery/ref",
+      ...Object.values(meta.gallery).map(({ id }) => `/${id} /gallery/${id}`),
+    ].join("\n")
+  );
+
   fs.writeFileSync("public/sitemap.xml", sitemap);
 }
 
