@@ -8,7 +8,9 @@ gallery:
     meta:
       en:
         title: Avoonix Reference
-        description: ""
+        description: >-
+          The dots above the eyes are eyebrows, not a fur pattern.
+          The colors below are slightly different than the image - feel free to use either.
       de:
         title: Avoonix Referenz
         description: ""
@@ -279,6 +281,48 @@ gallery:
         title: Avoo in Windel
         description: ""
     color: "#c9b9bb"
+  zombineko/1g.png:
+    id: QO5
+    artist: zombineko
+    grid:
+      w: 2
+      h: 2
+    meta:
+      en:
+        title: Avoo in diaper
+        description: ""
+      de:
+        title: Avoo in Windel
+        description: ""
+    color: "#c7b7be"
+  zombineko/1f.png:
+    id: sxf
+    artist: zombineko
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo in diaper
+        description: ""
+      de:
+        title: Avoo in Windel
+        description: ""
+    color: "#c6b8c3"
+  zombineko/1h.png:
+    id: 8jM
+    artist: zombineko
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo in diaper
+        description: ""
+      de:
+        title: Avoo in Windel
+        description: ""
+    color: "#c9b9bb"
   blumen/1606077033.jpg:
     id: kUy
     artist: blumen
@@ -335,20 +379,6 @@ gallery:
         title: Ich kann nichts sehen!
         description: ""
     color: "#f164ca"
-  adopt-empire/1603980707.jpg:
-    id: Ggo
-    artist: adopt-empire
-    grid:
-      w: 2
-      h: 3
-    meta:
-      en:
-        title: Avoo and Lou hugging
-        description: ""
-      de:
-        title: Avoo und Lou umarmen sich
-        description: ""
-    color: "#653640"
   spookyfoxinc/IMG_2999.png:
     id: xZs
     artist: spookyfoxinc
@@ -363,6 +393,20 @@ gallery:
         title: Geiles Gefängnis
         description: ""
     color: "#e680c2"
+  adopt-empire/1603980707.jpg:
+    id: Ggo
+    artist: adopt-empire
+    grid:
+      w: 2
+      h: 3
+    meta:
+      en:
+        title: Avoo and Lou hugging
+        description: ""
+      de:
+        title: Avoo und Lou umarmen sich
+        description: ""
+    color: "#653640"
   spookyfoxinc/IMG_3001.png:
     id: jSj
     artist: spookyfoxinc
@@ -419,20 +463,6 @@ gallery:
         title: Lou geht mit Avoo gassi
         description: ""
     color: "#4d274b"
-  asgardianartist/avoonix.png:
-    id: XAG
-    artist: asgardianartist
-    grid:
-      w: 2
-      h: 3
-    meta:
-      en:
-        title: Fullbody
-        description: ""
-      de:
-        title: Ganzkörper
-        description: ""
-    color: "#e763c0"
   spookyfoxinc/IMG_3076.png:
     id: Fxg
     artist: spookyfoxinc
@@ -447,6 +477,20 @@ gallery:
         title: Avoo festgehalten von Lou
         description: ""
     color: "#9d6d7d"
+  asgardianartist/avoonix.png:
+    id: XAG
+    artist: asgardianartist
+    grid:
+      w: 2
+      h: 3
+    meta:
+      en:
+        title: Fullbody
+        description: ""
+      de:
+        title: Ganzkörper
+        description: ""
+    color: "#e763c0"
   spookyfoxinc/IMG_3077.png:
     id: Y66
     artist: spookyfoxinc
