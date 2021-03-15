@@ -8,9 +8,9 @@ gallery:
     meta:
       en:
         title: Avoonix Reference
-        description: >-
-          The dots above the eyes are eyebrows, not a fur pattern.
-          The colors below are slightly different than the image - feel free to use either.
+        description:
+          The dots above the eyes are eyebrows, not a fur pattern. The colors
+          below are slightly different than the image - feel free to use either.
       de:
         title: Avoonix Referenz
         description: ""
@@ -211,6 +211,76 @@ gallery:
         title: Fixiert
         description: ""
     color: "#becafb"
+  spookyfoxinc/IMG_3043.png:
+    id: o0B
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo kissing Lou
+        description: ""
+      de:
+        title: Avoo küsst Lou
+        description: ""
+    color: "#e369b8"
+  toxxy-the-trash/avoonix_fursona1.png:
+    id: fTQ
+    artist: toxxy-the-trash
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: "Headshot"
+        description: ""
+      de:
+        title: "Headshot"
+        description: ""
+    color: "#dcd"
+  toxxy-the-trash/queen_of_diapers_avoo1.png:
+    id: 2cM
+    artist: toxxy-the-trash
+    grid:
+      w: 2
+      h: 2
+    meta:
+      en:
+        title: "Queen of diapers"
+        description: ""
+      de:
+        title: "Queen der Windeln"
+        description: ""
+    color: "#e484b4"
+  toxxy-the-trash/disgusting_queen_of_diapers_avoo1.png:
+    id: Ayx
+    artist: toxxy-the-trash
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: "Disgusting queen of diapers"
+        description: ""
+      de:
+        title: "Ekelige Queen der Windeln"
+        description: ""
+    color: "#e386b0"
+  toxxy-the-trash/vore1.png:
+    id: Ewt
+    artist: toxxy-the-trash
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: "Icon"
+        description: ""
+      de:
+        title: "Icon"
+        description: ""
+    color: "#e391d7"
   zombineko/1b.png:
     id: Y3t
     artist: zombineko
@@ -435,20 +505,6 @@ gallery:
         title: Avoo präsentiert seine Pfoten
         description: ""
     color: "#f7d3f2"
-  spookyfoxinc/IMG_3043.png:
-    id: o0B
-    artist: spookyfoxinc
-    grid:
-      w: 1
-      h: 1
-    meta:
-      en:
-        title: Avoo kissing Lou
-        description: ""
-      de:
-        title: Avoo küsst Lou
-        description: ""
-    color: "#e369b8"
   spookyfoxinc/IMG_3075.png:
     id: V7O
     artist: spookyfoxinc
@@ -477,20 +533,6 @@ gallery:
         title: Avoo festgehalten von Lou
         description: ""
     color: "#9d6d7d"
-  asgardianartist/avoonix.png:
-    id: XAG
-    artist: asgardianartist
-    grid:
-      w: 2
-      h: 3
-    meta:
-      en:
-        title: Fullbody
-        description: ""
-      de:
-        title: Ganzkörper
-        description: ""
-    color: "#e763c0"
   spookyfoxinc/IMG_3077.png:
     id: Y66
     artist: spookyfoxinc
@@ -505,6 +547,20 @@ gallery:
         title: Lou auf Avoo
         description: ""
     color: "#d77db1"
+  asgardianartist/avoonix.png:
+    id: XAG
+    artist: asgardianartist
+    grid:
+      w: 2
+      h: 3
+    meta:
+      en:
+        title: Fullbody
+        description: ""
+      de:
+        title: Ganzkörper
+        description: ""
+    color: "#e763c0"
   heridag/20201006_181134.png:
     id: JK0
     artist: heridag
@@ -552,3 +608,5 @@ artists:
     url: https://www.furaffinity.net/user/adoptempire
   zombineko:
     url: https://www.furaffinity.net/user/zombineko
+  toxxy-the-trash:
+    url: "https://steamcommunity.com/id/toxxythetrash"
