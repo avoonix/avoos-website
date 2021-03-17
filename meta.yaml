@@ -8,8 +8,7 @@ gallery:
     meta:
       en:
         title: Avoonix Reference
-        description:
-          The dots above the eyes are eyebrows, not a fur pattern. The colors
+        description: The dots above the eyes are eyebrows, not a fur pattern. The colors
           below are slightly different than the image - feel free to use either.
       de:
         title: Avoonix Referenz
@@ -233,10 +232,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: "Headshot"
+        title: Headshot
         description: ""
       de:
-        title: "Headshot"
+        title: Headshot
         description: ""
     color: "#dcd"
   toxxy-the-trash/queen_of_diapers_avoo1.png:
@@ -247,10 +246,10 @@ gallery:
       h: 2
     meta:
       en:
-        title: "Queen of diapers"
+        title: Queen of diapers
         description: ""
       de:
-        title: "Queen der Windeln"
+        title: Queen der Windeln
         description: ""
     color: "#e484b4"
   toxxy-the-trash/disgusting_queen_of_diapers_avoo1.png:
@@ -261,10 +260,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: "Disgusting queen of diapers"
+        title: Disgusting queen of diapers
         description: ""
       de:
-        title: "Ekelige Queen der Windeln"
+        title: Ekelige Queen der Windeln
         description: ""
     color: "#e386b0"
   toxxy-the-trash/vore1.png:
@@ -275,10 +274,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: "Icon"
+        title: Icon
         description: ""
       de:
-        title: "Icon"
+        title: Icon
         description: ""
     color: "#e391d7"
   zombineko/1b.png:
@@ -589,6 +588,34 @@ gallery:
         title: Avoo ist sus
         description: ""
     color: "#be4aa3"
+  wallswhisper/lou-avoo-missonary-cum-ver.png:
+    id: hae
+    artist: wallswhisper
+    grid:
+      w: 2
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#705751"
+  wallswhisper/lou-avoo-missonary.png:
+    id: WPt
+    artist: wallswhisper
+    grid:
+      w: 3
+      h: 2
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#705751"
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
@@ -609,4 +636,6 @@ artists:
   zombineko:
     url: https://www.furaffinity.net/user/zombineko
   toxxy-the-trash:
-    url: "https://steamcommunity.com/id/toxxythetrash"
+    url: https://steamcommunity.com/id/toxxythetrash
+  wallswhisper:
+    url: https://www.furaffinity.net/user/wallswhisper/
