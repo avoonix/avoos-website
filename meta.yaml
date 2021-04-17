@@ -42,6 +42,20 @@ gallery:
         title: Bitte
         description: ""
     color: "#f6d2eb"
+  fleurfurr/avoo.png:
+    id: jmW
+    artist: fleurfurr
+    grid:
+      w: 4
+      h: 6
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#cddab4"
   spookyfoxinc/IMG_2724.png:
     id: uoT
     artist: spookyfoxinc
@@ -602,6 +616,104 @@ gallery:
         title: ""
         description: ""
     color: "#705751"
+  cooper/a.png:
+    id: ccR
+    artist: cooper
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#363148"
+  cooper/b.png:
+    id: Z84
+    artist: cooper
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#433338"
+  cooper/c.png:
+    id: jh6
+    artist: cooper
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#e167ba"
+  cooper/d.png:
+    id: k4w
+    artist: cooper
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#3e2934"
+  cooper/e.png:
+    id: lXv
+    artist: cooper
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#e465be"
+  cooper/f.png:
+    id: k9g
+    artist: cooper
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#1f3735"
+  cooper/g.png:
+    id: y7D
+    artist: cooper
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#39334e"
   wallswhisper/lou-avoo-missonary.png:
     id: WPt
     artist: wallswhisper
@@ -639,3 +751,7 @@ artists:
     url: https://steamcommunity.com/id/toxxythetrash
   wallswhisper:
     url: https://www.furaffinity.net/user/wallswhisper/
+  fleurfurr:
+    url: https://www.fleurfurr.com/
+  cooper:
+    url: "https://www.furaffinity.net/user/black-stallion/"
