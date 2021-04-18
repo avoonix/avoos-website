@@ -26,12 +26,14 @@ export default function Image({ imageData, artistData, children }) {
       </div>
       <article>
         <article href={imageData.path} target="_blank">
-          <img
-            src={imageData.path}
-            style={{ width: "100%" }}
-            alt={imageData.description}
-            title={imageData.title}
-          />
+          <a rel="nofollow" href={imageData.path}>
+            <img
+              src={imageData.path}
+              style={{ width: "100%" }}
+              alt={imageData.description}
+              title={imageData.title}
+            />
+          </a>
         </article>
         <h1>{imageData.title}</h1>
         <Artist name={artistData.name} url={artistData.url} />
