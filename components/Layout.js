@@ -41,7 +41,7 @@ export default function Layout({
         <title>{title}</title>
         <meta name="title" content={title} />
         <meta name="description" content={description} />
-        <meta name="theme-color" content="#f066c2" />
+        <meta name="theme-color" content="#ff55c8" />
 
         <meta property="og:type" content="website" />
         <meta

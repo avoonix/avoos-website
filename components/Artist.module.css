@@ -9,8 +9,8 @@
 
 .iconContainer {
   border-radius: 50%;
-  background-color: #f8cbfc;
-  color: #f066c2;
+  background-color: var(--light-pink);
+  color: var(--dark-pink);
   margin-right: 8px;
   padding: 6px;
 }

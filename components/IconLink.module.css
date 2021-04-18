@@ -1,6 +1,6 @@
 .link {
-  color: #f8cbfc;
-  border: 5px solid #f8cbfc;
+  color: var(--light-pink);
+  border: 5px solid var(--light-pink);
   padding: 10px;
   margin: 5px 0;
   text-decoration: none;
@@ -13,8 +13,8 @@
 
 .link:hover,
 .link:focus {
-  background-color: #f8cbfc;
-  color: #f066c2;
+  background-color: var(--light-pink);
+  color: var(--dark-pink);
 }
 
 .link svg {

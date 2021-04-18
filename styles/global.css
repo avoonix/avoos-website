@@ -1,7 +1,13 @@
+
+:root {
+  --dark-pink: #ff55c8;
+  --light-pink: #ffd4f1;
+}
+
 html,
 body {
-  background-color: #f066c2;
-  color: #f8cbfc;
+  background-color: var(--dark-pink);
+  color: var(--light-pink);
   width: 100%;
   /* min-height: 100vh; */
   margin: 0;
@@ -16,6 +22,6 @@ body {
 }
 
 a {
-  color: #f8cbfc;
+  color: var(--light-pink);
   text-decoration: none;
 }

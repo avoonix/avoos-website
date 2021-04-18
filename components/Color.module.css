@@ -1,9 +1,9 @@
 .container {
   margin: 12px 0;
   display: flex;
-  border: 5px solid #f8cbfc;
-  background-color: #f8cbfc;
-  color: #f066c2;
+  border: 5px solid var(--light-pink);
+  background-color: var(--light-pink);
+  color: var(--dark-pink);
   cursor: pointer;
 }
 
