@@ -15,6 +15,7 @@ export default function Image({ imageData, artistData, children }) {
         description: imageData.description,
         image: imageData.path,
       }}
+      wide={true}
     >
       <div>
         <IconLink

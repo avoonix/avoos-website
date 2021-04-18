@@ -3,3 +3,7 @@
   margin: 0 auto 8px auto;
   padding: 0 8px;
 }
+
+.wideContainer {
+  max-width: 1000px;
+}

@@ -1,17 +1,19 @@
 import Head from "next/head";
 import styles from "./Layout.module.css";
+import classNames from "classnames";
 
 import { useRouter } from "next/router";
 
 export default function Layout({
   children,
   meta: { title, description, image = null },
+  wide = false,
 }) {
   const router = useRouter();
   const pathWithoutHash = router.asPath.replace(/#.*/g, "");
 
   return (
-    <div className={styles.container}>
+    <div className={classNames(styles.container, wide && styles.wideContainer)}>
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
