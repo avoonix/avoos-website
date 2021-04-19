@@ -15,7 +15,7 @@ export default function Gallery({ allGalleryData }) {
       meta={{
         title: t("avoonixGallery"),
         description: t("galleryDescription", { count: allGalleryData.length }),
-        image: "/images/avoonix/day.png",
+        image: "/gallery.png",
       }}
     >
       <div>
