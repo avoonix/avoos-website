@@ -728,6 +728,258 @@ gallery:
         title: ""
         description: ""
     color: "#705751"
+  spookyfoxinc/IMG_4195.png:
+    id: 0tI
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f065c8"
+  spookyfoxinc/IMG_4196.png:
+    id: Uco
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f164ca"
+  spookyfoxinc/IMG_4197.png:
+    id: LpX
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f9d3f9"
+  spookyfoxinc/IMG_4198.png:
+    id: 3Yy
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#e95cc2"
+  spookyfoxinc/IMG_4199.png:
+    id: iX3
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f164c9"
+  spookyfoxinc/IMG_4200.png:
+    id: EJ7
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f7dbe6"
+  spookyfoxinc/IMG_4201.png:
+    id: yRf
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f164ca"
+  spookyfoxinc/IMG_4202.png:
+    id: Gt0
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f167c8"
+  spookyfoxinc/IMG_4203.png:
+    id: MO7
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#ebd5e3"
+  spookyfoxinc/IMG_4206.png:
+    id: jcR
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f067c3"
+  spookyfoxinc/IMG_4207.png:
+    id: Uvu
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f0d4ea"
+  spookyfoxinc/IMG_4208.png:
+    id: F8c
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f05dd2"
+  spookyfoxinc/IMG_4209.png:
+    id: FP6
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#2d1856"
+  spookyfoxinc/IMG_4210.png:
+    id: w5h
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f066c9"
+  spookyfoxinc/IMG_4211.png:
+    id: GfS
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#ea65d1"
+  spookyfoxinc/IMG_4212.png:
+    id: WX5
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#ee66c9"
+  spookyfoxinc/IMG_4213.png:
+    id: Cqh
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#fa407e"
+  spookyfoxinc/IMG_4214.png:
+    id: fbt
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f0ccf1"
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
@@ -754,4 +1006,4 @@ artists:
   fleurfurr:
     url: https://www.fleurfurr.com/
   cooper:
-    url: "https://www.furaffinity.net/user/black-stallion/"
+    url: https://www.furaffinity.net/user/black-stallion/
