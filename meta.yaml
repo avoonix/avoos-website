@@ -980,6 +980,34 @@ gallery:
         title: ""
         description: ""
     color: "#f0ccf1"
+  spookyfoxinc/IMG_4225.png:
+    id: eRu
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f2d2e8"
+  spookyfoxinc/IMG_4227.png:
+    id: 2oy
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#e7d4e9"
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
