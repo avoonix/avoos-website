@@ -42,6 +42,76 @@ gallery:
         title: Bitte
         description: ""
     color: "#f6d2eb"
+  spookyfoxinc/IMG_4209.png:
+    id: FP6
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#2d1856"
+  spookyfoxinc/IMG_4210.png:
+    id: w5h
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#f066c9"
+  bro-its-cody/carry.jpg:
+    id: LxW
+    artist: bro-its-cody
+    grid:
+      w: 2
+      h: 2
+    meta:
+      en:
+        title: "Carry"
+        description: ""
+      de:
+        title: "Tragen"
+        description: ""
+    color: "#8decf9"
+  spookyfoxinc/IMG_4211.png:
+    id: GfS
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#ea65d1"
+  spookyfoxinc/IMG_4212.png:
+    id: WX5
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: ""
+        description: ""
+      de:
+        title: ""
+        description: ""
+    color: "#ee66c9"
   fleurfurr/avoo.png:
     id: jmW
     artist: fleurfurr
@@ -896,62 +966,6 @@ gallery:
         title: ""
         description: ""
     color: "#f05dd2"
-  spookyfoxinc/IMG_4209.png:
-    id: FP6
-    artist: spookyfoxinc
-    grid:
-      w: 1
-      h: 1
-    meta:
-      en:
-        title: ""
-        description: ""
-      de:
-        title: ""
-        description: ""
-    color: "#2d1856"
-  spookyfoxinc/IMG_4210.png:
-    id: w5h
-    artist: spookyfoxinc
-    grid:
-      w: 1
-      h: 1
-    meta:
-      en:
-        title: ""
-        description: ""
-      de:
-        title: ""
-        description: ""
-    color: "#f066c9"
-  spookyfoxinc/IMG_4211.png:
-    id: GfS
-    artist: spookyfoxinc
-    grid:
-      w: 1
-      h: 1
-    meta:
-      en:
-        title: ""
-        description: ""
-      de:
-        title: ""
-        description: ""
-    color: "#ea65d1"
-  spookyfoxinc/IMG_4212.png:
-    id: WX5
-    artist: spookyfoxinc
-    grid:
-      w: 1
-      h: 1
-    meta:
-      en:
-        title: ""
-        description: ""
-      de:
-        title: ""
-        description: ""
-    color: "#ee66c9"
   spookyfoxinc/IMG_4213.png:
     id: Cqh
     artist: spookyfoxinc
@@ -1035,3 +1049,5 @@ artists:
     url: https://www.fleurfurr.com/
   cooper:
     url: https://www.furaffinity.net/user/black-stallion/
+  bro-its-cody:
+    url: "https://twitter.com/broitscody"
