@@ -6,6 +6,7 @@ import { mdiArrowLeft } from "@mdi/js";
 import Layout from "../../components/Layout";
 import { useTranslation } from "react-i18next";
 import LazyImage from "../../components/LazyImage";
+import { getImageTitle } from "../../utils/i18n";
 
 export default function Gallery({ allGalleryData }) {
   const { t } = useTranslation();
@@ -22,7 +23,7 @@ export default function Gallery({ allGalleryData }) {
         <IconLink href="/" iconPath={mdiArrowLeft} text={t("home")} />
       </div>
       <div className={styles.grid}>
-        {allGalleryData.map(({ id, path, grid, color, title }) => (
+        {allGalleryData.map(({ id, path, grid, color, title, artist }) => (
           <div
             id={id}
             className={styles.gridItem}
@@ -37,7 +38,7 @@ export default function Gallery({ allGalleryData }) {
               style={{ paddingTop: `${(grid.h / grid.w) * 100}%` }}
             />
             <Link href={`/gallery/${id}`}>
-              <a title={title}>
+              <a title={getImageTitle({ title, artist, t })}>
                 <LazyImage loaderColor={color} src={path} />
               </a>
             </Link>

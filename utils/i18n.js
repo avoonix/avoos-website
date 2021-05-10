@@ -5,6 +5,18 @@ if (["en", "de"].indexOf(process.env.NEXT_PUBLIC_I18N_LOCALE) === -1) {
   throw new Error("invalid NEXT_PUBLIC_I18N_LOCALE");
 }
 
+export const getImageTitle = ({ title, artist, t }) => {
+  if (title) {
+    return t("imageTitle", {
+      artist,
+      title,
+    });
+  }
+  return t("fallbackImageTitle", {
+    artist,
+  });
+};
+
 const resources = {
   en: {
     translation: {
@@ -22,8 +34,8 @@ const resources = {
       back: "Back",
       artist: "Artist",
       copied: "Copied to clipboard!",
-      fallbackDescription: "\"{{title}}\" by {{artist}}",
-      drawing: "Drawing",
+      imageTitle: '"{{title}}" by {{artist}}',
+      fallbackImageTitle: "Drawing by {{artist}}",
     },
   },
   de: {
@@ -42,8 +54,8 @@ const resources = {
       back: "Zurück",
       artist: "Künstler",
       copied: "In Zwischenablage kopiert!",
-      fallbackDescription: "\"{{title}}\" von {{artist}}",
-      drawing: "Zeichnung",
+      imageTitle: '"{{title}}" von {{artist}}',
+      fallbackImageTitle: "Zeichnung von {{artist}}",
     },
   },
 };

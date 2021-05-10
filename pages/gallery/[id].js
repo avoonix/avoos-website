@@ -5,13 +5,18 @@ import IconLink from "../../components/IconLink";
 import { mdiArrowLeft } from "@mdi/js";
 import Artist from "../../components/Artist";
 import { useTranslation } from "react-i18next";
+import { getImageTitle } from "../../utils/i18n";
 
 export default function Image({ imageData, artistData, children }) {
   const { t } = useTranslation();
   return (
     <Layout
       meta={{
-        title: imageData.title,
+        title: getImageTitle({
+          title: imageData.title,
+          artist: imageData.artist,
+          t,
+        }),
         description: imageData.description,
         image: imageData.path,
       }}

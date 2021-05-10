@@ -8,8 +8,7 @@ gallery:
     meta:
       en:
         title: Avoonix Reference
-        description: The dots above the eyes are eyebrows, not a fur pattern. The colors
-          below are slightly different than the image - feel free to use either.
+        description: ""
       de:
         title: Avoonix Referenz
         description: ""
@@ -50,10 +49,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Petting
         description: ""
       de:
-        title: ""
+        title: Streicheln
         description: ""
     color: "#2d1856"
   spookyfoxinc/IMG_4210.png:
@@ -64,10 +63,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Hug <3
         description: ""
       de:
-        title: ""
+        title: Umarmung <3
         description: ""
     color: "#f066c9"
   bro-its-cody/carry.jpg:
@@ -78,10 +77,10 @@ gallery:
       h: 2
     meta:
       en:
-        title: "Carry"
+        title: Carry
         description: ""
       de:
-        title: "Tragen"
+        title: Tragen
         description: ""
     color: "#8decf9"
   spookyfoxinc/IMG_4211.png:
@@ -92,10 +91,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Tasty paws
         description: ""
       de:
-        title: ""
+        title: Leckere Pfoten
         description: ""
     color: "#ea65d1"
   spookyfoxinc/IMG_4212.png:
@@ -106,10 +105,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: "*boop*"
         description: ""
       de:
-        title: ""
+        title: "*boop*"
         description: ""
     color: "#ee66c9"
   fleurfurr/avoo.png:
@@ -120,10 +119,10 @@ gallery:
       h: 6
     meta:
       en:
-        title: ""
+        title: Blep
         description: ""
       de:
-        title: ""
+        title: Blep
         description: ""
     color: "#cddab4"
   spookyfoxinc/IMG_2724.png:
@@ -190,7 +189,7 @@ gallery:
       h: 1
     meta:
       en:
-        title: Yes
+        title: Yep
         description: ""
       de:
         title: Ja
@@ -680,10 +679,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Missonary
         description: ""
       de:
-        title: ""
+        title: Missionarsstellung
         description: ""
     color: "#705751"
   cooper/a.png:
@@ -694,10 +693,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Harness
         description: ""
       de:
-        title: ""
+        title: Geschirr
         description: ""
     color: "#363148"
   cooper/b.png:
@@ -708,10 +707,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Hug
         description: ""
       de:
-        title: ""
+        title: Umarmung
         description: ""
     color: "#433338"
   cooper/c.png:
@@ -722,10 +721,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Spank
         description: ""
       de:
-        title: ""
+        title: Versohlen
         description: ""
     color: "#e167ba"
   cooper/d.png:
@@ -736,10 +735,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Kiss
         description: ""
       de:
-        title: ""
+        title: Kuss
         description: ""
     color: "#3e2934"
   cooper/e.png:
@@ -750,10 +749,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Thinking about you
         description: ""
       de:
-        title: ""
+        title: An dich denken
         description: ""
     color: "#e465be"
   cooper/f.png:
@@ -764,10 +763,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Thinking about you
         description: ""
       de:
-        title: ""
+        title: An dich denken
         description: ""
     color: "#1f3735"
   cooper/g.png:
@@ -778,10 +777,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Cuddle
         description: ""
       de:
-        title: ""
+        title: Kuscheln
         description: ""
     color: "#39334e"
   wallswhisper/lou-avoo-missonary.png:
@@ -792,10 +791,10 @@ gallery:
       h: 2
     meta:
       en:
-        title: ""
+        title: Missonary
         description: ""
       de:
-        title: ""
+        title: Missionarsstellung
         description: ""
     color: "#705751"
   spookyfoxinc/IMG_4195.png:
@@ -806,10 +805,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Hewwo
         description: ""
       de:
-        title: ""
+        title: Hewwo
         description: ""
     color: "#f065c8"
   spookyfoxinc/IMG_4196.png:
@@ -820,10 +819,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Hmm
         description: ""
       de:
-        title: ""
+        title: Hmm
         description: ""
     color: "#f164ca"
   spookyfoxinc/IMG_4197.png:
@@ -834,10 +833,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Water
         description: ""
       de:
-        title: ""
+        title: Wasser
         description: ""
     color: "#f9d3f9"
   spookyfoxinc/IMG_4198.png:
@@ -848,10 +847,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Sigh
         description: ""
       de:
-        title: ""
+        title: Seufzer
         description: ""
     color: "#e95cc2"
   spookyfoxinc/IMG_4199.png:
@@ -862,10 +861,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Annoyed
         description: ""
       de:
-        title: ""
+        title: Genervt
         description: ""
     color: "#f164c9"
   spookyfoxinc/IMG_4200.png:
@@ -876,10 +875,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: ??
         description: ""
       de:
-        title: ""
+        title: ??
         description: ""
     color: "#f7dbe6"
   spookyfoxinc/IMG_4201.png:
@@ -890,10 +889,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Nope
         description: ""
       de:
-        title: ""
+        title: Ne
         description: ""
     color: "#f164ca"
   spookyfoxinc/IMG_4202.png:
@@ -904,10 +903,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Lick
         description: ""
       de:
-        title: ""
+        title: Lecken
         description: ""
     color: "#f167c8"
   spookyfoxinc/IMG_4203.png:
@@ -918,10 +917,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Party
         description: ""
       de:
-        title: ""
+        title: Party
         description: ""
     color: "#ebd5e3"
   spookyfoxinc/IMG_4206.png:
@@ -932,10 +931,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Underwear~
         description: ""
       de:
-        title: ""
+        title: Unterwäsche~
         description: ""
     color: "#f067c3"
   spookyfoxinc/IMG_4207.png:
@@ -946,10 +945,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Sad
         description: ""
       de:
-        title: ""
+        title: Traurig
         description: ""
     color: "#f0d4ea"
   spookyfoxinc/IMG_4208.png:
@@ -960,10 +959,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Hug
         description: ""
       de:
-        title: ""
+        title: Umarmung
         description: ""
     color: "#f05dd2"
   spookyfoxinc/IMG_4213.png:
@@ -974,10 +973,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Heart
         description: ""
       de:
-        title: ""
+        title: Herz
         description: ""
     color: "#fa407e"
   spookyfoxinc/IMG_4214.png:
@@ -988,10 +987,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Paws :3
         description: ""
       de:
-        title: ""
+        title: Pfoten :3
         description: ""
     color: "#f0ccf1"
   spookyfoxinc/IMG_4225.png:
@@ -1002,10 +1001,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Hehe
         description: ""
       de:
-        title: ""
+        title: Hehe
         description: ""
     color: "#f2d2e8"
   spookyfoxinc/IMG_4227.png:
@@ -1016,10 +1015,10 @@ gallery:
       h: 1
     meta:
       en:
-        title: ""
+        title: Belly rub
         description: ""
       de:
-        title: ""
+        title: Bauch reiben
         description: ""
     color: "#e7d4e9"
 artists:
@@ -1050,4 +1049,4 @@ artists:
   cooper:
     url: https://www.furaffinity.net/user/black-stallion/
   bro-its-cody:
-    url: "https://twitter.com/broitscody"
+    url: https://twitter.com/broitscody

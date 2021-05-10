@@ -60,6 +60,9 @@ glob(
         fileContents.gallery[match].color =
           "#" + color.map((c) => c.toString(16)).join("");
       }
+      if (!fileContents.gallery[match].meta.en.title) {
+        console.log(`${match} has no title!`);
+      }
     }
     fs.writeFileSync("meta.yaml", YAML.stringify(fileContents), "utf8");
   }
