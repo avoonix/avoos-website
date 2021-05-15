@@ -1021,6 +1021,48 @@ gallery:
         title: Bauch reiben
         description: ""
     color: "#e7d4e9"
+  cooper/h.png:
+    id: knb
+    artist: cooper
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Licking paws
+        description: ""
+      de:
+        title: Pfoten lecken
+        description: ""
+    color: "#db71ae"
+  cooper/i.png:
+    id: wqR
+    artist: cooper
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Cooking
+        description: ""
+      de:
+        title: Kochen
+        description: ""
+    color: "#835644"
+  cooper/j.png:
+    id: MVN
+    artist: cooper
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Diaper
+        description: ""
+      de:
+        title: Windel
+        description: ""
+    color: "#41303b"
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
