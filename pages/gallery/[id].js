@@ -6,6 +6,7 @@ import { mdiArrowLeft } from "@mdi/js";
 import Artist from "../../components/Artist";
 import { useTranslation } from "react-i18next";
 import { getImageTitle } from "../../utils/i18n";
+import LazyImage from "../../components/LazyImage";
 
 export default function Image({ imageData, artistData, children }) {
   const { t } = useTranslation();
@@ -30,16 +31,22 @@ export default function Image({ imageData, artistData, children }) {
         />
       </div>
       <article>
-        <article href={imageData.path} target="_blank">
-          <a rel="nofollow" href={imageData.path}>
-            <img
+        <div>
+          <a
+            rel="nofollow"
+            href={imageData.path}
+            target="_blank"
+            style={{ position: "relative" }}
+          >
+            <LazyImage
+              loaderColor={imageData.color}
               src={imageData.path}
-              style={{ width: "100%" }}
+              style={{ position: "relative" }}
               alt={imageData.description}
               title={imageData.title}
             />
           </a>
-        </article>
+        </div>
         <h1>{imageData.title}</h1>
         <Artist name={artistData.name} url={artistData.url} />
         <p style={{ whiteSpace: "pre-wrap" }}>{imageData.description}</p>

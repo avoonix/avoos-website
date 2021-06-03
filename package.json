@@ -19,6 +19,7 @@
     "i18next": "^19.8.9",
     "jimp": "^0.16.1",
     "nanoid": "^3.1.20",
+    "netlify-plugin-submit-sitemap": "^0.2.3",
     "next": "^10.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
