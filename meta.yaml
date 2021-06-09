@@ -1,5 +1,5 @@
 gallery:
-  spookyfoxinc/IMG_2298.jpg:
+  spookyfoxinc/avoonix-reference-sheet.jpg:
     id: ref
     artist: spookyfoxinc
     grid:
@@ -13,7 +13,8 @@ gallery:
         title: Avoonix Referenz
         description: ""
     color: "#f3849c"
-  spookyfoxinc/IMG_2338.png:
+    oldPath: spookyfoxinc/IMG_2298.jpg
+  spookyfoxinc/avoo-hugging-a-ych.png:
     id: jaq
     artist: spookyfoxinc
     grid:
@@ -27,7 +28,8 @@ gallery:
         title: Umarmung
         description: ""
     color: "#e864ca"
-  spookyfoxinc/IMG_2723.png:
+    oldPath: spookyfoxinc/IMG_2338.png
+  spookyfoxinc/avoo-pleading-sticker.png:
     id: qkf
     artist: spookyfoxinc
     grid:
@@ -41,7 +43,8 @@ gallery:
         title: Bitte
         description: ""
     color: "#f6d2eb"
-  spookyfoxinc/IMG_4209.png:
+    oldPath: spookyfoxinc/IMG_2723.png
+  spookyfoxinc/avoo-getting-petted-sticker.png:
     id: FP6
     artist: spookyfoxinc
     grid:
@@ -55,7 +58,8 @@ gallery:
         title: Streicheln
         description: ""
     color: "#2d1856"
-  spookyfoxinc/IMG_4210.png:
+    oldPath: spookyfoxinc/IMG_4209.png
+  spookyfoxinc/avoo-eagerly-hugging-ych-sticker.png:
     id: w5h
     artist: spookyfoxinc
     grid:
@@ -69,7 +73,8 @@ gallery:
         title: Umarmung <3
         description: ""
     color: "#f066c9"
-  bro-its-cody/carry.jpg:
+    oldPath: spookyfoxinc/IMG_4210.png
+  bro-its-cody/avoo-getting-carried-by-lou.jpg:
     id: LxW
     artist: bro-its-cody
     grid:
@@ -83,7 +88,8 @@ gallery:
         title: Tragen
         description: ""
     color: "#8decf9"
-  spookyfoxinc/IMG_4211.png:
+    oldPath: bro-its-cody/carry.jpg
+  spookyfoxinc/avoo-licking-paws.png:
     id: GfS
     artist: spookyfoxinc
     grid:
@@ -97,7 +103,8 @@ gallery:
         title: Leckere Pfoten
         description: ""
     color: "#ea65d1"
-  spookyfoxinc/IMG_4212.png:
+    oldPath: spookyfoxinc/IMG_4211.png
+  spookyfoxinc/avoo-booping-ych-sticker.png:
     id: WX5
     artist: spookyfoxinc
     grid:
@@ -111,7 +118,8 @@ gallery:
         title: "*boop*"
         description: ""
     color: "#ee66c9"
-  fleurfurr/avoo.png:
+    oldPath: spookyfoxinc/IMG_4212.png
+  fleurfurr/avoo-in-thigh-highs-and-lingerie.png:
     id: jmW
     artist: fleurfurr
     grid:
@@ -125,7 +133,8 @@ gallery:
         title: Blep
         description: ""
     color: "#cddab4"
-  spookyfoxinc/IMG_2724.png:
+    oldPath: fleurfurr/avoo.png
+  spookyfoxinc/avoo-with-heart-sticker.png:
     id: uoT
     artist: spookyfoxinc
     grid:
@@ -139,7 +148,8 @@ gallery:
         title: Herz
         description: ""
     color: "#e95dc2"
-  spookyfoxinc/IMG_2337.png:
+    oldPath: spookyfoxinc/IMG_2724.png
+  spookyfoxinc/avoo-wagging-tail-sticker.png:
     id: ceS
     artist: spookyfoxinc
     grid:
@@ -153,7 +163,8 @@ gallery:
         title: Gassi??
         description: ""
     color: "#e968cb"
-  avoonix/day.png:
+    oldPath: spookyfoxinc/IMG_2337.png
+  avoonix/avoo-headshot-sky.png:
     id: qf0
     artist: avoonix
     grid:
@@ -167,7 +178,8 @@ gallery:
         title: Tag
         description: ""
     color: "#e5b6e1"
-  spookyfoxinc/IMG_2761.png:
+    oldPath: avoonix/day.png
+  spookyfoxinc/avoo-blep-sticker.png:
     id: xd2
     artist: spookyfoxinc
     grid:
@@ -181,7 +193,8 @@ gallery:
         title: "*Blep*"
         description: ""
     color: "#e965d0"
-  spookyfoxinc/IMG_2762.png:
+    oldPath: spookyfoxinc/IMG_2761.png
+  spookyfoxinc/avoo-nodding-sticker.png:
     id: pOY
     artist: spookyfoxinc
     grid:
@@ -195,7 +208,8 @@ gallery:
         title: Ja
         description: ""
     color: "#e75fd0"
-  spookyfoxinc/IMG_2812.png:
+    oldPath: spookyfoxinc/IMG_2762.png
+  spookyfoxinc/avoo-petting-ych-sticker.png:
     id: 2g6
     artist: spookyfoxinc
     grid:
@@ -209,7 +223,8 @@ gallery:
         title: "*pat pat*"
         description: ""
     color: "#ebd3ea"
-  sinister-jordex/1608588792.jpg:
+    oldPath: spookyfoxinc/IMG_2812.png
+  sinister-jordex/lou-and-avoo-kissing-under-mistletoe.jpg:
     id: mXG
     artist: sinister-jordex
     grid:
@@ -223,7 +238,8 @@ gallery:
         title: Avoo und Lou küssen sich
         description: ""
     color: "#ac7f83"
-  spookyfoxinc/IMG_2813.png:
+    oldPath: sinister-jordex/1608588792.jpg
+  spookyfoxinc/avoo-as-tf2-scout-laughing-sticker.png:
     id: M8f
     artist: spookyfoxinc
     grid:
@@ -237,7 +253,8 @@ gallery:
         title: Schadenfreude
         description: ""
     color: "#bac5e2"
-  spookyfoxinc/IMG_2814.png:
+    oldPath: spookyfoxinc/IMG_2813.png
+  spookyfoxinc/avoo-sleeping-sticker.png:
     id: P7y
     artist: spookyfoxinc
     grid:
@@ -251,7 +268,8 @@ gallery:
         title: Schlafen
         description: ""
     color: "#ef5cc9"
-  spookyfoxinc/IMG_2828.png:
+    oldPath: spookyfoxinc/IMG_2814.png
+  spookyfoxinc/ych-spooning-avoo-sticker.png:
     id: PH9
     artist: spookyfoxinc
     grid:
@@ -265,7 +283,8 @@ gallery:
         title: Löffeln
         description: ""
     color: "#748af7"
-  spookyfoxinc/IMG_2829.png:
+    oldPath: spookyfoxinc/IMG_2828.png
+  spookyfoxinc/avoo-licking-ych-sticker.png:
     id: OF8
     artist: spookyfoxinc
     grid:
@@ -279,7 +298,8 @@ gallery:
         title: Lecken
         description: ""
     color: "#f9d4e3"
-  spookyfoxinc/IMG_2937.png:
+    oldPath: spookyfoxinc/IMG_2829.png
+  spookyfoxinc/avoo-spread-on-bed-sticker.png:
     id: zdn
     artist: spookyfoxinc
     grid:
@@ -293,7 +313,8 @@ gallery:
         title: Fixiert
         description: ""
     color: "#becafb"
-  spookyfoxinc/IMG_3043.png:
+    oldPath: spookyfoxinc/IMG_2937.png
+  spookyfoxinc/avoo-kissing-lou-sticker.png:
     id: o0B
     artist: spookyfoxinc
     grid:
@@ -307,7 +328,8 @@ gallery:
         title: Avoo küsst Lou
         description: ""
     color: "#e369b8"
-  toxxy-the-trash/avoonix_fursona1.png:
+    oldPath: spookyfoxinc/IMG_3043.png
+  toxxy-the-trash/avoo-headshot-old-design.png:
     id: fTQ
     artist: toxxy-the-trash
     grid:
@@ -321,7 +343,8 @@ gallery:
         title: Headshot
         description: ""
     color: "#dcd"
-  toxxy-the-trash/queen_of_diapers_avoo1.png:
+    oldPath: toxxy-the-trash/avoonix_fursona1.png
+  toxxy-the-trash/avoo-the-queen-of-diapers.png:
     id: 2cM
     artist: toxxy-the-trash
     grid:
@@ -335,7 +358,8 @@ gallery:
         title: Queen der Windeln
         description: ""
     color: "#e484b4"
-  toxxy-the-trash/disgusting_queen_of_diapers_avoo1.png:
+    oldPath: toxxy-the-trash/queen_of_diapers_avoo1.png
+  toxxy-the-trash/avoo-the-stinky-queen-of-diapers.png:
     id: Ayx
     artist: toxxy-the-trash
     grid:
@@ -349,7 +373,8 @@ gallery:
         title: Ekelige Queen der Windeln
         description: ""
     color: "#e386b0"
-  toxxy-the-trash/vore1.png:
+    oldPath: toxxy-the-trash/disgusting_queen_of_diapers_avoo1.png
+  toxxy-the-trash/avoo-line-headshot.png:
     id: Ewt
     artist: toxxy-the-trash
     grid:
@@ -363,7 +388,8 @@ gallery:
         title: Icon
         description: ""
     color: "#e391d7"
-  zombineko/1b.png:
+    oldPath: toxxy-the-trash/vore1.png
+  zombineko/avoo-tied-to-toilet-used-diaper.png:
     id: Y3t
     artist: zombineko
     grid:
@@ -377,7 +403,8 @@ gallery:
         title: Avoo in Windel
         description: ""
     color: "#c7b7be"
-  zombineko/1a.png:
+    oldPath: zombineko/1b.png
+  zombineko/avoo-tied-to-toilet-clean-diaper.png:
     id: QFD
     artist: zombineko
     grid:
@@ -391,7 +418,8 @@ gallery:
         title: Avoo in Windel
         description: ""
     color: "#c6b8c3"
-  zombineko/1c.png:
+    oldPath: zombineko/1a.png
+  zombineko/avoo-tied-to-toilet-leaky-used-diaper.png:
     id: BWU
     artist: zombineko
     grid:
@@ -405,7 +433,8 @@ gallery:
         title: Avoo in Windel
         description: ""
     color: "#c9b9bd"
-  zombineko/1d.png:
+    oldPath: zombineko/1c.png
+  zombineko/avoo-tied-to-toilet-with-leaky-used-diaper.png:
     id: KVt
     artist: zombineko
     grid:
@@ -419,7 +448,8 @@ gallery:
         title: Avoo in Windel
         description: ""
     color: "#c9b9bb"
-  zombineko/1e.png:
+    oldPath: zombineko/1d.png
+  zombineko/avoo-tied-to-toilet-with-leaky-used-diaper-and-cum.png:
     id: S60
     artist: zombineko
     grid:
@@ -433,7 +463,8 @@ gallery:
         title: Avoo in Windel
         description: ""
     color: "#c9b9bb"
-  zombineko/1g.png:
+    oldPath: zombineko/1e.png
+  zombineko/avoo-tied-to-toilet-used-diaper-and-cum.png:
     id: QO5
     artist: zombineko
     grid:
@@ -447,7 +478,8 @@ gallery:
         title: Avoo in Windel
         description: ""
     color: "#c7b7be"
-  zombineko/1f.png:
+    oldPath: zombineko/1g.png
+  zombineko/avoo-tied-to-toilet-clean-diaper-and-cum.png:
     id: sxf
     artist: zombineko
     grid:
@@ -461,7 +493,8 @@ gallery:
         title: Avoo in Windel
         description: ""
     color: "#c6b8c3"
-  zombineko/1h.png:
+    oldPath: zombineko/1f.png
+  zombineko/avoo-tied-to-toilet-leaky-used-diaper-and-com.png:
     id: 8jM
     artist: zombineko
     grid:
@@ -475,7 +508,8 @@ gallery:
         title: Avoo in Windel
         description: ""
     color: "#c9b9bb"
-  blumen/1606077033.jpg:
+    oldPath: zombineko/1h.png
+  blumen/lou-tells-avoo-he-loves-him.jpg:
     id: kUy
     artist: blumen
     grid:
@@ -489,7 +523,8 @@ gallery:
         title: Avoo und Lou küssen sich
         description: ""
     color: "#846571"
-  valdith-zam/1608587106.png:
+    oldPath: blumen/1606077033.jpg
+  valdith-zam/lou-and-avoo-about-to-kiss.png:
     id: wtB
     artist: valdith-zam
     grid:
@@ -503,7 +538,8 @@ gallery:
         title: Avoo und Lou küssen sich
         description: ""
     color: "#edacbc"
-  spookyfoxinc/IMG_2938.png:
+    oldPath: valdith-zam/1608587106.png
+  spookyfoxinc/avoo-presenting-ass-sticker.png:
     id: 7Ev
     artist: spookyfoxinc
     grid:
@@ -517,7 +553,8 @@ gallery:
         title: Arsch
         description: ""
     color: "#d96fd5"
-  spookyfoxinc/IMG_2939.png:
+    oldPath: spookyfoxinc/IMG_2938.png
+  spookyfoxinc/avoo-blindfolded-sticker.png:
     id: V9n
     artist: spookyfoxinc
     grid:
@@ -531,7 +568,8 @@ gallery:
         title: Ich kann nichts sehen!
         description: ""
     color: "#f164ca"
-  spookyfoxinc/IMG_2999.png:
+    oldPath: spookyfoxinc/IMG_2939.png
+  spookyfoxinc/avoo-in-horny-jail-sticker.png:
     id: xZs
     artist: spookyfoxinc
     grid:
@@ -545,7 +583,8 @@ gallery:
         title: Geiles Gefängnis
         description: ""
     color: "#e680c2"
-  adopt-empire/1603980707.jpg:
+    oldPath: spookyfoxinc/IMG_2999.png
+  adopt-empire/avoo-and-lou-hugging.jpg:
     id: Ggo
     artist: adopt-empire
     grid:
@@ -559,7 +598,8 @@ gallery:
         title: Avoo und Lou umarmen sich
         description: ""
     color: "#653640"
-  spookyfoxinc/IMG_3001.png:
+    oldPath: adopt-empire/1603980707.jpg
+  spookyfoxinc/avoo-being-coated-in-cum-sticker.png:
     id: jSj
     artist: spookyfoxinc
     grid:
@@ -573,7 +613,8 @@ gallery:
         title: Milch
         description: ""
     color: "#fad3d9"
-  spookyfoxinc/IMG_3002.png:
+    oldPath: spookyfoxinc/IMG_3001.png
+  spookyfoxinc/avoo-presenting-paws-sticker.png:
     id: eVS
     artist: spookyfoxinc
     grid:
@@ -587,7 +628,8 @@ gallery:
         title: Avoo präsentiert seine Pfoten
         description: ""
     color: "#f7d3f2"
-  spookyfoxinc/IMG_3075.png:
+    oldPath: spookyfoxinc/IMG_3002.png
+  spookyfoxinc/avoo-about-to-suck-lous-dick-sticker.png:
     id: V7O
     artist: spookyfoxinc
     grid:
@@ -601,7 +643,8 @@ gallery:
         title: Lou geht mit Avoo gassi
         description: ""
     color: "#4d274b"
-  spookyfoxinc/IMG_3076.png:
+    oldPath: spookyfoxinc/IMG_3075.png
+  spookyfoxinc/lou-pinning-avoo-sticker.png:
     id: Fxg
     artist: spookyfoxinc
     grid:
@@ -615,7 +658,8 @@ gallery:
         title: Avoo festgehalten von Lou
         description: ""
     color: "#9d6d7d"
-  spookyfoxinc/IMG_3077.png:
+    oldPath: spookyfoxinc/IMG_3076.png
+  spookyfoxinc/lou-on-top-of-avoo-sticker.png:
     id: Y66
     artist: spookyfoxinc
     grid:
@@ -629,7 +673,8 @@ gallery:
         title: Lou auf Avoo
         description: ""
     color: "#d77db1"
-  asgardianartist/avoonix.png:
+    oldPath: spookyfoxinc/IMG_3077.png
+  asgardianartist/avoo-standing-smiling.png:
     id: XAG
     artist: asgardianartist
     grid:
@@ -643,7 +688,8 @@ gallery:
         title: Ganzkörper
         description: ""
     color: "#e763c0"
-  heridag/20201006_181134.png:
+    oldPath: asgardianartist/avoonix.png
+  heridag/among-us-avoo.png:
     id: JK0
     artist: heridag
     grid:
@@ -657,7 +703,8 @@ gallery:
         title: Avoo ist sus
         description: ""
     color: "#be4aa3"
-  heridag/20201006_181450.png:
+    oldPath: heridag/20201006_181134.png
+  heridag/among-us-avoo-with-knife.png:
     id: MKd
     artist: heridag
     grid:
@@ -671,6 +718,7 @@ gallery:
         title: Avoo ist sus
         description: ""
     color: "#be4aa3"
+    oldPath: heridag/20201006_181450.png
   wallswhisper/lou-avoo-missonary-cum-ver.png:
     id: hae
     artist: wallswhisper
@@ -685,7 +733,8 @@ gallery:
         title: Missionarsstellung
         description: ""
     color: "#705751"
-  cooper/a.png:
+    oldPath: wallswhisper/lou-avoo-missonary-cum-ver.png
+  cooper/lou-tying-down-avoo-sticker.png:
     id: ccR
     artist: cooper
     grid:
@@ -699,7 +748,8 @@ gallery:
         title: Geschirr
         description: ""
     color: "#363148"
-  cooper/b.png:
+    oldPath: cooper/a.png
+  cooper/avoo-hugging-lou-sticker.png:
     id: Z84
     artist: cooper
     grid:
@@ -713,7 +763,8 @@ gallery:
         title: Umarmung
         description: ""
     color: "#433338"
-  cooper/c.png:
+    oldPath: cooper/b.png
+  cooper/lou-beating-avoo-sticker.png:
     id: jh6
     artist: cooper
     grid:
@@ -727,7 +778,8 @@ gallery:
         title: Versohlen
         description: ""
     color: "#e167ba"
-  cooper/d.png:
+    oldPath: cooper/c.png
+  cooper/lou-fucking-avoo-sticker.png:
     id: k4w
     artist: cooper
     grid:
@@ -741,7 +793,8 @@ gallery:
         title: Kuss
         description: ""
     color: "#3e2934"
-  cooper/e.png:
+    oldPath: cooper/d.png
+  cooper/avoo-thinking-about-lou-sticker.png:
     id: lXv
     artist: cooper
     grid:
@@ -755,7 +808,8 @@ gallery:
         title: An dich denken
         description: ""
     color: "#e465be"
-  cooper/f.png:
+    oldPath: cooper/e.png
+  cooper/lou-thinking-about-avoo-sticker.png:
     id: k9g
     artist: cooper
     grid:
@@ -769,7 +823,8 @@ gallery:
         title: An dich denken
         description: ""
     color: "#1f3735"
-  cooper/g.png:
+    oldPath: cooper/f.png
+  cooper/lou-spooning-avoo-sticker.png:
     id: y7D
     artist: cooper
     grid:
@@ -783,6 +838,7 @@ gallery:
         title: Kuscheln
         description: ""
     color: "#39334e"
+    oldPath: cooper/g.png
   wallswhisper/lou-avoo-missonary.png:
     id: WPt
     artist: wallswhisper
@@ -797,7 +853,8 @@ gallery:
         title: Missionarsstellung
         description: ""
     color: "#705751"
-  spookyfoxinc/IMG_4195.png:
+    oldPath: wallswhisper/lou-avoo-missonary.png
+  spookyfoxinc/avoo-greeting-sticker.png:
     id: 0tI
     artist: spookyfoxinc
     grid:
@@ -811,7 +868,8 @@ gallery:
         title: Hewwo
         description: ""
     color: "#f065c8"
-  spookyfoxinc/IMG_4196.png:
+    oldPath: spookyfoxinc/IMG_4195.png
+  spookyfoxinc/avoo-thinking-sticker.png:
     id: Uco
     artist: spookyfoxinc
     grid:
@@ -825,7 +883,8 @@ gallery:
         title: Hmm
         description: ""
     color: "#f164ca"
-  spookyfoxinc/IMG_4197.png:
+    oldPath: spookyfoxinc/IMG_4196.png
+  spookyfoxinc/avoo-with-water-sticker.png:
     id: LpX
     artist: spookyfoxinc
     grid:
@@ -839,7 +898,8 @@ gallery:
         title: Wasser
         description: ""
     color: "#f9d3f9"
-  spookyfoxinc/IMG_4198.png:
+    oldPath: spookyfoxinc/IMG_4197.png
+  spookyfoxinc/avoo-sighing-sticker.png:
     id: 3Yy
     artist: spookyfoxinc
     grid:
@@ -853,7 +913,8 @@ gallery:
         title: Seufzer
         description: ""
     color: "#e95cc2"
-  spookyfoxinc/IMG_4199.png:
+    oldPath: spookyfoxinc/IMG_4198.png
+  spookyfoxinc/avoo-angry-sticker.png:
     id: iX3
     artist: spookyfoxinc
     grid:
@@ -867,7 +928,8 @@ gallery:
         title: Genervt
         description: ""
     color: "#f164c9"
-  spookyfoxinc/IMG_4200.png:
+    oldPath: spookyfoxinc/IMG_4199.png
+  spookyfoxinc/avoo-confused-sticker.png:
     id: EJ7
     artist: spookyfoxinc
     grid:
@@ -881,7 +943,8 @@ gallery:
         title: ??
         description: ""
     color: "#f7dbe6"
-  spookyfoxinc/IMG_4201.png:
+    oldPath: spookyfoxinc/IMG_4200.png
+  spookyfoxinc/avoo-shaking-head-sticker.png:
     id: yRf
     artist: spookyfoxinc
     grid:
@@ -895,7 +958,8 @@ gallery:
         title: Ne
         description: ""
     color: "#f164ca"
-  spookyfoxinc/IMG_4202.png:
+    oldPath: spookyfoxinc/IMG_4201.png
+  spookyfoxinc/avoo-licking-screen-sticker.png:
     id: Gt0
     artist: spookyfoxinc
     grid:
@@ -909,7 +973,8 @@ gallery:
         title: Lecken
         description: ""
     color: "#f167c8"
-  spookyfoxinc/IMG_4203.png:
+    oldPath: spookyfoxinc/IMG_4202.png
+  spookyfoxinc/avoo-partying-sticker.png:
     id: MO7
     artist: spookyfoxinc
     grid:
@@ -923,7 +988,8 @@ gallery:
         title: Party
         description: ""
     color: "#ebd5e3"
-  spookyfoxinc/IMG_4206.png:
+    oldPath: spookyfoxinc/IMG_4203.png
+  spookyfoxinc/avoo-sniffing-underwear-sticker.png:
     id: jcR
     artist: spookyfoxinc
     grid:
@@ -937,7 +1003,8 @@ gallery:
         title: Unterwäsche~
         description: ""
     color: "#f067c3"
-  spookyfoxinc/IMG_4207.png:
+    oldPath: spookyfoxinc/IMG_4206.png
+  spookyfoxinc/avoo-hugging-sad-ych-sticker.png:
     id: Uvu
     artist: spookyfoxinc
     grid:
@@ -951,7 +1018,8 @@ gallery:
         title: Traurig
         description: ""
     color: "#f0d4ea"
-  spookyfoxinc/IMG_4208.png:
+    oldPath: spookyfoxinc/IMG_4207.png
+  spookyfoxinc/avoo-hugging-ych.png:
     id: F8c
     artist: spookyfoxinc
     grid:
@@ -965,7 +1033,8 @@ gallery:
         title: Umarmung
         description: ""
     color: "#f05dd2"
-  spookyfoxinc/IMG_4213.png:
+    oldPath: spookyfoxinc/IMG_4208.png
+  spookyfoxinc/avoo-with-big-heart-sticker.png:
     id: Cqh
     artist: spookyfoxinc
     grid:
@@ -979,7 +1048,8 @@ gallery:
         title: Herz
         description: ""
     color: "#fa407e"
-  spookyfoxinc/IMG_4214.png:
+    oldPath: spookyfoxinc/IMG_4213.png
+  spookyfoxinc/ych-licking-avoos-paws-sticker.png:
     id: fbt
     artist: spookyfoxinc
     grid:
@@ -993,7 +1063,8 @@ gallery:
         title: Pfoten :3
         description: ""
     color: "#f0ccf1"
-  spookyfoxinc/IMG_4225.png:
+    oldPath: spookyfoxinc/IMG_4214.png
+  spookyfoxinc/avoo-horny-with-vibrator-sticker.png:
     id: eRu
     artist: spookyfoxinc
     grid:
@@ -1007,7 +1078,8 @@ gallery:
         title: Hehe
         description: ""
     color: "#f2d2e8"
-  spookyfoxinc/IMG_4227.png:
+    oldPath: spookyfoxinc/IMG_4225.png
+  spookyfoxinc/avoo-rubbing-ych-belly-sticker.png:
     id: 2oy
     artist: spookyfoxinc
     grid:
@@ -1021,7 +1093,8 @@ gallery:
         title: Bauch reiben
         description: ""
     color: "#e7d4e9"
-  cooper/h.png:
+    oldPath: spookyfoxinc/IMG_4227.png
+  cooper/lou-and-avoo-licking-each-others-paws-sticker.png:
     id: knb
     artist: cooper
     grid:
@@ -1035,7 +1108,8 @@ gallery:
         title: Pfoten lecken
         description: ""
     color: "#db71ae"
-  cooper/i.png:
+    oldPath: cooper/h.png
+  cooper/lou-and-avoo-cooking-sticker.png:
     id: wqR
     artist: cooper
     grid:
@@ -1049,7 +1123,8 @@ gallery:
         title: Kochen
         description: ""
     color: "#835644"
-  cooper/j.png:
+    oldPath: cooper/i.png
+  cooper/lou-grabbing-avoos-diaper-sticker.png:
     id: MVN
     artist: cooper
     grid:
@@ -1063,6 +1138,7 @@ gallery:
         title: Windel
         description: ""
     color: "#41303b"
+    oldPath: cooper/j.png
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/

@@ -6,8 +6,13 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "generate": "node generate.mjs",
-    "generate-collage": "node utils/collage.js"
+    "generate-meta": "node generate.mjs",
+    "generate-collage": "node utils/collage.js",
+    "generate-webp": "find public -type f \\( -iname \\*.jpg -o -iname \\*.png \\) -execdir convert '{}' -set filename:new '%t' -format webp '%[filename:new].webp' \\;",
+    "generate-avif": "find public -type f \\( -iname \\*.jpg -o -iname \\*.png \\) -execdir convert '{}' -set filename:new '%t' -format avif '%[filename:new].avif' \\;",
+    "generate-jpg": "find images -type f -iname \\*.jpg -exec convert '{}' -set filename:new 'public/%[directory]/%[basename]' -format jpg '%[filename:new].jpg' \\;",
+    "generate-png": "find images -type f -iname \\*.png -exec convert '{}' -set filename:new 'public/%[directory]/%[basename]' -format png '%[filename:new].png' \\;",
+    "generate-all": "npm run generate-meta && npm run generate-png && npm run generate-jpg && npm run generate-collage && npm run generate-webp && npm run generate-avif"
   },
   "dependencies": {
     "@mdi/js": "^5.9.55",
@@ -21,6 +26,8 @@
     "nanoid": "^3.1.20",
     "netlify-plugin-submit-sitemap": "^0.2.3",
     "next": "^10.0.0",
+    "open": "^8.2.0",
+    "prompts": "^2.4.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-i18next": "^11.8.7",

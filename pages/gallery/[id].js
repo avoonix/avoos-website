@@ -66,7 +66,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const imageData = getImageData(params.id);
+  const imageData = getImageData(params.id.split("-")[0]);
   const artistData = getArtistData(imageData.artist);
 
   return {

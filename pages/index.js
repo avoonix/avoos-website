@@ -24,7 +24,7 @@ export default function Home() {
       meta={{
         title: t("title"),
         description: t("description"),
-        image: "/images/avoonix/day.png",
+        image: "/images/avoonix/avoo-headshot-sky.png",
       }}
     >
       <div
@@ -71,7 +71,7 @@ export default function Home() {
           title={t("e6favorites")}
         />
         <IconLink
-          href="/gallery/ref"
+          href="/gallery/ref-avoonix-reference-sheet"
           iconPath={mdiAccountHeart}
           text={t("reference")}
           title={t("reference")}

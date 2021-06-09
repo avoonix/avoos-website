@@ -13,7 +13,7 @@ export default function ProfileImage() {
           height="200"
           title="Avoonix"
           loaderColor="#e5b6e1"
-          src="/images/avoonix/day.png"
+          src="/images/avoonix/avoo-headshot-sky.png"
           loaderBorderRadius="100%"
         />
       </div>
