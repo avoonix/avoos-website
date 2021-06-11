@@ -12,9 +12,7 @@ export const getImageTitle = ({ title, artist, t }) => {
       title,
     });
   }
-  return t("fallbackImageTitle", {
-    artist,
-  });
+  throw new Error("no title");
 };
 
 const resources = {
@@ -24,10 +22,12 @@ const resources = {
       profile: "Profile",
       contact: "Contact",
       itemDescription: "A pink furry fox",
-      description: "Hewwo! I'm Avoonix, a pink furry fox from Austria :3",
+      description:
+        "Hewwo! I'm Avoonix, a pink furry fox from Austria :3. Among other things, I am passionate about programming, and love hugs and collars. ",
       gallery: "Gallery",
       avoonixGallery: "Avoonix' Gallery",
-      galleryDescription: "{{count}} fox images (NSFW)",
+      galleryDescription:
+        "A collection of over {{count}} images portraying Avoo. Some of these may contain yiff.",
       home: "Home",
       e6favorites: "e6 Favorites",
       reference: "Reference",
@@ -35,7 +35,7 @@ const resources = {
       artist: "Artist",
       copied: "Copied to clipboard!",
       imageTitle: "{{title}} by {{artist}}",
-      fallbackImageTitle: "Drawing by {{artist}}",
+      pageNotFound: "Page not found",
     },
   },
   de: {
@@ -44,10 +44,12 @@ const resources = {
       profile: "Profil",
       contact: "Kontakt",
       itemDescription: "Ein pinker Fuchs",
-      description: "Hewwo! Ich bin Avoonix, ein pinker Fuchs aus Österreich :3",
+      description:
+        "Hewwo! Ich bin Avoonix, ein pinker Fuchs aus Österreich :3. Unter anderem programmiere ich leidenschaftlich und liebe Umarmungen und Halsbänder. ",
       gallery: "Galerie",
       avoonixGallery: "Avoonix' Galerie",
-      galleryDescription: "{{count}} Bilder (NSFW)",
+      galleryDescription:
+        "Eine Sammlung von über {{count}} Bildern von Avoo. Etwas yiff ist auch dabei.",
       home: "Startseite",
       e6favorites: "e6 Favoriten",
       reference: "Referenz",
@@ -55,7 +57,7 @@ const resources = {
       artist: "Künstler",
       copied: "In Zwischenablage kopiert!",
       imageTitle: "{{title}} von {{artist}}",
-      fallbackImageTitle: "Zeichnung von {{artist}}",
+      pageNotFound: "Seite wurde nicht gefunden",
     },
   },
 };

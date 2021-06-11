@@ -20,6 +20,18 @@ fileContents.gallery = fileContents.gallery || {};
 
 fileContents.artists = fileContents.artists || {};
 
+const prompt = async (path, message) => {
+  await open(`images/${path}`, { wait: true });
+  const response = await prompts({
+    type: "text",
+    name: "name",
+    message: message,
+  });
+  return response.name;
+};
+
+const titles = {};
+
 glob(
   "**/*.{png,jpg}",
   {
@@ -63,6 +75,15 @@ glob(
       if (!fileContents.gallery[match].meta.en.title) {
         console.log(`${match} has no title!`);
       }
+      const meta = fileContents.gallery[match].meta;
+      if (titles[meta.en.title]) {
+        console.log("duplicate title: ", meta.en.title);
+      }
+      titles[meta.en.title] = true;
+      if (titles[meta.de.title]) {
+        console.log("duplicate title: ", meta.de.title);
+      }
+      titles[meta.de.title] = true;
     }
     for (const artist of Object.keys(fileContents.artists)) {
       const p = `public/images/${artist}`;
@@ -76,14 +97,9 @@ glob(
       let name = path.basename(p, path.extname(p));
       if (name.split("-").length < 3) {
         if (askNames) {
-          await open(`images/${p}`, { wait: true });
-          const response = await prompts({
-            type: "text",
-            name: "name",
-            message: `New filename for ${name}`,
-          });
-          if (response.name && response.name.split("-").length >= 3) {
-            name = response.name;
+          const newName = prompt(p, `New filename for ${name}`);
+          if (newName && newName.split("-").length >= 3) {
+            name = newName;
           } else {
             askNames = false;
           }

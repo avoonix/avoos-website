@@ -13,11 +13,12 @@ export default function Image({ imageData, artistData, children }) {
   return (
     <Layout
       meta={{
-        title: getImageTitle({
-          title: imageData.title,
-          artist: imageData.artist,
-          t,
-        }),
+        title:
+          getImageTitle({
+            title: imageData.title,
+            artist: imageData.artist,
+            t,
+          }) + " - Avoonix",
         description: imageData.description,
         image: imageData.path,
       }}

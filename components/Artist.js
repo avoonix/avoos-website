@@ -6,7 +6,7 @@ import styles from "./Artist.module.css";
 export default function Artist({ name, url }) {
   const { t } = useTranslation();
   return (
-    <a href={url} className={styles.container} title={t("artist")}>
+    <a href={url} className={styles.container} title={t("artist") + ":"}>
       <div className={styles.flexContainer}>
         <div className={styles.iconContainer}>
           <Icon path={mdiBrush} size={1} />
