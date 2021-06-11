@@ -18,7 +18,7 @@ export const getImageTitle = ({ title, artist, t }) => {
 const resources = {
   en: {
     translation: {
-      title: "Avoonix the Fox",
+      title: "Avoonix the pink Fox",
       profile: "Profile",
       contact: "Contact",
       itemDescription: "A pink furry fox",
@@ -40,7 +40,7 @@ const resources = {
   },
   de: {
     translation: {
-      title: "Avoonix der Fuchs",
+      title: "Avoonix der pinke Fuchs",
       profile: "Profil",
       contact: "Kontakt",
       itemDescription: "Ein pinker Fuchs",
