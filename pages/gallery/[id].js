@@ -33,7 +33,7 @@ export default function Image({ imageData, artistData, children }) {
         />
       </div>
       <article>
-        <div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
           <a
             rel="nofollow"
             href={imageData.path}
@@ -43,7 +43,7 @@ export default function Image({ imageData, artistData, children }) {
             <LazyImage
               loaderColor={imageData.color}
               src={imageData.path}
-              style={{ position: "relative" }}
+              style={{ position: "relative", maxWidth: `${imageData.width}px` }}
               alt={imageData.description}
               title={imageData.title}
             />

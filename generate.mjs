@@ -6,6 +6,7 @@ import { customAlphabet } from "nanoid";
 import ColorThief from "colorthief";
 import prompts from "prompts";
 import open from "open";
+import jimp from "jimp";
 
 const nanoid = customAlphabet(
   "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
@@ -95,6 +96,11 @@ glob(
         const color = await ColorThief.getColor(path.join("images", match));
         fileContents.gallery[match].color =
           "#" + color.map((c) => c.toString(16)).join("");
+      }
+      if (!fileContents.gallery[match].width) {
+        const img = await jimp.read(path.join("images", match));
+        fileContents.gallery[match].width = img.getWidth();
+        fileContents.gallery[match].height = img.getHeight();
       }
       if (!fileContents.gallery[match].meta.en.title) {
         console.log(`${match} has no title!`);
