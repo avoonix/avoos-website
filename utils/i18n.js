@@ -36,6 +36,7 @@ const resources = {
       copied: "Copied to clipboard!",
       imageTitle: "{{title}} by {{artist}}",
       pageNotFound: "Page not found",
+      tags: "Tags",
     },
   },
   de: {
@@ -58,6 +59,7 @@ const resources = {
       copied: "In Zwischenablage kopiert!",
       imageTitle: "{{title}} von {{artist}}",
       pageNotFound: "Seite wurde nicht gefunden",
+      tags: "Tags",
     },
   },
 };

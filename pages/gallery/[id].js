@@ -7,6 +7,7 @@ import Artist from "../../components/Artist";
 import { useTranslation } from "react-i18next";
 import { getImageTitle } from "../../utils/i18n";
 import LazyImage from "../../components/LazyImage";
+import Tags from "../../components/Tags";
 
 export default function Image({ imageData, artistData, children }) {
   const { t } = useTranslation();
@@ -51,6 +52,7 @@ export default function Image({ imageData, artistData, children }) {
         <h1>{imageData.title}</h1>
         <Artist name={artistData.name} url={artistData.url} />
         <p style={{ whiteSpace: "pre-wrap" }}>{imageData.description}</p>
+        <Tags tags={imageData.tags} />
       </article>
       {children}
     </Layout>

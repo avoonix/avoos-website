@@ -20,6 +20,8 @@ fileContents.gallery = fileContents.gallery || {};
 
 fileContents.artists = fileContents.artists || {};
 
+fileContents.tags = fileContents.tags || {};
+
 const prompt = async (path, message) => {
   await open(`images/${path}`, { wait: true });
   const response = await prompts({
@@ -28,6 +30,22 @@ const prompt = async (path, message) => {
     message: message,
   });
   return response.name;
+};
+
+const promptTags = async (path) => {
+  const p = await Promise.all([
+    open(`images/${path}`, { wait: true }),
+    await prompts({
+      type: "autocompleteMultiselect",
+      name: "tags",
+      message: "Tags",
+      choices: Object.entries(fileContents.tags).map(([tag, translations]) => ({
+        title: translations.en,
+        value: tag,
+      })),
+    }),
+  ]);
+  return p[1].tags;
 };
 
 const titles = {};
@@ -67,6 +85,12 @@ glob(
         { url: "" },
         fileContents.artists[artist]
       );
+      if (
+        !fileContents.gallery[match].tags ||
+        !fileContents.gallery[match].tags.length
+      ) {
+        fileContents.gallery[match].tags = await promptTags(match);
+      }
       if (!fileContents.gallery[match].color) {
         const color = await ColorThief.getColor(path.join("images", match));
         fileContents.gallery[match].color =
