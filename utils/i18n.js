@@ -27,7 +27,7 @@ const resources = {
       gallery: "Gallery",
       avoonixGallery: "Avoonix' Gallery",
       galleryDescription:
-        "A collection of over {{count}} images portraying Avoo. Some of these may contain yiff.",
+        "A collection of {{count}} drawings of Avoo. Some of these may be yiff :3",
       home: "Home",
       e6favorites: "e6 Favorites",
       reference: "Reference",
@@ -50,7 +50,7 @@ const resources = {
       gallery: "Galerie",
       avoonixGallery: "Avoonix' Galerie",
       galleryDescription:
-        "Eine Sammlung von über {{count}} Bildern von Avoo. Etwas yiff ist auch dabei.",
+        "Eine Sammlung von {{count}} Bildern von Avoo. Etwas Yiff ist auch dabei :3",
       home: "Startseite",
       e6favorites: "e6 Favoriten",
       reference: "Referenz",
