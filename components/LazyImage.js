@@ -7,6 +7,7 @@ export default function LazyImage({
   loaderColor,
   src,
   loaderBorderRadius = 0,
+  className = null,
   ...rest
 }) {
   const [visible, setVisible] = useState(false);
@@ -41,7 +42,8 @@ export default function LazyImage({
           onLoad={() => setVisible(true)}
           className={classNames(
             styles.image,
-            visible ? styles.visible : styles.invisible
+            visible ? styles.visible : styles.invisible,
+            className
           )}
           src={src}
           {...rest}

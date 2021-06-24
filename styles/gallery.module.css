@@ -7,9 +7,3 @@
 .gridItem {
   position: relative;
 }
-
-.gridItemAspectRatioBox {
-  display: block;
-  width: 100%;
-  padding-top: 100%;
-}

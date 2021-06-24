@@ -37,6 +37,12 @@ const resources = {
       imageTitle: "{{title}} by {{artist}}",
       pageNotFound: "Page not found",
       tags: "Tags",
+      blog: "Blog",
+      blogTitle: "Blog",
+      blogDescription: "Thoughts and stuff",
+      readMore: "Read More",
+      minutesRead: "minutes read",
+      continueReading: "Continue Reading"
     },
   },
   de: {
@@ -60,6 +66,12 @@ const resources = {
       imageTitle: "{{title}} von {{artist}}",
       pageNotFound: "Seite wurde nicht gefunden",
       tags: "Tags",
+      blog: "Blog",
+      blogTitle: "Blog",
+      blogDescription: "Gedanken und Stuff",
+      readMore: "Weiterlesen",
+      minutesRead: "Minuten Lesedauer",
+      continueReading: "Weitere Posts"
     },
   },
 };

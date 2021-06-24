@@ -38,8 +38,7 @@
 .profilePicture {
   border-radius: 100%;
   max-width: 200px;
-  width: 100%;
-  object-fit: cover;
+  position: initial !important;
 }
 
 .profileContainer {

@@ -86,16 +86,20 @@ glob(
         { url: "" },
         fileContents.artists[artist]
       );
+      fileContents.gallery[match].meta.en.alt =
+        fileContents.gallery[match].meta.en.alt || "";
+      fileContents.gallery[match].meta.de.alt =
+        fileContents.gallery[match].meta.de.alt || "";
       if (
         !fileContents.gallery[match].tags ||
         !fileContents.gallery[match].tags.length
       ) {
         fileContents.gallery[match].tags = await promptTags(match);
       }
-      if (!fileContents.gallery[match].color) {
+      if ((fileContents.gallery[match].color || "").length < 7) {
         const color = await ColorThief.getColor(path.join("images", match));
         fileContents.gallery[match].color =
-          "#" + color.map((c) => c.toString(16)).join("");
+          "#" + color.map((c) => c.toString(16).padStart(2, "0")).join("");
       }
       if (!fileContents.gallery[match].width) {
         const img = await jimp.read(path.join("images", match));
@@ -114,12 +118,6 @@ glob(
         console.log("duplicate title: ", meta.de.title);
       }
       titles[meta.de.title] = true;
-    }
-    for (const artist of Object.keys(fileContents.artists)) {
-      const p = `public/images/${artist}`;
-      if (!fs.existsSync(p)) {
-        fs.mkdirSync(p);
-      }
     }
     const withNewPaths = {};
     let askNames = true;

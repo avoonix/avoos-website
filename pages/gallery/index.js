@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 import LazyImage from "../../components/LazyImage";
 import { getImageTitle } from "../../utils/i18n";
 import { getSlug } from "../../utils/img";
+import AspectRatio from "../../components/AspectRatio";
 
 export default function Gallery({ allGalleryData }) {
   const { t } = useTranslation();
@@ -37,15 +38,13 @@ export default function Gallery({ allGalleryData }) {
               gridRow: `span ${grid.h}`,
             }}
           >
-            <div
-              className={styles.gridItemAspectRatioBox}
-              style={{ paddingTop: `${(grid.h / grid.w) * 100}%` }}
-            />
-            <Link href={`/gallery/${getSlug({ path, id })}`}>
-              <a title={getImageTitle({ title, artist, t })}>
-                <LazyImage loaderColor={color} src={path} />
-              </a>
-            </Link>
+            <AspectRatio ratio={grid.h / grid.w}>
+              <Link href={`/gallery/${getSlug({ path, id })}`}>
+                <a title={getImageTitle({ title, artist, t })}>
+                  <LazyImage loaderColor={color} src={path} />
+                </a>
+              </Link>
+            </AspectRatio>
           </div>
         ))}
       </div>

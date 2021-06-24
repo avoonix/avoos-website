@@ -9,9 +9,9 @@ import {
   mdiTelegram,
   mdiImageMultiple,
   mdiSteam,
-  mdiHexagonOutline,
   mdiHexagon,
   mdiAccountHeart,
+  mdiPost,
 } from "@mdi/js";
 import ProfileImage from "../components/ProfileImage";
 import { useTranslation } from "react-i18next";
@@ -65,7 +65,7 @@ export default function Home() {
           title={t("contact")}
         />
         <IconLink
-          href="https://e621.net/posts?tags=fav:Avoonix"
+          href="https://material-e621.vercel.app/#/posts?tags=fav:Avoonix"
           iconPath={mdiHexagon}
           text={t("e6favorites")}
           title={t("e6favorites")}
@@ -82,6 +82,12 @@ export default function Home() {
           text={t("gallery")}
           title={t("gallery")}
         />
+        <IconLink
+          href="/blog"
+          iconPath={mdiPost}
+          text={t("blog")}
+          title={t("blog")}
+        />
 
         <div className={utilStyles.hidden}>
           <span itemProp="alternateName">Avoo</span>
@@ -94,8 +100,6 @@ export default function Home() {
             https://avoonix.com/
           </a>
           <p itemProp="description">{t("itemDescription")}</p>
-          <a href="https://de.avoonix.com/">German</a>
-          <a href="https://avoonix.com/">English</a>
         </div>
       </div>
     </Layout>

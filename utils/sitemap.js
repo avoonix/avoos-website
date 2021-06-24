@@ -1,7 +1,8 @@
 const fs = require("fs");
-const { glob } = require("glob");
+const globby = require('globby')
 const YAML = require("yaml");
 const path = require("path");
+const prettier = require("prettier")
 
 const getSlug = ({ path, id }) => {
   const parts = path.split("/");
@@ -24,14 +25,20 @@ async function generateSiteMap() {
   const pages = [
     "/",
     "/gallery",
+    "/blog",
     ...Object.entries(meta.gallery).map(
       ([path, g]) => `/gallery/${getSlug({ path, id: g.id })}`
     ),
   ];
 
+   const blogPages = (await globby([
+    'blog/**/*.mdx',
+    'blog/**/*.md',
+  ])).map(path => path.replace(/\.mdx?/, "").replace(/^([^/])/, "/$1"))
+
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-          ${pages
+          ${[...pages, ...blogPages]
             .map(
               (page) =>
                 `
@@ -63,7 +70,9 @@ async function generateSiteMap() {
     ].join("\n")
   );
 
-  fs.writeFileSync("public/sitemap.xml", sitemap);
+  fs.writeFileSync("public/sitemap.xml", prettier.format(sitemap, {
+    parser: "html"
+  }));
 }
 
 generateSiteMap();

@@ -8,12 +8,13 @@ export default function Layout({
   children,
   meta: { title, description, image = null },
   wide = false,
+  fullWidth = false
 }) {
   const router = useRouter();
   const pathWithoutHash = router.asPath.replace(/#.*/g, "");
 
   return (
-    <div className={classNames(styles.container, wide && styles.wideContainer)}>
+    <div className={classNames(styles.container, wide && styles.wideContainer, fullWidth && styles.fullWidth)}>
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
