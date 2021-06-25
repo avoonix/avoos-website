@@ -4,7 +4,7 @@ export default function MarkdownImage({ src, title, alt, ...rest }) {
   const isRelative = src && /^\./.test(src);
 
   if (isRelative) {
-    src = `/images/blog/${src}`;
+    src = `https://i.avoonix.com/images/blog/${src}`;
   }
 
   return (
