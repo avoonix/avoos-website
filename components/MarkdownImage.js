@@ -19,7 +19,7 @@ export default function MarkdownImage({ src, title, alt, ...rest }) {
           {...rest}
           title={alt}
           alt={alt}
-          loaderColor={"#000000"}
+          loaderColor={"#ffd4f1"}
           src={src}
           style={{ position: "relative" }}
         />
