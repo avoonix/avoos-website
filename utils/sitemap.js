@@ -65,7 +65,7 @@ async function generateSiteMap() {
         ([path, g]) => `/${g.id} /gallery/${getSlug({ path, id: g.id })}`
       ),
       ...Object.entries(meta.gallery).map(
-        ([path, g]) => `/images/${g.oldPath} /images/${path}`
+        ([path, g]) => `/images/${g.oldPath} https://i.avoonix.com/images/${path}`
       ),
     ].join("\n")
   );

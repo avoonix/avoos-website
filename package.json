@@ -5,15 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start",
-    "add-blog-post": "node utils/addBlogPost.mjs",
-    "generate-meta": "node generate.mjs",
-    "generate-collage": "node utils/collage.js",
-    "generate-webp": "find public -type f \\( -iname \\*.jpg -o -iname \\*.png \\) -execdir convert '{}' -set filename:new '%t' -format webp '%[filename:new].webp' \\;",
-    "generate-avif": "find public -type f \\( -iname \\*.jpg -o -iname \\*.png \\) -execdir convert '{}' -set filename:new '%t' -format avif '%[filename:new].avif' \\;",
-    "copy-images": "find images -name '*.png' -o -name '*.jpg' | cpio -pdm public",
-    "copy-blog-images": "find blog -name '*.png' -o -name '*.jpg' | cpio -pdm public/images",
-    "generate-all": "npm run copy-images && npm run copy-blog-images && npm run generate-meta && npm run generate-collage && npm run generate-webp && npm run generate-avif"
+    "start": "next start"
   },
   "dependencies": {
     "@mdi/js": "^5.9.55",

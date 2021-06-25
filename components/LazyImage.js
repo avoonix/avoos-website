@@ -10,6 +10,10 @@ export default function LazyImage({
   className = null,
   ...rest
 }) {
+  if(src && src.startsWith("/images")) {
+    src = `https://i.avoonix.com${src}`;
+  }
+
   const [visible, setVisible] = useState(false);
 
   const img = createRef();

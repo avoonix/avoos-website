@@ -36,7 +36,7 @@ export default function Image({ imageData, artistData, children }) {
         <div style={{ display: "flex", justifyContent: "center" }}>
           <a
             rel="nofollow"
-            href={imageData.path}
+            href={`https://i.avoonix.com${imageData.path}`}
             target="_blank"
             style={{ position: "relative" }}
           >
