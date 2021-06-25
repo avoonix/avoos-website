@@ -58,6 +58,9 @@ async function generateSiteMap() {
       "/en https://avoonix.com",
       "/reference /gallery/ref-avoonix-reference-sheet",
       "/ref /gallery/ref-avoonix-reference-sheet",
+      "/collage.png https://i.avoonix.com/collage.png",
+      "/collage.avif https://i.avoonix.com/collage.avif",
+      "/collage.webp https://i.avoonix.com/collage.webp",
       ...Object.entries(meta.gallery).map(
         ([path, g]) => `/gallery/${g.id} /gallery/${getSlug({ path, id: g.id })}`
       ),
@@ -66,6 +69,9 @@ async function generateSiteMap() {
       ),
       ...Object.entries(meta.gallery).map(
         ([path, g]) => `/images/${g.oldPath} https://i.avoonix.com/images/${path}`
+      ),
+      ...Object.entries(meta.gallery).map(
+        ([path, g]) => `/images/${path} https://i.avoonix.com/images/${path}`
       ),
     ].join("\n")
   );
