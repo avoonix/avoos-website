@@ -39,3 +39,8 @@ a {
   color: var(--light-pink);
   text-decoration: none;
 }
+
+::selection {
+  color: var(--dark-pink);
+  background-color: var(--light-pink);
+}

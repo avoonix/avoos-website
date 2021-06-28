@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "add-blog-post": "node utils/addBlogPost.mjs"
   },
   "dependencies": {
     "@mdi/js": "^5.9.55",

@@ -49,11 +49,11 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
           <div className={styles.narrowSection}>
             <div>
               <div>
-                {Math.round(frontMatter.readingTime.minutes)} {t("minutesRead")}
+                {Math.ceil(frontMatter.readingTime.minutes)} {t("minutesRead")}
               </div>
               <div>
                 {frontMatter.tags.map((tag, idx) => (
-                  <span>
+                  <span key={idx}>
                     {idx ? <>&bull;</> : ""} {` ${tag} `}
                   </span>
                 ))}
@@ -104,7 +104,9 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
       </div>
 
       <div className={styles.narrowSection}>
-        <MDXRemote {...mdxSource} components={mdxComponents} />
+        <article>
+          <MDXRemote {...mdxSource} components={mdxComponents} />
+        </article>
       </div>
 
       {prev || next ? (
