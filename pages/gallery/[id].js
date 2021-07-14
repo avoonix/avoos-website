@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 import { getImageTitle } from "../../utils/i18n";
 import LazyImage from "../../components/LazyImage";
 import Tags from "../../components/Tags";
+import blogStyles from "../../styles/blog.module.css";
 
 export default function Image({ imageData, artistData, children }) {
   const { t } = useTranslation();
@@ -23,9 +24,9 @@ export default function Image({ imageData, artistData, children }) {
         description: imageData.description,
         image: imageData.path,
       }}
-      wide={true}
+      fullWidth
     >
-      <div>
+      <div className={blogStyles.narrowSection}>
         <IconLink
           href={`/gallery#${imageData.id}`}
           iconPath={mdiArrowLeft}
@@ -43,18 +44,25 @@ export default function Image({ imageData, artistData, children }) {
             <LazyImage
               loaderColor={imageData.color}
               src={imageData.path}
-              style={{ position: "relative", maxWidth: `${imageData.width}px` }}
+              style={{
+                position: "relative",
+                maxWidth: `${imageData.width}px`,
+                maxHeight: "100vh",
+              }}
               alt={imageData.description}
               title={imageData.title}
             />
           </a>
         </div>
-        <h1>{imageData.title}</h1>
-        <Artist name={artistData.name} url={artistData.url} />
-        <p style={{ whiteSpace: "pre-wrap" }}>{imageData.description}</p>
-        <Tags tags={imageData.tags} />
+
+        <div className={blogStyles.narrowSection}>
+          <h1>{imageData.title}</h1>
+          <Artist name={artistData.name} url={artistData.url} />
+          <p style={{ whiteSpace: "pre-wrap" }}>{imageData.description}</p>
+          <Tags tags={imageData.tags} />
+        </div>
       </article>
-      {children}
+      <div className={blogStyles.narrowSection}>{children}</div>
     </Layout>
   );
 }
