@@ -79,6 +79,31 @@ gallery:
       - pink
     width: 512
     height: 512
+  redwolfakasora/photo-of-avoonix-blep-badge.jpg:
+    id: 3n5
+    artist: redwolfakasora
+    grid:
+      w: 2
+      h: 2
+    meta:
+      en:
+        title: Badge
+        description: ""
+        alt: ""
+      de:
+        title: Badge
+        description: ""
+        alt: ""
+    tags:
+      - yiff
+      - sfw
+      - paws
+      - collar
+      - fox
+      - pink
+    color: "#774b3b"
+    width: 6000
+    height: 8000
   spookyfoxinc/avoo-getting-petted-sticker.png:
     id: FP6
     artist: spookyfoxinc
@@ -2002,6 +2027,8 @@ artists:
     url: https://www.furaffinity.net/user/black-stallion/
   bro-its-cody:
     url: https://twitter.com/broitscody
+  redwolfakasora:
+    url: https://www.furaffinity.net/user/redwolfakasora/
 tags:
   yiff:
     en: Yiff

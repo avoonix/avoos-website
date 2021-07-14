@@ -14,9 +14,9 @@ export default function Tags({ tags }) {
         </div>
         <div>
           {tags.map((t) => (
-            <>
-              <div className={tagStyles.badge}>{t}</div>{" "}
-            </>
+            <span key={t}>
+              <div className={tagStyles.badge}>{t}{" "}</div>{" "}
+            </span>
           ))}
         </div>
       </div>
