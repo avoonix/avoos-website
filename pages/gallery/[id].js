@@ -49,7 +49,7 @@ export default function Image({ imageData, artistData, children }) {
                 maxWidth: `${imageData.width}px`,
                 maxHeight: "100vh",
               }}
-              alt={imageData.description}
+              alt={imageData.alt || imageData.description}
               title={imageData.title}
             />
           </a>
