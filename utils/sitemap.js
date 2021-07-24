@@ -25,6 +25,7 @@ async function generateSiteMap() {
   const pages = [
     "/",
     "/gallery",
+    "/nsfw-gallery",
     "/blog",
     ...Object.entries(meta.gallery).map(
       ([path, g]) => `/gallery/${getSlug({ path, id: g.id })}`

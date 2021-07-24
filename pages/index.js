@@ -83,6 +83,12 @@ export default function Home() {
           title={t("gallery")}
         />
         <IconLink
+          href="/nsfw-gallery"
+          iconPath={mdiImageMultiple}
+          text={t("nsfwGallery")}
+          title={t("nsfwGallery")}
+        />
+        <IconLink
           href="/blog"
           iconPath={mdiPost}
           text={t("blog")}

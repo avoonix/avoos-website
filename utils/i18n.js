@@ -18,13 +18,14 @@ export const getImageTitle = ({ title, artist, t }) => {
 const resources = {
   en: {
     translation: {
-      title: "Avoonix the pink Fox",
+      title: "Avoonix the Pink Fox",
       profile: "Profile",
       contact: "Contact",
       itemDescription: "A pink furry fox",
       description:
         "Hewwo! I'm Avoonix, a pink furry fox from Austria :3. Among other things, I am passionate about programming, and love hugs and collars. ",
-      gallery: "Gallery",
+      gallery: "Gallery (sfw)",
+      nsfwGallery: "Gallery (nsfw)",
       avoonixGallery: "Avoonix' Gallery",
       galleryDescription:
         "A collection of {{count}} drawings of Avoo. Some of these may be yiff :3",
@@ -42,7 +43,7 @@ const resources = {
       blogDescription: "Thoughts and stuff",
       readMore: "Read More",
       minutesRead: "minutes read",
-      continueReading: "Continue Reading"
+      continueReading: "Continue Reading",
     },
   },
   de: {
@@ -53,7 +54,8 @@ const resources = {
       itemDescription: "Ein pinker Fuchs",
       description:
         "Hewwo! Ich bin Avoonix, ein pinker Fuchs aus Österreich :3. Unter anderem programmiere ich leidenschaftlich und liebe Umarmungen und Halsbänder. ",
-      gallery: "Galerie",
+      gallery: "Galerie (sfw)",
+      nsfwGallery: "Galerie (nsfw)",
       avoonixGallery: "Avoonix' Galerie",
       galleryDescription:
         "Eine Sammlung von {{count}} Bildern von Avoo. Etwas Yiff ist auch dabei :3",
@@ -71,7 +73,7 @@ const resources = {
       blogDescription: "Gedanken und Stuff",
       readMore: "Weiterlesen",
       minutesRead: "Minuten Lesedauer",
-      continueReading: "Weitere Posts"
+      continueReading: "Weitere Posts",
     },
   },
 };

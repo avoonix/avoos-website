@@ -12,6 +12,12 @@ import blogStyles from "../../styles/blog.module.css";
 
 export default function Image({ imageData, artistData, children }) {
   const { t } = useTranslation();
+
+  const back = imageData.isNsfw
+    ? `/nsfw-gallery#${imageData.id}`
+    : `/gallery#${imageData.id}`;
+  const backText = imageData.isNsfw ? t("nsfwGallery") : t("gallery");
+
   return (
     <Layout
       meta={{
@@ -27,11 +33,7 @@ export default function Image({ imageData, artistData, children }) {
       fullWidth
     >
       <div className={blogStyles.narrowSection}>
-        <IconLink
-          href={`/gallery#${imageData.id}`}
-          iconPath={mdiArrowLeft}
-          text={t("gallery")}
-        />
+        <IconLink href={back} iconPath={mdiArrowLeft} text={backText} />
       </div>
       <article>
         <div style={{ display: "flex", justifyContent: "center" }}>
@@ -48,6 +50,7 @@ export default function Image({ imageData, artistData, children }) {
                 position: "relative",
                 maxWidth: `${imageData.width}px`,
                 maxHeight: "100vh",
+                objectFit: "contain",
               }}
               alt={imageData.alt || imageData.description}
               title={imageData.title}

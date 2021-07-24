@@ -10,7 +10,7 @@ import { getImageTitle } from "../../utils/i18n";
 import { getSlug } from "../../utils/img";
 import AspectRatio from "../../components/AspectRatio";
 
-export default function Gallery({ allGalleryData }) {
+export default function Gallery({ allGalleryData, nsfw }) {
   const { t } = useTranslation();
 
   return (
@@ -25,7 +25,7 @@ export default function Gallery({ allGalleryData }) {
         <IconLink href="/" iconPath={mdiArrowLeft} text={t("home")} />
       </div>
       <div>
-        <h1>Gallery</h1>
+        <h1>{nsfw ? t("nsfwGallery") : t("gallery")}</h1>
       </div>
       <div className={styles.grid}>
         {allGalleryData.map(({ id, path, grid, color, title, artist }) => (
@@ -53,10 +53,11 @@ export default function Gallery({ allGalleryData }) {
 }
 
 export async function getStaticProps() {
-  const allGalleryData = getGalleryData();
+  const allGalleryData = getGalleryData({ hideNsfw: true });
   return {
     props: {
       allGalleryData,
+      nsfw: false,
     },
   };
 }
