@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getGalleryData } from "../../lib/gallery";
 import styles from "../../styles/gallery.module.css";
 import IconLink from "../../components/IconLink";
-import { mdiArrowLeft } from "@mdi/js";
+import { mdiArrowLeft, mdiImageMultiple } from "@mdi/js";
 import Layout from "../../components/Layout";
 import { useTranslation } from "react-i18next";
 import LazyImage from "../../components/LazyImage";
@@ -47,6 +47,13 @@ export default function Gallery({ allGalleryData, nsfw }) {
             </AspectRatio>
           </div>
         ))}
+      </div>
+      <div style={{paddingTop: 8}}>
+        <IconLink
+          href={nsfw ? "/gallery" : "/nsfw-gallery"}
+          iconPath={mdiImageMultiple}
+          text={nsfw ? t("gallery") : t("nsfwGallery")}
+        />
       </div>
     </Layout>
   );
