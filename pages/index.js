@@ -12,6 +12,7 @@ import {
   mdiHexagon,
   mdiAccountHeart,
   mdiPost,
+  mdiDogSide,
 } from "@mdi/js";
 import ProfileImage from "../components/ProfileImage";
 import { useTranslation } from "react-i18next";
@@ -51,6 +52,12 @@ export default function Home() {
           iconPath={mdiPawOutline}
           text="Fur Affinity"
           title={`Fur Affinity ${t("profile")}`}
+        />
+        <IconLink
+          href="https://www.f-list.net/c/avoonix"
+          iconPath={mdiDogSide}
+          text="F-list"
+          title={`f-list.net ${t("profile")}`}
         />
         <IconLink
           href="https://twitter.com/avoonix"
