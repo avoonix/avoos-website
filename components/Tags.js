@@ -14,11 +14,13 @@ export default function Tags({ tags }) {
         </div>
         <div>
           <span className="sr-only">{t("tags")}: </span>
-          {tags.map((t) => (
-            <span key={t}>
-              <div className={tagStyles.badge}>{t}</div><span className="sr-only">, </span>
-            </span>
-          ))}
+          <ul className={tagStyles.list}>
+            {tags.map((t) => (
+              <li key={t} className={tagStyles.badge}>
+                {t}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>
