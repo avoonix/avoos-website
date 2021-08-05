@@ -1617,11 +1617,11 @@ gallery:
       en:
         title: Avoo With Cap
         description: Base by https://twitter.com/M4ysona
-        alt: "pink fox with leash and cap that says femboy fox"
+        alt: pink fox with leash and cap that says femboy fox
       de:
         title: Avoo mit Kappe
         description: Base von https://twitter.com/M4ysona
-        alt: "rosa Fuchs mit Leine und Mütze, auf der Femboy-Fuchs steht"
+        alt: rosa Fuchs mit Leine und Mütze, auf der Femboy-Fuchs steht
     tags:
       - sfw
       - collar
@@ -2023,36 +2023,52 @@ gallery:
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
+    name: Salem/Oat
   avoonix:
     url: https://avoonix.com/
+    name: Avoonix
   asgardianartist:
     url: https://linktr.ee/asgardian.artist
+    name: asgardian.artist
   heridag:
     url: https://linktr.ee/Heridag
+    name: Heridag
   sinister-jordex:
     url: https://www.furaffinity.net/user/sinister-jordex
+    name: BlazeFire41
   valdith-zam:
     url: https://www.furaffinity.net/user/valdith-zam
+    name: valdith zam
   blumen:
     url: https://www.furaffinity.net/user/blumen
+    name: blumen
   adopt-empire:
     url: https://www.furaffinity.net/user/adoptempire
+    name: ADOPT_EMPIRE
   zombineko:
     url: https://www.furaffinity.net/user/zombineko
+    name: ZombiNeko
   toxxy-the-trash:
     url: https://steamcommunity.com/id/toxxythetrash
+    name: toxxy the trash
   wallswhisper:
     url: https://www.furaffinity.net/user/wallswhisper/
+    name: WallsWhisper
   fleurfurr:
     url: https://www.fleurfurr.com/
+    name: Fleurfurr
   cooper:
     url: https://www.furaffinity.net/user/black-stallion/
+    name: Cooper Toonhyena
   bro-its-cody:
     url: https://twitter.com/broitscody
+    name: Cody
   redwolfakasora:
     url: https://www.furaffinity.net/user/redwolfakasora/
+    name: Akasora
   loucasthek9:
     url: https://www.loucas.gay/
+    name: LoucasTheK9
 tags:
   yiff:
     en: Yiff
