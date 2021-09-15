@@ -8,13 +8,12 @@ import {
   getFileBySlug,
   getFiles,
 } from "../../lib/blog";
-import mdxComponents from "../../components/mdxComponents";
-import { MDXRemote } from "next-mdx-remote";
 import { formatPostDate } from "../../utils/post";
 import LazyImage from "../../components/LazyImage";
 import AspectRatio from "../../components/AspectRatio";
 import Link from "next/link";
 import styles from "../../styles/blog.module.css";
+import MarkdownRenderer from "../../components/MarkdownRenderer";
 
 export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
   const { t } = useTranslation();
@@ -105,7 +104,7 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
 
       <div className={styles.narrowSection}>
         <article>
-          <MDXRemote {...mdxSource} components={mdxComponents} />
+          <MarkdownRenderer source={mdxSource} />
         </article>
       </div>
 

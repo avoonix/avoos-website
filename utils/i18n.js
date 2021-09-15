@@ -88,6 +88,7 @@ i18n.use(initReactI18next).init({
   detection: false,
   preload: ["de", "en"],
   load: ["de", "en"],
+  fallbackLng: "en",
 });
 
 export default i18n;
