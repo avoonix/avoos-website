@@ -12,6 +12,7 @@ import {
   mdiPost,
   mdiDogSide,
   mdiArrowLeft,
+  mdiReddit,
 } from "@mdi/js";
 import { useTranslation } from "react-i18next";
 
@@ -68,6 +69,12 @@ export default function Home() {
         iconPath={mdiTelegram}
         text="Telegram"
         title={t("contact")}
+      />
+      <IconLink
+        href="https://www.reddit.com/user/avoonix"
+        iconPath={mdiReddit}
+        text="Reddit"
+        title={`Reddit ${t("profile")}`}
       />
       <IconLink
         href="https://material-e621.vercel.app/#/posts?tags=fav:Avoonix"
