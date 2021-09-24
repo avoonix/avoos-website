@@ -40,9 +40,23 @@ a {
   text-decoration: none;
 }
 
+.invert-background {
+  background-color: var(--light-pink);
+  color: var(--dark-pink);
+}
+
+.invert-background ::selection {
+  color: var(--light-pink);
+  background-color: var(--dark-pink);
+}
+
 ::selection {
   color: var(--dark-pink);
   background-color: var(--light-pink);
+}
+
+.no-select {
+  user-select: none;
 }
 
 .sr-only {
@@ -56,4 +70,17 @@ a {
   clip: rect(0, 0, 0, 0) !important;
   white-space: nowrap !important;
   border: 0 !important;
+}
+
+.rounded {
+  border-radius: 12px;
+}
+
+p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.text-center {
+  text-align: center;
 }

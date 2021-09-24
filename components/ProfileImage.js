@@ -17,7 +17,7 @@ export default function ProfileImage() {
           loaderBorderRadius="100%"
         />
       </div>
-      <h1 itemProp="name">Avoonix</h1>
+      <h1 className={style.title} itemProp="name">Avoonix</h1>
     </div>
   );
 }

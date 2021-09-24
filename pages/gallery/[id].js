@@ -63,6 +63,7 @@ export default function Image({ imageData, artistData, children }) {
           <Artist name={artistData.name} url={artistData.url} />
           <p style={{ whiteSpace: "pre-wrap" }}>{imageData.description}</p>
           <Tags tags={imageData.tags} />
+          {/* <Characters /> */}
         </div>
       </article>
       <div className={blogStyles.narrowSection}>{children}</div>

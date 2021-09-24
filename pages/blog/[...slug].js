@@ -154,6 +154,7 @@ export async function getStaticProps({ params }) {
   const next = allPosts[postIndex - 1] || null;
   const post = await getFileBySlug("blog", params.slug.join("/"));
 
+  // TODO: rss
   //   // rss
   //   const rss = generateRss(allPosts)
   //   fs.writeFileSync('./public/index.xml', rss)

@@ -1,5 +1,6 @@
 import { mdiBrush, mdiTag } from "@mdi/js";
 import Icon from "@mdi/react";
+import classNames from "classnames";
 import { useTranslation } from "react-i18next";
 import styles from "./Artist.module.css";
 import tagStyles from "./Tags.module.css";
@@ -16,7 +17,7 @@ export default function Tags({ tags }) {
           <span className="sr-only">{t("tags")}: </span>
           <ul className={tagStyles.list}>
             {tags.map((t) => (
-              <li key={t} className={tagStyles.badge}>
+              <li key={t} className={classNames( tagStyles.badge, "rounded")}>
                 {t}
               </li>
             ))}

@@ -1,6 +1,10 @@
+
 .link {
-  color: var(--light-pink);
-  border: 5px solid var(--light-pink);
+  --link-foreground: var(--light-pink);
+  --link-background: var(--dark-pink);
+  color: var(--link-foreground);
+  border: 5px solid var(--link-foreground);
+  background-color: var(--link-background);
   padding: 10px;
   margin: 5px 0;
   text-decoration: none;
@@ -10,17 +14,37 @@
   font-size: 2em;
   width: 100%;
 }
+.link.icon {
+  width: unset;
+  border-radius: 50%;
+  /* border-color: var(--link-background); */
+}
+
+.inverted {
+  --link-foreground: var(--dark-pink);
+  --link-background: var(--light-pink);
+}
+
+.dense {
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: 3px;
+}
 
 .link:hover,
 .link:focus {
-  background-color: var(--light-pink);
-  color: var(--dark-pink);
+  background-color: var(--link-foreground);
+  color: var(--link-background);
 }
 
 .link svg {
   width: 1em;
   height: 1em;
   padding-right: 5px;
+}
+.link.icon svg {
+  padding-right: unset;
 }
 
 .link span {
