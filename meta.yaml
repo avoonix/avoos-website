@@ -26,6 +26,31 @@ gallery:
       - pink
     width: 2659
     height: 1626
+  taz-clark/lou-fucking-avoo-from-behind.jpg:
+    id: 2nv
+    artist: taz-clark
+    grid:
+      w: 4
+      h: 4
+    meta:
+      en:
+        title: Lou fucks Avoo
+        description: ""
+        alt: pink fox pressed against wall and brown wolf behind; only paws visible
+      de:
+        title: Lou fickt Avoo
+        description: ""
+        alt: rosa Fuchs gegen die Wand gedrückt und brauner Wolf dahinter; nur Pfoten sichtbar
+    tags:
+      - yiff
+      - paws
+      - standing
+      - fox
+      - pink
+      - wolf
+    color: "#7a5f70"
+    width: 1280
+    height: 1226
   redwolfakasora/photo-of-avoonix-blep-badge.jpg:
     id: 3n5
     artist: redwolfakasora
@@ -2069,6 +2094,9 @@ artists:
   loucasthek9:
     url: https://www.loucas.gay/
     name: LoucasTheK9
+  taz-clark:
+    url: https://twitter.com/LadyDarkstreak
+    name: Taz Clark
 tags:
   yiff:
     en: Yiff

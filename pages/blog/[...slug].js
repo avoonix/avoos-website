@@ -37,6 +37,7 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
           alt="low poly background"
           loaderColor="#e47ec5"
           src="/images/blog/lowpoly.png"
+          rounded={false}
         />
         <div
           style={{

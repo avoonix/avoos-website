@@ -8,6 +8,7 @@ export default function LazyImage({
   src,
   loaderBorderRadius = 0,
   className = null,
+  rounded = true,
   ...rest
 }) {
   if(src && src.startsWith("/images")) {
@@ -47,7 +48,8 @@ export default function LazyImage({
           className={classNames(
             styles.image,
             visible ? styles.visible : styles.invisible,
-            className
+            className,
+            rounded && "rounded"
           )}
           src={src}
           {...rest}
