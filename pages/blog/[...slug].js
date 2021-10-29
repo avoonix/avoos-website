@@ -24,6 +24,7 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
       meta={{
         title: `${frontMatter.title} - Avoonix`,
         description: frontMatter.summary,
+        image: frontMatter?.images?.[0] || undefined,
       }}
     >
       <div className={styles.narrowSection}>

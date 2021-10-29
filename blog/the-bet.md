@@ -3,7 +3,7 @@ title: The Bet - Chapter 1
 date: "2021-10-29"
 tags: ["story", "fiction", "bondage", "sensory deprivation", "nsfw"]
 summary: Avoo will probably regret taking this bet
-images: ["avoonix-tied-up.png"]
+images: ["https://i.avoonix.com/images/blog/avoonix-tied-up.png"]
 ---
 
 &nbsp;&nbsp;&nbsp; "Woah, that was close - I-I almost came!" Avoo exclaimed as Lou stopped rubbing the pink fox's crotch.
