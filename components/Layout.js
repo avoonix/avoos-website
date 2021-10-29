@@ -8,13 +8,22 @@ export default function Layout({
   children,
   meta: { title, description, image = null },
   wide = false,
-  fullWidth = false
+  fullWidth = false,
 }) {
   const router = useRouter();
   const pathWithoutHash = router.asPath.replace(/#.*/g, "");
+  if (image && !image.startsWith("http")) {
+    image = `https://avoonix.com${image}`;
+  }
 
   return (
-    <div className={classNames(styles.container, wide && styles.wideContainer, fullWidth && styles.fullWidth)}>
+    <div
+      className={classNames(
+        styles.container,
+        wide && styles.wideContainer,
+        fullWidth && styles.fullWidth
+      )}
+    >
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -51,9 +60,7 @@ export default function Layout({
         />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        {image && (
-          <meta property="og:image" content={`https://avoonix.com${image}`} />
-        )}
+        {image && <meta property="og:image" content={image} />}
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -62,12 +69,7 @@ export default function Layout({
         />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
-        {image && (
-          <meta
-            property="twitter:image"
-            content={`https://avoonix.com${image}`}
-          />
-        )}
+        {image && <meta property="twitter:image" content={image} />}
         <meta property="twitter:site" content="@avoonix" />
         <meta property="twitter:creator" content="@avoonix" />
       </Head>
