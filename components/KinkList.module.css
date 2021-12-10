@@ -1,0 +1,14 @@
+.table {
+  width: 100%;
+}
+.invertOnHover {
+  transition: all 0.1s ease;
+}
+.invertOnHover:hover {
+  background-color: var(--light-pink);
+  color: var(--dark-pink);
+}
+.small {
+  min-width: 1%;
+  white-space: nowrap;
+}

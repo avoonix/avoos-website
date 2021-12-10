@@ -63,6 +63,11 @@ async function generateSiteMap() {
       "/collage.png https://i.avoonix.com/collage.png",
       "/collage.avif https://i.avoonix.com/collage.avif",
       "/collage.webp https://i.avoonix.com/collage.webp",
+      "/list /kinks",
+      "/kink /kinks",
+      "/bdsm-list /kinks",
+      "/fetish /kinks",
+      "/fetishes /kinks",
       ...Object.entries(meta.gallery).map(
         ([path, g]) => `/gallery/${g.id} /gallery/${getSlug({ path, id: g.id })}`
       ),

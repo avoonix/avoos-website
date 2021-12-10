@@ -25,12 +25,19 @@
   "readMore": "Read More",
   "minutesRead": "minutes read",
   "continueReading": "Continue Reading",
-  "telegramStickers": "Telegram Sticker Commissions by Avoonix",
   "contactTelegram": "Contact me on Telegram (preferred)",
   "contactTwitter": "Contact me on Twitter",
   "stickerCallToAction": "Interested? Contact me on Telegram or Twitter.",
   "links": "Links",
   "linksAndOtherStuff": "I don't really know what else to put here, so have some links to my socials and other stuff. Thanks for stopping by :3",
   "hiThere": "Hi there, I'm Avoo. I'm a software engineer and also play games sometimes.",
-  "socialsDescription": "Here are a bunch of links to my social media accounts and a bunch of other stuff"
+  "socialsDescription": "Here are a bunch of links to my social media accounts and a bunch of other stuff",
+  "kinks": "Kink List",
+  "kinks.hard-limit": "Hard Limit",
+  "kinks.soft-limit": "Soft Limit",
+  "kinks.numbered.1": "Meh",
+  "kinks.numbered.2": "Okay",
+  "kinks.numbered.3": "Neutral",
+  "kinks.numbered.4": "Enjoy",
+  "kinks.numbered.5": "UwU~"
 }
