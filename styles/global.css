@@ -10,17 +10,18 @@
   }
 }
 
+.blog-cover-image {
+  filter: brightness(40%) blur(10px);
+}
+
 html,
 body {
   background-color: var(--dark-pink);
   color: var(--light-pink);
   width: 100%;
-  /* min-height: 100vh; */
   margin: 0;
   padding: 0;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  /* font-size: 36px; */
-  /* overflow-x: hidden; */
 }
 
 * {
