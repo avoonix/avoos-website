@@ -1,10 +1,36 @@
 gallery:
+  hufnaar/lou-and-avoo-visit-santa.jpg:
+    id: Hah
+    artist: hufnaar
+    grid:
+      w: 3
+      h: 5
+    meta:
+      en:
+        title: Lou and Avoo Visit Santa
+        description: "Santa is https://www.furaffinity.net/user/sockstehfox"
+        alt: ""
+      de:
+        title: Lou und Avoo besuchen Santa
+        description: ""
+        alt: ""
+    tags:
+      - yiff
+      - cum
+      - thigh-highs
+      - collar
+      - fox
+      - pink
+      - wolf
+    color: "#4f3f36"
+    width: 2480
+    height: 3508
   spookyfoxinc/avoonix-reference-sheet.jpg:
     id: ref
     artist: spookyfoxinc
     grid:
       w: 4
-      h: 3
+      h: 4
     meta:
       en:
         title: Avoonix Reference
@@ -26,32 +52,6 @@ gallery:
       - pink
     width: 2659
     height: 1626
-  taz-clark/lou-fucking-avoo-from-behind.jpg:
-    id: 2nv
-    artist: taz-clark
-    grid:
-      w: 4
-      h: 4
-    meta:
-      en:
-        title: Lou fucks Avoo
-        description: ""
-        alt: pink fox pressed against wall and brown wolf behind; only paws visible
-      de:
-        title: Lou fickt Avoo
-        description: ""
-        alt: rosa Fuchs gegen die Wand gedrückt und brauner Wolf dahinter; nur Pfoten
-          sichtbar
-    tags:
-      - yiff
-      - paws
-      - standing
-      - fox
-      - pink
-      - wolf
-    color: "#7a5f70"
-    width: 1280
-    height: 1226
   redwolfakasora/photo-of-avoonix-blep-badge.jpg:
     id: 3n5
     artist: redwolfakasora
@@ -206,33 +206,6 @@ gallery:
       - pink
     width: 512
     height: 512
-  toxxy-the-trash/avoo-the-queen-of-diapers.png:
-    id: 2cM
-    artist: toxxy-the-trash
-    grid:
-      w: 2
-      h: 2
-    meta:
-      en:
-        title: Queen of diapers
-        description: ""
-        alt: ""
-      de:
-        title: Queen der Windeln
-        description: ""
-        alt: ""
-    color: "#e484b4"
-    oldPath: toxxy-the-trash/queen_of_diapers_avoo1.png
-    tags:
-      - yiff
-      - diaper
-      - bondage
-      - collar
-      - standing
-      - fox
-      - pink
-    width: 1600
-    height: 1600
   spookyfoxinc/avoo-presenting-ass-sticker.png:
     id: 7Ev
     artist: spookyfoxinc
@@ -310,6 +283,85 @@ gallery:
       - pink
     width: 512
     height: 512
+  cooper/lou-and-avoo-licking-each-others-paws-sticker.png:
+    id: knb
+    artist: cooper
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Lou and Avoo licking each other's paws
+        description: ""
+        alt: ""
+      de:
+        title: Lou und Avoo lecken sich gegenseitig die Pfoten
+        description: ""
+        alt: ""
+    color: "#db71ae"
+    oldPath: cooper/h.png
+    tags:
+      - sticker
+      - paws
+      - collar
+      - fox
+      - pink
+      - wolf
+    width: 512
+    height: 512
+  taz-clark/lou-fucking-avoo-from-behind.jpg:
+    id: 2nv
+    artist: taz-clark
+    grid:
+      w: 2
+      h: 2
+    meta:
+      en:
+        title: Lou fucks Avoo
+        description: ""
+        alt: pink fox pressed against wall and brown wolf behind; only paws visible
+      de:
+        title: Lou fickt Avoo
+        description: ""
+        alt: rosa Fuchs gegen die Wand gedrückt und brauner Wolf dahinter; nur Pfoten
+          sichtbar
+    tags:
+      - yiff
+      - paws
+      - standing
+      - fox
+      - pink
+      - wolf
+    color: "#7a5f70"
+    width: 1280
+    height: 1226
+  toxxy-the-trash/avoo-the-queen-of-diapers.png:
+    id: 2cM
+    artist: toxxy-the-trash
+    grid:
+      w: 2
+      h: 2
+    meta:
+      en:
+        title: Queen of diapers
+        description: ""
+        alt: ""
+      de:
+        title: Queen der Windeln
+        description: ""
+        alt: ""
+    color: "#e484b4"
+    oldPath: toxxy-the-trash/queen_of_diapers_avoo1.png
+    tags:
+      - yiff
+      - diaper
+      - bondage
+      - collar
+      - standing
+      - fox
+      - pink
+    width: 1600
+    height: 1600
   fleurfurr/avoo-in-thigh-highs-and-lingerie.png:
     id: jmW
     artist: fleurfurr
@@ -1940,32 +1992,6 @@ gallery:
       - pink
     width: 512
     height: 512
-  cooper/lou-and-avoo-licking-each-others-paws-sticker.png:
-    id: knb
-    artist: cooper
-    grid:
-      w: 1
-      h: 1
-    meta:
-      en:
-        title: Lou and Avoo licking each other's paws
-        description: ""
-        alt: ""
-      de:
-        title: Lou und Avoo lecken sich gegenseitig die Pfoten
-        description: ""
-        alt: ""
-    color: "#db71ae"
-    oldPath: cooper/h.png
-    tags:
-      - sticker
-      - paws
-      - collar
-      - fox
-      - pink
-      - wolf
-    width: 512
-    height: 512
   cooper/lou-and-avoo-cooking-sticker.png:
     id: wqR
     artist: cooper
@@ -2098,6 +2124,9 @@ artists:
   taz-clark:
     url: https://twitter.com/LadyDarkstreak
     name: Taz Clark
+  hufnaar:
+    url: https://www.furaffinity.net/user/hufnaar/
+    name: Hufnaar
 tags:
   yiff:
     en: Yiff
