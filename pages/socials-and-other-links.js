@@ -4,7 +4,6 @@ import {
   mdiGithub,
   mdiPawOutline,
   mdiTwitter,
-  mdiTelegram,
   mdiImageMultiple,
   mdiSteam,
   mdiHexagon,
@@ -15,6 +14,7 @@ import {
   mdiReddit,
 } from "@mdi/js";
 import { useTranslation } from "react-i18next";
+import { mdiTelegram } from "../components/icons";
 
 export default function Home() {
   const { t } = useTranslation();

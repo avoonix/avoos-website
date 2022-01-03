@@ -5,13 +5,13 @@ import styles from "../styles/container.module.css";
 import {
   mdiGithub,
   mdiTwitter,
-  mdiTelegram,
   mdiImageMultiple,
   mdiSteam,
   mdiLink,
 } from "@mdi/js";
 import ProfileImage from "../components/ProfileImage";
 import { useTranslation } from "react-i18next";
+import { mdiTelegram } from "../components/icons";
 
 export default function Home() {
   const { t } = useTranslation();
