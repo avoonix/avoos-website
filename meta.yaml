@@ -1,4 +1,29 @@
 gallery:
+  strawbear/loucas-and-avoonix-enjoying-paws-winter-ych.png:
+    id: RTP
+    artist: strawbear
+    grid:
+      w: 4
+      h: 3
+    meta:
+      en:
+        title: "Loucas and Avoonix enjoying paws"
+        description: ""
+        alt: ""
+      de:
+        title: "Loucas und Avoonix Winter YCH"
+        description: ""
+        alt: ""
+    tags:
+      - yiff
+      - thigh-highs
+      - paws
+      - fox
+      - pink
+      - wolf
+    color: "#503a2c"
+    width: 3280
+    height: 2784
   hufnaar/lou-and-avoo-visit-santa.jpg:
     id: Hah
     artist: hufnaar
@@ -8,7 +33,7 @@ gallery:
     meta:
       en:
         title: Lou and Avoo Visit Santa
-        description: "Santa is https://www.furaffinity.net/user/sockstehfox"
+        description: Santa is https://www.furaffinity.net/user/sockstehfox
         alt: ""
       de:
         title: Lou und Avoo besuchen Santa
@@ -2127,6 +2152,9 @@ artists:
   hufnaar:
     url: https://www.furaffinity.net/user/hufnaar/
     name: Hufnaar
+  strawbear:
+    url: "https://www.furaffinity.net/user/strawbear/"
+    name: StrawBear
 tags:
   yiff:
     en: Yiff
