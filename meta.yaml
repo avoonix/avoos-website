@@ -7,11 +7,11 @@ gallery:
       h: 3
     meta:
       en:
-        title: "Loucas and Avoonix enjoying paws"
+        title: Loucas and Avoonix enjoying paws
         description: ""
         alt: ""
       de:
-        title: "Loucas und Avoonix Winter YCH"
+        title: Loucas und Avoonix Winter YCH
         description: ""
         alt: ""
     tags:
@@ -77,6 +77,83 @@ gallery:
       - pink
     width: 2659
     height: 1626
+  spookyfoxinc/avoo-hugging-a-ych.png:
+    id: jaq
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Avoo hugging YCH
+        description: ""
+        alt: ""
+      de:
+        title: Avoo umarmt YCH
+        description: ""
+        alt: ""
+    color: "#e864ca"
+    oldPath: spookyfoxinc/IMG_2338.png
+    tags:
+      - sfw
+      - heart
+      - sticker
+      - hug
+      - collar
+      - standing
+      - fox
+      - pink
+    width: 512
+    height: 512
+  sunii-side/loucas-and-avoonix-profile-pictures.jpg:
+    id: z2C
+    artist: sunii-side
+    grid:
+      w: 2
+      h: 1
+    meta:
+      en:
+        title: "Loucas and Avoonix profile pictures"
+        description: ""
+        alt: ""
+      de:
+        title: "Loucas und Avoonix Profilbilder"
+        description: ""
+        alt: ""
+    tags:
+      - sfw
+      - collar
+      - fox
+      - pink
+      - wolf
+    color: "#f2dce7"
+    width: 748
+    height: 406
+  spookyfoxinc/avoo-pleading-sticker.png:
+    id: qkf
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Please
+        description: ""
+        alt: ""
+      de:
+        title: Bitte
+        description: ""
+        alt: ""
+    color: "#f6d2eb"
+    oldPath: spookyfoxinc/IMG_2723.png
+    tags:
+      - sfw
+      - sticker
+      - collar
+      - fox
+      - pink
+    width: 512
+    height: 512
   redwolfakasora/photo-of-avoonix-blep-badge.jpg:
     id: 3n5
     artist: redwolfakasora
@@ -2044,59 +2121,6 @@ gallery:
       - wolf
     width: 512
     height: 512
-  spookyfoxinc/avoo-hugging-a-ych.png:
-    id: jaq
-    artist: spookyfoxinc
-    grid:
-      w: 1
-      h: 1
-    meta:
-      en:
-        title: Avoo hugging YCH
-        description: ""
-        alt: ""
-      de:
-        title: Avoo umarmt YCH
-        description: ""
-        alt: ""
-    color: "#e864ca"
-    oldPath: spookyfoxinc/IMG_2338.png
-    tags:
-      - sfw
-      - heart
-      - sticker
-      - hug
-      - collar
-      - standing
-      - fox
-      - pink
-    width: 512
-    height: 512
-  spookyfoxinc/avoo-pleading-sticker.png:
-    id: qkf
-    artist: spookyfoxinc
-    grid:
-      w: 1
-      h: 1
-    meta:
-      en:
-        title: Please
-        description: ""
-        alt: ""
-      de:
-        title: Bitte
-        description: ""
-        alt: ""
-    color: "#f6d2eb"
-    oldPath: spookyfoxinc/IMG_2723.png
-    tags:
-      - sfw
-      - sticker
-      - collar
-      - fox
-      - pink
-    width: 512
-    height: 512
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
@@ -2153,8 +2177,11 @@ artists:
     url: https://www.furaffinity.net/user/hufnaar/
     name: Hufnaar
   strawbear:
-    url: "https://www.furaffinity.net/user/strawbear/"
+    url: https://www.furaffinity.net/user/strawbear/
     name: StrawBear
+  sunii-side:
+    url: https://www.etsy.com/people/ncd7yuzqa9713chp
+    name: SuniiSide
 tags:
   yiff:
     en: Yiff
