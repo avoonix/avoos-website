@@ -39,7 +39,7 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
           loaderColor="#e47ec5"
           src={frontMatter?.images?.[0] || "/images/blog/lowpoly.png"}
           rounded={false}
-          className="blog-cover-image"
+          className={styles.postImage}
         />
         <div
           style={{

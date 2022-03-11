@@ -14,3 +14,7 @@
   margin: auto;
   padding: 0 8px;
 }
+
+.postImage {
+  filter: brightness(.4);
+}
