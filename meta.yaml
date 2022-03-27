@@ -1,4 +1,105 @@
 gallery:
+  toxxy-the-trash/avoo-diaper-blush-pee.png:
+    id: Py1
+    artist: toxxy-the-trash
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: "Avoo blushing while wearing a diaper (pee version)"
+        description: ""
+        alt: ""
+      de:
+        title: "Avoo errötet beim Tragen einer Windel (nass)"
+        description: ""
+        alt: ""
+    tags:
+      - yiff
+      - diaper
+      - collar
+      - standing
+      - fox
+      - pink
+    color: "#cd47a4"
+    width: 2000
+    height: 2200
+  toxxy-the-trash/avoo-diaper-blush.png:
+    id: tch
+    artist: toxxy-the-trash
+    grid:
+      w: 3
+      h: 3
+    meta:
+      en:
+        title: "Avoo blushing while wearing a diaper"
+        description: ""
+        alt: ""
+      de:
+        title: "Avoo errötet beim Tragen einer Windel"
+        description: ""
+        alt: ""
+    tags:
+      - yiff
+      - diaper
+      - collar
+      - standing
+      - fox
+      - pink
+    color: "#cd47a4"
+    width: 2000
+    height: 2200
+  spookyfoxinc/avoo-sniffing-underwear-sticker.png:
+    id: jcR
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Underwear~
+        description: ""
+        alt: ""
+      de:
+        title: Unterwäsche~
+        description: ""
+        alt: ""
+    color: "#f067c3"
+    oldPath: spookyfoxinc/IMG_4206.png
+    tags:
+      - yiff
+      - sticker
+      - collar
+      - fox
+      - pink
+    width: 512
+    height: 512
+  spookyfoxinc/lou-pinning-avoo-sticker.png:
+    id: Fxg
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Lou pinning Avoo
+        description: ""
+        alt: ""
+      de:
+        title: Avoo festgehalten von Lou
+        description: ""
+        alt: ""
+    color: "#9d6d7d"
+    oldPath: spookyfoxinc/IMG_3076.png
+    tags:
+      - yiff
+      - collar
+      - standing
+      - fox
+      - pink
+      - wolf
+    width: 512
+    height: 512
   strawbear/loucas-and-avoonix-enjoying-paws-winter-ych.png:
     id: RTP
     artist: strawbear
@@ -113,11 +214,11 @@ gallery:
       h: 1
     meta:
       en:
-        title: "Loucas and Avoonix profile pictures"
+        title: Loucas and Avoonix profile pictures
         description: ""
         alt: ""
       de:
-        title: "Loucas und Avoonix Profilbilder"
+        title: Loucas und Avoonix Profilbilder
         description: ""
         alt: ""
     tags:
@@ -1294,32 +1395,6 @@ gallery:
       - wolf
     width: 512
     height: 512
-  spookyfoxinc/lou-pinning-avoo-sticker.png:
-    id: Fxg
-    artist: spookyfoxinc
-    grid:
-      w: 1
-      h: 1
-    meta:
-      en:
-        title: Lou pinning Avoo
-        description: ""
-        alt: ""
-      de:
-        title: Avoo festgehalten von Lou
-        description: ""
-        alt: ""
-    color: "#9d6d7d"
-    oldPath: spookyfoxinc/IMG_3076.png
-    tags:
-      - yiff
-      - collar
-      - standing
-      - fox
-      - pink
-      - wolf
-    width: 512
-    height: 512
   asgardianartist/avoo-standing-smiling.png:
     id: XAG
     artist: asgardianartist
@@ -1635,12 +1710,37 @@ gallery:
       - wolf
     width: 512
     height: 512
+  spookyfoxinc/avoo-horny-with-vibrator-sticker.png:
+    id: eRu
+    artist: spookyfoxinc
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: Hehe
+        description: ""
+        alt: ""
+      de:
+        title: Hehe
+        description: ""
+        alt: ""
+    color: "#f2d2e8"
+    oldPath: spookyfoxinc/IMG_4225.png
+    tags:
+      - yiff
+      - sticker
+      - collar
+      - fox
+      - pink
+    width: 512
+    height: 512
   wallswhisper/lou-avoo-missonary.png:
     id: WPt
     artist: wallswhisper
     grid:
-      w: 3
-      h: 2
+      w: 4
+      h: 3
     meta:
       en:
         title: Lou and Avoo in missionary position
@@ -1913,31 +2013,6 @@ gallery:
       - pink
     width: 512
     height: 512
-  spookyfoxinc/avoo-sniffing-underwear-sticker.png:
-    id: jcR
-    artist: spookyfoxinc
-    grid:
-      w: 1
-      h: 1
-    meta:
-      en:
-        title: Underwear~
-        description: ""
-        alt: ""
-      de:
-        title: Unterwäsche~
-        description: ""
-        alt: ""
-    color: "#f067c3"
-    oldPath: spookyfoxinc/IMG_4206.png
-    tags:
-      - yiff
-      - sticker
-      - collar
-      - fox
-      - pink
-    width: 512
-    height: 512
   spookyfoxinc/avoo-hugging-sad-ych-sticker.png:
     id: Uvu
     artist: spookyfoxinc
@@ -2044,31 +2119,6 @@ gallery:
       - wolf
     width: 1111
     height: 1280
-  spookyfoxinc/avoo-horny-with-vibrator-sticker.png:
-    id: eRu
-    artist: spookyfoxinc
-    grid:
-      w: 1
-      h: 1
-    meta:
-      en:
-        title: Hehe
-        description: ""
-        alt: ""
-      de:
-        title: Hehe
-        description: ""
-        alt: ""
-    color: "#f2d2e8"
-    oldPath: spookyfoxinc/IMG_4225.png
-    tags:
-      - yiff
-      - sticker
-      - collar
-      - fox
-      - pink
-    width: 512
-    height: 512
   spookyfoxinc/avoo-rubbing-ych-belly-sticker.png:
     id: 2oy
     artist: spookyfoxinc
