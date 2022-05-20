@@ -1,5 +1,4 @@
 const fs = require("fs");
-const globby = require('globby')
 const YAML = require("yaml");
 const path = require("path");
 const prettier = require("prettier")
@@ -31,6 +30,8 @@ async function generateSiteMap() {
       ([path, g]) => `/gallery/${getSlug({ path, id: g.id })}`
     ),
   ];
+
+  const { globby } = await import('globby')
 
    const blogPages = (await globby([
     'blog/**/*.mdx',

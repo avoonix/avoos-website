@@ -18,6 +18,7 @@ export default class MyDocument extends Document {
     const initialProps = await Document.getInitialProps(ctx);
     return {
       ...page,
+      ...initialProps,
       styles: [
         <style
           key="custom"
