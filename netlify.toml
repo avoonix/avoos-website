@@ -1,12 +1,3 @@
-[[plugins]]
-  package = "netlify-plugin-submit-sitemap"
-  [plugins.inputs]
-    sitemapPath = "/sitemap.xml"
-    providers = [
-      "google",
-      "bing",
-      "yandex"
-    ]
 [build]
   publish = "out/"
   command = "npx pnpm install --store=node_modules/.pnpm-store && npx pnpm build"
