@@ -8,7 +8,7 @@ export default function MarkdownImage({ src, title, alt, ...rest }) {
   }
 
   return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
+    <span style={{ display: "flex", justifyContent: "center" }}>
       <a
         rel="nofollow"
         href={src}
@@ -24,6 +24,6 @@ export default function MarkdownImage({ src, title, alt, ...rest }) {
           style={{ position: "relative" }}
         />
       </a>
-    </div>
+    </span>
   );
 }

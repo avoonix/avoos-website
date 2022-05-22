@@ -29,7 +29,7 @@ export default function LazyImage({
 
   return (
     <>
-      <div
+      <span
         className={classNames(
           styles.loader,
           visible ? styles.invisible : styles.visible
@@ -37,6 +37,7 @@ export default function LazyImage({
         style={{
           backgroundColor: loaderColor,
           borderRadius: loaderBorderRadius,
+          display: "block",
         }}
       />
       <picture>
