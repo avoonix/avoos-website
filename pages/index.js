@@ -26,7 +26,7 @@ export default function Home() {
         hidePaw
       />
       <NarrowSection as="main">
-        <div className={styles.container} itemScope itemType="http://schema.org/Person">
+        <div className={styles.container}>
           <div
             style={{
               display: "flex",
@@ -43,14 +43,6 @@ export default function Home() {
           <IconLink href="/socials-and-other-links" iconPath={mdiLink} text={t("socialsAndOtherLinks")} title={t("socialsAndOtherLinks")} />
           <IconLink href="/gallery" iconPath={mdiImageMultiple} text={t("gallery")} title={t("gallery")} />
           <IconLink href="/nsfw-gallery" iconPath={mdiImageMultiple} text={t("nsfwGallery")} title={t("nsfwGallery")} />
-
-          <div className={utilStyles.hidden}>
-            <span itemProp="alternateName">Avoo</span>
-            <a itemProp="url" href="https://avoonix.com/" title="Website" rel="me">
-              https://avoonix.com/
-            </a>
-            <p itemProp="description">{t("itemDescription")}</p>
-          </div>
         </div>
       </NarrowSection>
     </>

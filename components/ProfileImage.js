@@ -6,7 +6,6 @@ export default function ProfileImage() {
     <div className={style.profileContainer}>
       <div className={style.imageContainer}>
         <LazyImage
-          itemProp="image"
           alt="Avoonix"
           className={style.profilePicture}
           width="200"
