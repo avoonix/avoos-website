@@ -3,9 +3,6 @@
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
 }

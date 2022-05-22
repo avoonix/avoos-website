@@ -1,11 +1,12 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { ServerStyleSheet } from "styled-components";
 import bundleCss from "!raw-loader!../styles/critical.css";
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html lang={process.env.NEXT_PUBLIC_I18N_LOCALE}>
-        <Head />
+        <Head>{this.props.styleTags}</Head>
         <body>
           <Main />
           <NextScript />
@@ -14,7 +15,9 @@ export default class MyDocument extends Document {
     );
   }
   static async getInitialProps(ctx) {
-    const page = ctx.renderPage((App) => (props) => <App {...props} />);
+    const sheet = new ServerStyleSheet();
+    const page = ctx.renderPage((App) => (props) => sheet.collectStyles(<App {...props} />));
+    const styleTags = sheet.getStyleElement();
     const initialProps = await Document.getInitialProps(ctx);
     return {
       ...page,
@@ -27,17 +30,8 @@ export default class MyDocument extends Document {
           }}
         />,
         ...initialProps.styles,
-        // process.env.NODE_ENV === "production" ? (
-        //   <style
-        //     key="custom"
-        //     dangerouslySetInnerHTML={{
-        //       __html: bundleCss,
-        //     }}
-        //   />
-        // ) : (
-        //   <></>
-        // ),
       ],
+      styleTags,
     };
   }
 }

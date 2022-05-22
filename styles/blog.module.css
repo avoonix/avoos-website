@@ -9,12 +9,6 @@
   box-shadow: 0 0 0 4px var(--light-pink);
 }
 
-.narrowSection {
-  max-width: 600px;
-  margin: auto;
-  padding: 0 8px;
-}
-
 .postImage {
   filter: brightness(.4);
 }

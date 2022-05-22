@@ -8,14 +8,12 @@ import { useTranslation } from "react-i18next";
 import { getImageTitle } from "../../utils/i18n";
 import LazyImage from "../../components/LazyImage";
 import Tags from "../../components/Tags";
-import blogStyles from "../../styles/blog.module.css";
+import NarrowSection from "../../components/common/NarrowSection";
 
 export default function Image({ imageData, artistData, children }) {
   const { t } = useTranslation();
 
-  const back = imageData.isNsfw
-    ? `/nsfw-gallery#${imageData.id}`
-    : `/gallery#${imageData.id}`;
+  const back = imageData.isNsfw ? `/nsfw-gallery#${imageData.id}` : `/gallery#${imageData.id}`;
   const backText = imageData.isNsfw ? t("nsfwGallery") : t("gallery");
 
   return (
@@ -32,17 +30,12 @@ export default function Image({ imageData, artistData, children }) {
       }}
       fullWidth
     >
-      <div className={blogStyles.narrowSection}>
+      <NarrowSection>
         <IconLink href={back} iconPath={mdiArrowLeft} text={backText} />
-      </div>
+      </NarrowSection>
       <article>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <a
-            rel="nofollow"
-            href={`https://i.avoonix.com${imageData.path}`}
-            target="_blank"
-            style={{ position: "relative" }}
-          >
+          <a rel="nofollow" href={`https://i.avoonix.com${imageData.path}`} target="_blank" style={{ position: "relative" }}>
             <LazyImage
               loaderColor={imageData.color}
               src={imageData.path}
@@ -58,15 +51,15 @@ export default function Image({ imageData, artistData, children }) {
           </a>
         </div>
 
-        <div className={blogStyles.narrowSection}>
+        <NarrowSection>
           <h1>{imageData.title}</h1>
           <Artist name={artistData.name} url={artistData.url} />
           <p style={{ whiteSpace: "pre-wrap" }}>{imageData.description}</p>
           <Tags tags={imageData.tags} />
           {/* <Characters /> */}
-        </div>
+        </NarrowSection>
       </article>
-      <div className={blogStyles.narrowSection}>{children}</div>
+      <NarrowSection>{children}</NarrowSection>
     </Layout>
   );
 }

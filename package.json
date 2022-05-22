@@ -11,6 +11,7 @@
   "dependencies": {
     "@mdi/js": "^6.7.96",
     "@mdi/react": "^1.6.0",
+    "@types/styled-components": "^5.1.25",
     "classnames": "^2.3.1",
     "copy-to-clipboard": "^3.3.1",
     "globby": "^13.1.1",
@@ -24,11 +25,13 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-i18next": "^11.16.9",
+    "react-is": "^18.1.0",
     "reading-time": "^1.5.0",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-slug": "^5.0.1",
     "remark-autolink-headings": "^7.0.1",
     "remark-slug": "^7.0.1",
+    "styled-components": "^5.3.5",
     "webpack": "^5.72.1",
     "yaml": "^2.1.0"
   }

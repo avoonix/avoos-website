@@ -2,18 +2,14 @@ import IconLink from "../../components/IconLink";
 import { mdiArrowLeft, mdiPageNext } from "@mdi/js";
 import Layout from "../../components/Layout";
 import { useTranslation } from "react-i18next";
-import {
-  formatSlug,
-  getAllFilesFrontMatter,
-  getFileBySlug,
-  getFiles,
-} from "../../lib/blog";
+import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from "../../lib/blog";
 import { formatPostDate } from "../../utils/post";
 import LazyImage from "../../components/LazyImage";
 import AspectRatio from "../../components/AspectRatio";
 import Link from "next/link";
 import styles from "../../styles/blog.module.css";
 import MarkdownRenderer from "../../components/MarkdownRenderer";
+import NarrowSection from "../../components/common/NarrowSection";
 
 export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
   const { t } = useTranslation();
@@ -27,20 +23,12 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
         image: frontMatter?.images?.[0] || undefined,
       }}
     >
-      <div className={styles.narrowSection}>
+      <NarrowSection>
         <IconLink href="/blog" iconPath={mdiArrowLeft} text={t("blog")} />
-      </div>
+      </NarrowSection>
 
       <div style={{ height: "80vh", position: "relative" }}>
-        <LazyImage
-          width="100"
-          height="100"
-          alt="low poly background"
-          loaderColor="#e47ec5"
-          src={frontMatter?.images?.[0] || "/images/blog/lowpoly.png"}
-          rounded={false}
-          className={styles.postImage}
-        />
+        <LazyImage width="100" height="100" alt="low poly background" loaderColor="#e47ec5" src={frontMatter?.images?.[0] || "/images/blog/lowpoly.png"} rounded={false} className={styles.postImage} />
         <div
           style={{
             position: "absolute",
@@ -48,7 +36,7 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
             width: "100%",
           }}
         >
-          <div className={styles.narrowSection}>
+          <NarrowSection>
             <div>
               <div>
                 {Math.ceil(frontMatter.readingTime.minutes)} {t("minutesRead")}
@@ -67,16 +55,7 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
                 <AspectRatio ratio={1}>
                   <Link href="/">
                     <a title="Avoonix">
-                      <LazyImage
-                        alt="Avoonix"
-                        width="100"
-                        height="100"
-                        title="Avoonix"
-                        loaderColor="#ffd4f1"
-                        src="/images/avoonix/avoo-headshot-sky.png"
-                        loaderBorderRadius="50%"
-                        className={styles.authorImage}
-                      />
+                      <LazyImage alt="Avoonix" width="100" height="100" title="Avoonix" loaderColor="#ffd4f1" src="/images/avoonix/avoo-headshot-sky.png" loaderBorderRadius="50%" className={styles.authorImage} />
                     </a>
                   </Link>
                 </AspectRatio>
@@ -95,42 +74,24 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
                   </Link>
                 </div>
                 <div>
-                  <time dateTime={frontMatter.date}>
-                    {formatPostDate(frontMatter.date)}
-                  </time>{" "}
+                  <time dateTime={frontMatter.date}>{formatPostDate(frontMatter.date)}</time>{" "}
                 </div>
               </div>
             </div>
-          </div>
+          </NarrowSection>
         </div>
       </div>
 
-      <div className={styles.narrowSection}>
-        <article>
-          <MarkdownRenderer source={mdxSource} />
-        </article>
-      </div>
+      <NarrowSection as="article">
+        <MarkdownRenderer source={mdxSource} />
+      </NarrowSection>
 
       {prev || next ? (
-        <div className={styles.narrowSection}>
+        <NarrowSection>
           <h3>{t("continueReading")}</h3>
-          {prev && (
-            <IconLink
-              href={`/blog/${prev.slug}`}
-              iconPath={mdiPageNext}
-              text={prev.title}
-              title={prev.title}
-            />
-          )}
-          {next && (
-            <IconLink
-              href={`/blog/${next.slug}`}
-              iconPath={mdiPageNext}
-              text={next.title}
-              title={next.title}
-            />
-          )}
-        </div>
+          {prev && <IconLink href={`/blog/${prev.slug}`} iconPath={mdiPageNext} text={prev.title} title={prev.title} />}
+          {next && <IconLink href={`/blog/${next.slug}`} iconPath={mdiPageNext} text={next.title} title={next.title} />}
+        </NarrowSection>
       ) : null}
     </Layout>
   );
@@ -150,9 +111,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const allPosts = await getAllFilesFrontMatter("blog");
-  const postIndex = allPosts.findIndex(
-    (post) => formatSlug(post.slug) === params.slug.join("/")
-  );
+  const postIndex = allPosts.findIndex((post) => formatSlug(post.slug) === params.slug.join("/"));
   const prev = allPosts[postIndex + 1] || null;
   const next = allPosts[postIndex - 1] || null;
   const post = await getFileBySlug("blog", params.slug.join("/"));
