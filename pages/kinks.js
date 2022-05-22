@@ -4,6 +4,7 @@ import { mdiArrowLeft } from "@mdi/js";
 import { useTranslation } from "react-i18next";
 import KinkList, { getColor } from "../components/KinkList";
 import { kinks } from "../lib/kinks";
+import Head from "next/head";
 
 // todo: translations
 
@@ -14,9 +15,11 @@ export default function Home() {
     <Layout
       meta={{
         title: t("kinks"),
-        noindex: true,
       }}
     >
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <div>
         <IconLink href="/" iconPath={mdiArrowLeft} text={t("home")} />
       </div>
@@ -31,11 +34,11 @@ export default function Home() {
             <td>No answer/don't care/don't know</td>
           </tr>
           <tr>
-            <td style={{color: getColor(false)}}>{t("kinks.hard-limit")}</td>
+            <td style={{ color: getColor(false) }}>{t("kinks.hard-limit")}</td>
             <td>Will not do</td>
           </tr>
           <tr>
-            <td style={{color: getColor(0)}}>{t("kinks.soft-limit")}</td>
+            <td style={{ color: getColor(0) }}>{t("kinks.soft-limit")}</td>
             <td>Will maybe do, depending on the circumstances</td>
           </tr>
           <tr>
@@ -51,11 +54,11 @@ export default function Home() {
             <td>Neither like nor dislike</td>
           </tr>
           <tr>
-            <td style={{color: getColor(4)}}>{t("kinks.numbered.4")}</td>
+            <td style={{ color: getColor(4) }}>{t("kinks.numbered.4")}</td>
             <td>Enjoy and want to do often</td>
           </tr>
           <tr>
-            <td style={{color: getColor(5)}}>{t("kinks.numbered.5")}</td>
+            <td style={{ color: getColor(5) }}>{t("kinks.numbered.5")}</td>
             <td>Really want to do as much as possible</td>
           </tr>
         </tbody>

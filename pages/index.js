@@ -1,4 +1,3 @@
-import Layout from "../components/Layout";
 import utilStyles from "../styles/utils.module.css";
 import IconLink from "../components/IconLink";
 import styles from "../styles/container.module.css";
@@ -8,19 +7,14 @@ import { useTranslation } from "react-i18next";
 import { mdiTelegram } from "../components/icons";
 import WideHeader from "../components/common/WideHeader";
 import NarrowSection from "../components/common/NarrowSection";
+import IndexPageMeta from "../components/seo/IndexPageMeta";
 
 export default function Home() {
   const { t } = useTranslation();
 
   return (
-    <Layout
-      fullWidth
-      meta={{
-        title: t("title"),
-        description: t("description"),
-        image: "/images/avoonix/avoo-headshot-sky.png",
-      }}
-    >
+    <>
+    <IndexPageMeta />
       <WideHeader
         title="Avoonix"
         description={
@@ -31,7 +25,7 @@ export default function Home() {
         }
         hidePaw
       />
-      <NarrowSection>
+      <NarrowSection as="main">
         <div className={styles.container} itemScope itemType="http://schema.org/Person">
           <div
             style={{
@@ -59,6 +53,6 @@ export default function Home() {
           </div>
         </div>
       </NarrowSection>
-    </Layout>
+    </>
   );
 }
