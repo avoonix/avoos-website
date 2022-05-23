@@ -3,15 +3,8 @@ import styles from "./LazyImage.module.css";
 import classNames from "classnames";
 import { imgPathToAvif, imgPathToWebp } from "../utils/img";
 
-export default function LazyImage({
-  loaderColor,
-  src,
-  loaderBorderRadius = 0,
-  className = null,
-  rounded = true,
-  ...rest
-}) {
-  if(src && src.startsWith("/images")) {
+export default function LazyImage({ loaderColor, src, loaderBorderRadius = 0, className = null, rounded = true, ...rest }) {
+  if (src && src.startsWith("/images")) {
     src = `https://i.avoonix.com${src}`;
   }
 
@@ -30,10 +23,7 @@ export default function LazyImage({
   return (
     <>
       <span
-        className={classNames(
-          styles.loader,
-          visible ? styles.invisible : styles.visible
-        )}
+        className={classNames(styles.loader, visible ? styles.invisible : styles.visible)}
         style={{
           backgroundColor: loaderColor,
           borderRadius: loaderBorderRadius,
@@ -43,18 +33,7 @@ export default function LazyImage({
       <picture>
         <source srcSet={imgPathToAvif(src)} type="image/avif" />
         <source srcSet={imgPathToWebp(src)} type="image/webp" />
-        <img
-          ref={img}
-          onLoad={() => setVisible(true)}
-          className={classNames(
-            styles.image,
-            visible ? styles.visible : styles.invisible,
-            className,
-            rounded && "rounded"
-          )}
-          src={src}
-          {...rest}
-        />
+        <img loading="lazy" ref={img} onLoad={() => setVisible(true)} className={classNames(styles.image, visible ? styles.visible : styles.invisible, className, rounded && "rounded")} src={src} {...rest} />
       </picture>
     </>
   );
