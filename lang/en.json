@@ -38,7 +38,7 @@
   "kinks.numbered.3": "Neutral",
   "kinks.numbered.4": "Enjoy",
   "kinks.numbered.5": "UwU~",
-  "moreImagesBy": "More Images by {{artist}}",
-  "imagesBy": "Images by {{artist}}",
-  "imagesTaggedWith": "Images Containing {{tag}}"
+  "moreImagesBy": "More Art by {{artist}}",
+  "imagesBy": "Art by {{artist}}",
+  "imagesTaggedWith": "Art Containing {{tag}}"
 }

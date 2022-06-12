@@ -7,7 +7,6 @@
   "description": "Hewwo! Ich bin Avoonix, ein pinker Fuchs aus Österreich :3. Unter anderem programmiere ich leidenschaftlich und liebe Umarmungen und Halsbänder. ",
   "gallery": "Galerie (sfw)",
   "avoonixGallery": "Avoonix' Galerie",
-  "galleryDescription": "Eine Sammlung von {{count}} Bildern von Avoo. Etwas Yiff ist auch dabei :3",
   "home": "Startseite",
   "e6favorites": "e6 Favoriten",
   "reference": "Referenz",
@@ -37,5 +36,9 @@
   "kinks.numbered.2": "Okay",
   "kinks.numbered.3": "Neutral",
   "kinks.numbered.4": "Gerne",
-  "kinks.numbered.5": "UwU~"
+  "kinks.numbered.5": "UwU~",
+  "imagesBy": "Kunst von {{artist}}",
+  "imagesTaggedWith": "Kunst mit {{tag}}",
+  "moreImagesBy": "Mehr Kunst von {{artist}}",
+  "stickerCallToAction": "Interessiert? Kontaktieren Sie mich auf Telegram oder Twitter."
 }
