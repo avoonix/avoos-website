@@ -1,37 +1,25 @@
-import Head from "next/head";
-import Layout from "../../components/Layout";
-import { getAllImageIds, getArtistData, getImageData } from "../../lib/gallery";
+import { getArtistData, getGalleryData, getImageData, shuffle } from "../../lib/gallery";
 import IconLink from "../../components/IconLink";
-import { mdiArrowLeft } from "@mdi/js";
+import { mdiArrowLeft, mdiBrush } from "@mdi/js";
 import Artist from "../../components/Artist";
 import { useTranslation } from "react-i18next";
 import { getImageTitle } from "../../utils/i18n";
 import LazyImage from "../../components/LazyImage";
 import Tags from "../../components/Tags";
 import NarrowSection from "../../components/common/NarrowSection";
+import { getSlug } from "../../utils/img";
+import List from "../../components/gallery/List";
+import Color from "../../components/Color";
+import ImageMeta from "../../components/seo/ImageMeta";
 
-export default function Image({ imageData, artistData, children }) {
+export default function Image({ imageData, artistData, allGalleryData }) {
   const { t } = useTranslation();
 
-  const back = imageData.isNsfw ? `/nsfw-gallery#${imageData.id}` : `/gallery#${imageData.id}`;
-  const backText = imageData.isNsfw ? t("nsfwGallery") : t("gallery");
-
   return (
-    <Layout
-      meta={{
-        title:
-          getImageTitle({
-            title: imageData.title,
-            artist: imageData.artist,
-            t,
-          }) + " - Avoonix",
-        description: imageData.description,
-        image: imageData.path,
-      }}
-      fullWidth
-    >
+    <>
+      <ImageMeta imageData={imageData} artistData={artistData} />
       <NarrowSection>
-        <IconLink href={back} iconPath={mdiArrowLeft} text={backText} />
+        <IconLink href="/gallery" iconPath={mdiArrowLeft} text={t("gallery")} />
       </NarrowSection>
       <article>
         <div style={{ display: "flex", justifyContent: "center" }}>
@@ -59,13 +47,30 @@ export default function Image({ imageData, artistData, children }) {
           {/* <Characters /> */}
         </NarrowSection>
       </article>
-      <NarrowSection>{children}</NarrowSection>
-    </Layout>
+      {imageData.id === "ref" && (
+        <NarrowSection>
+          <Color color="#ff55c8" />
+          <Color color="#ffd4f1" />
+          <Color color="#316ac6" />
+          <Color color="#f6d03a" />
+          <Color color="#4bc04b" />
+          <Color color="#f6a39f" />
+          <Color color="#3b3638" />
+        </NarrowSection>
+      )}
+
+      {allGalleryData.length && <List allGalleryData={allGalleryData} title={t("imagesBy", { artist: artistData.name })} />}
+      <NarrowSection>
+        <IconLink href={`/gallery/by/${artistData.id}`} iconPath={mdiBrush} text={t("moreImagesBy", { artist: artistData.name })} />
+      </NarrowSection>
+    </>
   );
 }
 
 export async function getStaticPaths() {
-  const paths = getAllImageIds(["ref"]);
+  const paths = getGalleryData().map((info) => ({
+    params: { id: getSlug(info) },
+  }));
 
   return {
     paths,
@@ -76,11 +81,20 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const imageData = getImageData(params.id.split("-")[0]);
   const artistData = getArtistData(imageData.artist);
+  const allGalleryData = shuffle(
+    getGalleryData({ artist: imageData.artist })
+      .filter((im) => im.id !== imageData.id)
+      .map((id) => ({ ...id, grid: { w: 1, h: 1 } }))
+  );
+
+  const maxShown = 4;
 
   return {
     props: {
       imageData,
       artistData,
+      allGalleryData: allGalleryData.slice(0, maxShown),
+      galleryOmitted: Math.max(0, allGalleryData.length - maxShown),
     },
   };
 }

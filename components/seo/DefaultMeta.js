@@ -16,6 +16,8 @@ export default function DefaultMeta() {
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
       </Head>
       <DefaultSeo
+        titleTemplate="%s | Avoonix"
+        defaultTitle="Avoonix"
         canonical={`https://avoonix.com${pathWithoutHash}`}
         languageAlternates={[
           { href: `https://avoonix.com${pathWithoutHash}`, hrefLang: "x-default" },

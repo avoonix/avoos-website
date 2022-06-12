@@ -1,26 +1,46 @@
-import { mdiHome, mdiImageMultiple } from "@mdi/js";
+import { mdiHome } from "@mdi/js";
 import { useTranslation } from "react-i18next";
+import styled from "styled-components";
 import IconLink from "../components/IconLink";
-import Layout from "../components/Layout";
+import NotFoundPageMeta from "../components/seo/NotFoundPageMeta";
+
+const Container = styled.div`
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 120px;
+  padding-left: 120px;
+  max-width: 1000px;
+  @media (max-width: 600px) {
+    justify-content: initial;
+    padding-right: 0;
+    padding-left: 0;
+  }
+`;
+
+const Content = styled.main`
+  padding: 8px;
+  width: 50%;
+  height: 100%;
+  @media (max-width: 600px) {
+    width: 100%;
+    max-width: unset;
+  }
+`;
 
 export default function Custom404() {
   const { t } = useTranslation();
   return (
-    <Layout
-      meta={{
-        title: "404 - Avoonix",
-        description: t("pageNotFound"),
-      }}
-    >
-      <h1>404 - {t("pageNotFound")}</h1>
-      <p>Try some of these places instead</p>
-      <IconLink href="/" iconPath={mdiHome} text={t("home")} />
-      <IconLink
-        href="/gallery"
-        iconPath={mdiImageMultiple}
-        text={t("gallery")}
-        title={t("gallery")}
-      />
-    </Layout>
+    <>
+      <NotFoundPageMeta />
+      <Container>
+        <Content>
+          <h1>404</h1>
+          <p>{t("pageNotFound")}</p>
+          <IconLink href="/" iconPath={mdiHome} text={t("home")} />
+        </Content>
+      </Container>
+    </>
   );
 }

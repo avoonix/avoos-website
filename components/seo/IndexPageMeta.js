@@ -8,6 +8,7 @@ export default function IndexPageMeta() {
     <>
       <NextSeo
         title={t("title")}
+        titleTemplate="%s"
         description={t("description")}
         openGraph={{
           type: "profile",
@@ -25,7 +26,7 @@ export default function IndexPageMeta() {
           ],
         }}
       />
-      <SocialProfileJsonLd description="A pink fox" alternateName="Avoo" twitter="@avoonix" type="Person" name="Avoonix" url="https://avoonix.com/" sameAs={["https://twitter.com/avoonix", "https://t.me/avoonix", "https://github.com/avoonix", "https://steamcommunity.com/id/avoonix"]} />
+      <SocialProfileJsonLd description={t("description")} alternateName="Avoo" twitter="@avoonix" type="Person" name="Avoonix" url="https://avoonix.com/" sameAs={["https://twitter.com/avoonix", "https://t.me/avoonix", "https://github.com/avoonix", "https://steamcommunity.com/id/avoonix"]} />
     </>
   );
 }

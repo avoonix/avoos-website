@@ -33,6 +33,7 @@
     "rehype-slug": "^5.0.1",
     "remark-autolink-headings": "^7.0.1",
     "remark-slug": "^7.0.1",
+    "seedrandom": "^3.0.5",
     "styled-components": "^5.3.5",
     "webpack": "^5.72.1",
     "yaml": "^2.1.0"

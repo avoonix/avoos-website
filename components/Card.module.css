@@ -1,0 +1,9 @@
+.card {
+  /* border: 1px solid var(--light-pink); */
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 8px;
+  max-width: 90vw;
+  overflow: clip;
+}

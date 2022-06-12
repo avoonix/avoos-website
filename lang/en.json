@@ -6,10 +6,8 @@
   "contact": "Contact",
   "itemDescription": "A pink furry fox",
   "description": "Hewwo! I'm Avoonix, a pink furry fox from Austria :3. Among other things, I am passionate about programming, and love hugs and collars. ",
-  "gallery": "Gallery (sfw)",
-  "nsfwGallery": "Gallery (nsfw)",
+  "gallery": "Gallery",
   "avoonixGallery": "Avoonix' Gallery",
-  "galleryDescription": "A collection of {{count}} drawings of Avoo. Some of these may be yiff :3",
   "home": "Home",
   "e6favorites": "e6 Favorites",
   "reference": "Reference",
@@ -39,5 +37,8 @@
   "kinks.numbered.2": "Okay",
   "kinks.numbered.3": "Neutral",
   "kinks.numbered.4": "Enjoy",
-  "kinks.numbered.5": "UwU~"
+  "kinks.numbered.5": "UwU~",
+  "moreImagesBy": "More Images by {{artist}}",
+  "imagesBy": "Images by {{artist}}",
+  "imagesTaggedWith": "Images Containing {{tag}}"
 }

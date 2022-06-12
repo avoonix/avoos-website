@@ -421,7 +421,6 @@ gallery:
         alt: ""
     tags:
       - sfw
-      - paws
       - collar
       - fox
       - pink
@@ -2356,7 +2355,7 @@ artists:
     name: SuniiSide
   kurixira:
     url: https://www.instagram.com/kurixira/
-    name: kurixira
+    name: Kuri
 tags:
   yiff:
     en: Yiff
@@ -2371,10 +2370,10 @@ tags:
     en: Heart
     de: Herz
   thigh-highs:
-    en: Thigh highs
+    en: Thigh Highs
     de: Oberschenkelstrümpfe
   video-games:
-    en: Video games
+    en: Video Games
     de: Videospiele
   bed:
     en: Bed

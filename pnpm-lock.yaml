@@ -25,6 +25,7 @@ specifiers:
   rehype-slug: ^5.0.1
   remark-autolink-headings: ^7.0.1
   remark-slug: ^7.0.1
+  seedrandom: ^3.0.5
   styled-components: ^5.3.5
   webpack: ^5.72.1
   yaml: ^2.1.0
@@ -54,6 +55,7 @@ dependencies:
   rehype-slug: 5.0.1
   remark-autolink-headings: 7.0.1
   remark-slug: 7.0.1
+  seedrandom: 3.0.5
   styled-components: 5.3.5_4klixn56hmiqf6hh5nx3jyckvq
   webpack: 5.72.1
   yaml: 2.1.0
@@ -2083,6 +2085,10 @@ packages:
     dependencies:
       extend-shallow: 2.0.1
       kind-of: 6.0.3
+    dev: false
+
+  /seedrandom/3.0.5:
+    resolution: {integrity: sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==}
     dev: false
 
   /serialize-javascript/6.0.0:

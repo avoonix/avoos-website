@@ -1,8 +1,27 @@
-import styles from "./Color.module.css";
 import copy from "copy-to-clipboard";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import classNames from "classnames";
+import styled from "styled-components";
+
+const Container = styled.div`
+  margin: 12px 0;
+  display: flex;
+  border: 5px solid var(--light-pink);
+  background-color: var(--light-pink);
+  color: var(--dark-pink);
+  cursor: pointer;
+`;
+
+const Text = styled.div`
+  font-family: "Courier New", Courier, monospace;
+  padding: 8px;
+`;
+
+const ColorBox = styled.div`
+  flex: 1 1;
+  padding: 8px;
+  color: black;
+`;
 
 export default function Color({ color }) {
   const { t } = useTranslation();
@@ -17,11 +36,11 @@ export default function Color({ color }) {
     setTm(setTimeout(() => setCopied(false), 1000));
   };
   return (
-    <div className={classNames(styles.container, "rounded")} onClick={copyColor}>
-      <div className={styles.text}>{color}</div>
-      <div className={classNames(styles.color, "rounded")} style={{ backgroundColor: color }}>
+    <Container className="rounded" onClick={copyColor}>
+      <Text>{color}</Text>
+      <ColorBox className="rounded" style={{ backgroundColor: color }}>
         {copied && t("copied")}
-      </div>
-    </div>
+      </ColorBox>
+    </Container>
   );
 }
