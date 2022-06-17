@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import IconLink from "../components/IconLink";
-import { mdiGithub, mdiPawOutline, mdiTwitter, mdiImageMultiple, mdiSteam, mdiHexagon, mdiAccountHeart, mdiPost, mdiDogSide, mdiArrowLeft, mdiReddit } from "@mdi/js";
+import { mdiInstagram, mdiGithub, mdiPawOutline, mdiTwitter, mdiImageMultiple, mdiSteam, mdiHexagon, mdiAccountHeart, mdiPost, mdiDogSide, mdiArrowLeft, mdiReddit } from "@mdi/js";
 import { useTranslation } from "react-i18next";
 import { mdiTelegram } from "../components/icons";
 import NarrowSection from "../components/common/NarrowSection";
@@ -27,6 +27,7 @@ export default function Home() {
         <IconLink href="https://twitter.com/avoonix" iconPath={mdiTwitter} text="Twitter" title={`Twitter ${t("profile")}`} />
         <IconLink href="https://t.me/avoonix" iconPath={mdiTelegram} text="Telegram" title={t("contact")} />
         <IconLink href="https://www.reddit.com/user/avoonix" iconPath={mdiReddit} text="Reddit" title={`Reddit ${t("profile")}`} />
+        <IconLink href="https://www.instagram.com/avoonix.foxo/" iconPath={mdiInstagram} text="Instagram" title={`Instagram ${t("profile")}`} />
         <IconLink href="https://material-e621.vercel.app/#/posts?tags=fav:Avoonix" iconPath={mdiHexagon} text={t("e6favorites")} title={t("e6favorites")} />
         <IconLink href="/gallery/ref-avoonix-reference-sheet" iconPath={mdiAccountHeart} text={t("reference")} title={t("reference")} />
         <IconLink href="/gallery" iconPath={mdiImageMultiple} text={t("gallery")} title={t("gallery")} />
