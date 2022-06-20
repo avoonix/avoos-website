@@ -46,7 +46,7 @@ export default function Home() {
             </div>
 
             <IconLink href="/gallery" iconPath={mdiImageMultiple} text={t("gallery")} title={t("gallery")} />
-            <IconLink href="/socials-and-other-links" iconPath={mdiLink} text={t("socialsAndOtherLinks")} title={t("socialsAndOtherLinks")} />
+            <IconLink href="/links" iconPath={mdiLink} text={t("socialsAndOtherLinks")} title={t("socialsAndOtherLinks")} />
           </div>
         </NarrowSection>
       </HomeContainer>
