@@ -3,3 +3,7 @@
   command = "npx pnpm install --store=node_modules/.pnpm-store && npx pnpm build"
 [build.environment]
   NPM_FLAGS = "--version"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
