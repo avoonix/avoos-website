@@ -16,7 +16,7 @@ const prefix = process.env.NEXT_PUBLIC_I18N_LOCALE === "de" ? "https://de.avooni
 async function generateSiteMap() {
   const meta = YAML.parse(fs.readFileSync(path.join(process.cwd(), "meta.yaml"), "utf8"));
 
-  const pages = ["/", "/gallery", "/blog", ...Object.entries(meta.gallery).map(([path, g]) => `/gallery/${getSlug({ path, id: g.id })}`), ...Object.entries(meta.tags).map(([path]) => `/gallery/tagged/${path}`), ...Object.entries(meta.artists).map(([path]) => `/gallery/by/${path}`)];
+  const pages = ["/", "/gallery", "/links", "/blog", ...Object.entries(meta.gallery).map(([path, g]) => `/gallery/${getSlug({ path, id: g.id })}`), ...Object.entries(meta.tags).map(([path]) => `/gallery/tagged/${path}`), ...Object.entries(meta.artists).map(([path]) => `/gallery/by/${path}`)];
 
   const { globby } = await import("globby");
 
@@ -54,6 +54,7 @@ async function generateSiteMap() {
       "/fetish /kinks",
       "/fetishes /kinks",
       "/nsfw-gallery /gallery/tagged/yiff",
+      "/socials-and-other-links /links",
       ...Object.entries(meta.gallery).map(([path, g]) => `/gallery/${g.id} /gallery/${getSlug({ path, id: g.id })}`),
       ...Object.entries(meta.gallery).map(([path, g]) => `/${g.id} /gallery/${getSlug({ path, id: g.id })}`),
       ...Object.entries(meta.gallery).map(([path, g]) => `/images/${g.oldPath} https://i.avoonix.com/images/${path}`),
