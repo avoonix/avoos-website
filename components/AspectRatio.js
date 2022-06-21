@@ -1,12 +1,11 @@
-import styles from "./AspectRatio.module.css";
+import styled from "styled-components";
+
+const Box = styled.div`
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+`;
 
 export default function AspectRatio({ children, ratio }) {
-  return (
-    <div
-      className={styles.AspectRatioBox}
-      style={{ paddingTop: `${ratio * 100}%` }}
-    >
-      {children}
-    </div>
-  );
+  return <Box style={{ paddingTop: `${ratio * 100}%` }}>{children}</Box>;
 }

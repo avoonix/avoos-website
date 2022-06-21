@@ -59,7 +59,7 @@ export default function Image({ imageData, artistData, allGalleryData }) {
         </NarrowSection>
       )}
 
-      {allGalleryData.length && <List allGalleryData={allGalleryData} title={t("imagesBy", { artist: artistData.name })} />}
+      {allGalleryData.length ? <List allGalleryData={allGalleryData} title={t("imagesBy", { artist: artistData.name })} /> : null}
       <NarrowSection>
         <IconLink href={`/gallery/by/${artistData.id}`} iconPath={mdiBrush} text={t("moreImagesBy", { artist: artistData.name })} />
       </NarrowSection>

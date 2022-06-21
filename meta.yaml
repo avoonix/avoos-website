@@ -534,11 +534,11 @@ gallery:
       en:
         title: Ass
         description: ""
-        alt: "femboy fox presenting ass"
+        alt: femboy fox presenting ass
       de:
         title: Arsch
         description: ""
-        alt: "Femboy Fuchs zeigt Arsch"
+        alt: Femboy Fuchs zeigt Arsch
     color: "#d96fd5"
     oldPath: spookyfoxinc/IMG_2938.png
     tags:
@@ -692,11 +692,11 @@ gallery:
       en:
         title: Avoo blepping in thigh highs and lingerie
         description: ""
-        alt: "femboy fox in thigh highs and lingerie"
+        alt: femboy fox in thigh highs and lingerie
       de:
         title: Avoo in Strümpfen und Dessous
         description: ""
-        alt: "Femboy Fuchs in Strümpfen und Dessous"
+        alt: Femboy Fuchs in Strümpfen und Dessous
     color: "#cddab4"
     oldPath: fleurfurr/avoo.png
     tags:
@@ -1486,11 +1486,11 @@ gallery:
       en:
         title: Avoo presenting paws
         description: ""
-        alt: "femboy fox presenting paws"
+        alt: femboy fox presenting paws
       de:
         title: Avoo präsentiert seine Pfoten
         description: ""
-        alt: "Femboy Fuchs präsentiert Pfoten"
+        alt: Femboy Fuchs präsentiert Pfoten
     color: "#f7d3f2"
     oldPath: spookyfoxinc/IMG_3002.png
     tags:
@@ -2232,6 +2232,32 @@ gallery:
       - pink
     width: 512
     height: 512
+  evilthewolf/furry-couple-sunset-hug.png:
+    id: yHz
+    artist: evilthewolf
+    grid:
+      w: 3
+      h: 3
+    meta:
+      en:
+        title: "Lou and Avoo hugging"
+        description: ""
+        alt: "furry couple cuddling in front of sunset with transparent background"
+      de:
+        title: "Lou und Avoo umarmen sich"
+        description: ""
+        alt: "furry paar das vor sonnenuntergang kuschelt mit transparentem hintergrund"
+    tags:
+      - sfw
+      - hug
+      - collar
+      - standing
+      - fox
+      - pink
+      - wolf
+    color: "#d4695d"
+    width: 2900
+    height: 2996
   adopt-empire/avoo-and-lou-hugging.jpg:
     id: Ggo
     artist: adopt-empire
@@ -2399,6 +2425,9 @@ artists:
   kurixira:
     url: https://www.instagram.com/kurixira/
     name: Kuri
+  evilthewolf:
+    url: https://twitter.com/evilthewolf
+    name: evilthewolf
 tags:
   yiff:
     en: Yiff
