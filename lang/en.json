@@ -40,5 +40,6 @@
   "kinks.numbered.5": "UwU~",
   "moreImagesBy": "More Art by {{artist}}",
   "imagesBy": "Art by {{artist}}",
-  "imagesTaggedWith": "Art Containing {{tag}}"
+  "imagesTaggedWith": "Art Containing {{tag}}",
+  "galleryTitle": "{{tag}} - Gallery"
 }

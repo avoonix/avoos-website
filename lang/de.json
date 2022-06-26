@@ -40,5 +40,6 @@
   "imagesBy": "Kunst von {{artist}}",
   "imagesTaggedWith": "Kunst mit {{tag}}",
   "moreImagesBy": "Mehr Kunst von {{artist}}",
-  "stickerCallToAction": "Interessiert? Kontaktieren Sie mich auf Telegram oder Twitter."
+  "stickerCallToAction": "Interessiert? Kontaktieren Sie mich auf Telegram oder Twitter.",
+  "galleryTitle": "{{tag}} - Galerie"
 }

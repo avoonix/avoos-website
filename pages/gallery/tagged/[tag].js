@@ -11,7 +11,7 @@ export default function Gallery({ allGalleryData, tagData }) {
 
   return (
     <>
-    <ImageListMeta  title={t("imagesTaggedWith", { tag: tagData.translation })} />
+    <ImageListMeta  title={t("galleryTitle", { tag: tagData.translation })} description={t("imagesTaggedWith", { tag: tagData.translation })}  />
       <NarrowSection>
         <IconLink href="/gallery" iconPath={mdiArrowLeft} text={t("gallery")} title={t("gallery")} />
       </NarrowSection>
