@@ -11,7 +11,7 @@ export default function ByArtist({ allGalleryData, artistData }) {
 
   return (
     <>
-      <ImageListMeta title={t("imagesBy", { artist: artistData.name })} />
+      <ImageListMeta title={t("imagesBy", { artist: artistData.name })} description="" />
       <NarrowSection>
         <IconLink href="/gallery" iconPath={mdiArrowLeft} text={t("gallery")} title={t("gallery")} />
       </NarrowSection>
