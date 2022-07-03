@@ -56,6 +56,7 @@ export default function Image({ imageData, artistData, allGalleryData }) {
           <Color color="#4bc04b" />
           <Color color="#f6a39f" />
           <Color color="#3b3638" />
+          <div>Or get the <a href="https://i.avoonix.com/palette/avoonix-color-palette.gpl" download>color palette for GIMP, Krita, Inkscape, etc</a></div>
         </NarrowSection>
       )}
 
