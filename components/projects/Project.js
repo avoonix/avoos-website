@@ -43,6 +43,10 @@ const TextContainer = styled.div`
   }
 `;
 
+const Link = styled.a`
+  text-decoration: none;
+`
+
 export default function Project({ image, title, description, reverse, link }) {
   const { ref, entry } = useInView({
     threshold,
@@ -70,10 +74,10 @@ export default function Project({ image, title, description, reverse, link }) {
         <LazyImage src={image} />
       </ImageContainer>
       <TextContainer reverse={reverse}>
-        <a href={link} target="_blank">
+        <Link href={link} target="_blank">
           <Title>{title}</Title>
           <div>{description}</div>
-        </a>
+        </Link>
       </TextContainer>
     </Container>
   );
