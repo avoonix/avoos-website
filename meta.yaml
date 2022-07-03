@@ -2240,13 +2240,13 @@ gallery:
       h: 3
     meta:
       en:
-        title: "Lou and Avoo hugging"
+        title: Lou and Avoo hugging
         description: ""
-        alt: "furry couple cuddling in front of sunset with transparent background"
+        alt: furry couple cuddling in front of sunset with transparent background
       de:
-        title: "Lou und Avoo umarmen sich"
+        title: Lou und Avoo umarmen sich
         description: ""
-        alt: "furry paar das vor sonnenuntergang kuschelt mit transparentem hintergrund"
+        alt: furry paar das vor sonnenuntergang kuschelt mit transparentem hintergrund
     tags:
       - sfw
       - hug
@@ -2361,6 +2361,120 @@ gallery:
       - wolf
     width: 512
     height: 512
+  avoonix/face-close-up.png:
+    id: 8tG
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: "Avoo's Face"
+        description: ""
+        alt: ""
+      de:
+        title: "Avoo's Gesicht"
+        description: ""
+        alt: ""
+    tags:
+      - sfw
+      - fox
+      - pink
+    color: "#2c682c"
+    width: 1024
+    height: 1024
+  avoonix/lou-as-team-fortress-2-medic.png:
+    id: 8Vo
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: "Lou as Team Fortress 2 Medic"
+        description: ""
+        alt: ""
+      de:
+        title: "Lou als Team Fortress 2 Medic"
+        description: ""
+        alt: ""
+    tags:
+      - sfw
+      - video-games
+      - standing
+      - wolf
+    color: "#a79ea5"
+    width: 1234
+    height: 1234
+  avoonix/owo-furry-globe-in-space.png:
+    id: Gov
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: "OwO"
+        description: ""
+        alt: ""
+      de:
+        title: "OwO"
+        description: ""
+        alt: ""
+    tags:
+      - sfw
+      - wolf
+    color: "#0b1e33"
+    width: 503
+    height: 504
+  avoonix/wolf-hypno-drawing.png:
+    id: HVk
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: "Lou when he sees pawbs"
+        description: ""
+        alt: ""
+      de:
+        title: "Lou wenn er Pfoten sieht"
+        description: ""
+        alt: ""
+    tags:
+      - sfw
+      - wolf
+    color: "#26443e"
+    width: 1024
+    height: 1024
+  avoonix/segufix-diaper-and-vibrator.png:
+    id: oBd
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: "Avoo in Segufix"
+        description: ""
+        alt: ""
+      de:
+        title: "Avoo in Segufix"
+        description: ""
+        alt: ""
+    tags:
+      - yiff
+      - bed
+      - diaper
+      - bondage
+      - paws
+      - fox
+      - pink
+      - abdl
+    color: "#b7b5b7"
+    width: 1024
+    height: 1024
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
