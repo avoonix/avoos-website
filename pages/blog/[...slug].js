@@ -55,7 +55,7 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
                 <AspectRatio ratio={1}>
                   <Link href="/">
                     <a title="Avoonix">
-                      <LazyImage alt="Avoonix" width="100" height="100" title="Avoonix" loaderColor="#ffd4f1" src="/images/avoonix/avoo-headshot-sky.png" loaderBorderRadius="50%" className={styles.authorImage} />
+                      <LazyImage alt="Avoonix" width="100" height="100" title="Avoonix" loaderColor="#ffd4f1" src="/images/avoonix/avoo-headshot-happy.png" loaderBorderRadius="50%" className={styles.authorImage} />
                     </a>
                   </Link>
                 </AspectRatio>

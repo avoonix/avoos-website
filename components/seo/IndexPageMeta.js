@@ -20,7 +20,7 @@ export default function IndexPageMeta() {
           },
           images: [
             {
-              url: "https://avoonix.com/images/avoonix/avoo-headshot-sky.png",
+              url: "https://avoonix.com/images/avoonix/avoo-headshot-happy.png",
               alt: "Avoonix profile picture",
             },
           ],

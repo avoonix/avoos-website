@@ -2369,11 +2369,11 @@ gallery:
       h: 1
     meta:
       en:
-        title: "Avoo's Face"
+        title: Avoo's Face
         description: ""
         alt: ""
       de:
-        title: "Avoo's Gesicht"
+        title: Avoo's Gesicht
         description: ""
         alt: ""
     tags:
@@ -2391,11 +2391,11 @@ gallery:
       h: 1
     meta:
       en:
-        title: "Lou as Team Fortress 2 Medic"
+        title: Lou as Team Fortress 2 Medic
         description: ""
         alt: ""
       de:
-        title: "Lou als Team Fortress 2 Medic"
+        title: Lou als Team Fortress 2 Medic
         description: ""
         alt: ""
     tags:
@@ -2414,11 +2414,11 @@ gallery:
       h: 1
     meta:
       en:
-        title: "OwO"
+        title: OwO
         description: ""
         alt: ""
       de:
-        title: "OwO"
+        title: OwO
         description: ""
         alt: ""
     tags:
@@ -2435,11 +2435,11 @@ gallery:
       h: 1
     meta:
       en:
-        title: "Lou when he sees pawbs"
+        title: Lou when he sees pawbs
         description: ""
         alt: ""
       de:
-        title: "Lou wenn er Pfoten sieht"
+        title: Lou wenn er Pfoten sieht
         description: ""
         alt: ""
     tags:
@@ -2456,11 +2456,11 @@ gallery:
       h: 1
     meta:
       en:
-        title: "Avoo in Segufix"
+        title: Avoo in Segufix
         description: ""
         alt: ""
       de:
-        title: "Avoo in Segufix"
+        title: Avoo in Segufix
         description: ""
         alt: ""
     tags:
@@ -2475,6 +2475,29 @@ gallery:
     color: "#b7b5b7"
     width: 1024
     height: 1024
+  avoonix/avoo-headshot-happy.png:
+    id: 1mk
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    meta:
+      en:
+        title: "Profile Picture"
+        description: ""
+        alt: ""
+      de:
+        title: "Profilbild"
+        description: ""
+        alt: ""
+    tags:
+      - sfw
+      - collar
+      - fox
+      - pink
+    color: "#d6d8d4"
+    width: 621
+    height: 621
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
