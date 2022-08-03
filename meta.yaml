@@ -787,8 +787,8 @@ gallery:
     id: qf0
     artist: avoonix
     grid:
-      w: 2
-      h: 2
+      w: 1
+      h: 1
     meta:
       en:
         title: Day
@@ -2479,15 +2479,15 @@ gallery:
     id: 1mk
     artist: avoonix
     grid:
-      w: 1
-      h: 1
+      w: 2
+      h: 2
     meta:
       en:
-        title: "Profile Picture"
+        title: Profile Picture
         description: ""
         alt: ""
       de:
-        title: "Profilbild"
+        title: Profilbild
         description: ""
         alt: ""
     tags:
@@ -2498,6 +2498,30 @@ gallery:
     color: "#d6d8d4"
     width: 621
     height: 621
+  avoonix/outdoor-threesome.png:
+    id: Y5P
+    artist: avoonix
+    grid:
+      w: 2
+      h: 2
+    meta:
+      en:
+        title: Outdoor threesome
+        description: ""
+        alt: a bird, a wolf and a fox fucking outdoors
+      de:
+        title: Dreier im Freien
+        description: ""
+        alt: ""
+    tags:
+      - yiff
+      - thigh-highs
+      - fox
+      - pink
+      - wolf
+    color: "#84878d"
+    width: 1920
+    height: 1920
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
