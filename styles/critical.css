@@ -22,19 +22,23 @@ body {
 
 * {
   box-sizing: border-box;
-  scrollbar-color: var(--light-pink) var(--dark-pink);
+  scrollbar-color: var(--light-pink) transparent;
+}
+
+body {
+  overflow: overlay;
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 4px;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--dark-pink);
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--light-pink);
   border-radius: 10px;
-  border: 3px var(--dark-pink) solid;
 }
