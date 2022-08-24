@@ -2,7 +2,6 @@ import { getArtistData, getGalleryData, getImageData, shuffle } from "../../lib/
 import IconLink from "../../components/IconLink";
 import { mdiArrowLeft, mdiBrush } from "@mdi/js";
 import Artist from "../../components/Artist";
-import { useTranslation } from "react-i18next";
 import { getImageTitle } from "../../utils/i18n";
 import LazyImage from "../../components/LazyImage";
 import Tags from "../../components/Tags";
@@ -13,13 +12,11 @@ import Color from "../../components/Color";
 import ImageMeta from "../../components/seo/ImageMeta";
 
 export default function Image({ imageData, artistData, allGalleryData }) {
-  const { t } = useTranslation();
-
   return (
     <>
       <ImageMeta imageData={imageData} artistData={artistData} />
       <NarrowSection>
-        <IconLink href="/gallery" iconPath={mdiArrowLeft} text={t("gallery")} />
+        <IconLink href="/gallery" iconPath={mdiArrowLeft} text="Gallery" />
       </NarrowSection>
       <article>
         <div style={{ display: "flex", justifyContent: "center" }}>
@@ -56,13 +53,18 @@ export default function Image({ imageData, artistData, allGalleryData }) {
           <Color color="#4bc04b" />
           <Color color="#f6a39f" />
           <Color color="#3b3638" />
-          <div>Or get the <a href="https://i.avoonix.com/palette/avoonix-color-palette.gpl" download>color palette for GIMP, Krita, Inkscape, etc</a></div>
+          <div>
+            Or get the{" "}
+            <a href="https://i.avoonix.com/palette/avoonix-color-palette.gpl" download>
+              color palette for GIMP, Krita, Inkscape, etc
+            </a>
+          </div>
         </NarrowSection>
       )}
 
-      {allGalleryData.length ? <List allGalleryData={allGalleryData} title={t("imagesBy", { artist: artistData.name })} /> : null}
+      {allGalleryData.length ? <List allGalleryData={allGalleryData} title={`Art by ${artistData.name}`} /> : null}
       <NarrowSection>
-        <IconLink href={`/gallery/by/${artistData.id}`} iconPath={mdiBrush} text={t("moreImagesBy", { artist: artistData.name })} />
+        <IconLink href={`/gallery/by/${artistData.id}`} iconPath={mdiBrush} text={`More Art by ${artistData.name}`} />
       </NarrowSection>
     </>
   );

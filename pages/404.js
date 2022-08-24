@@ -1,5 +1,4 @@
 import { mdiHome } from "@mdi/js";
-import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 import IconLink from "../components/IconLink";
 import NotFoundPageMeta from "../components/seo/NotFoundPageMeta";
@@ -30,15 +29,14 @@ const Content = styled.main`
 `;
 
 export default function Custom404() {
-  const { t } = useTranslation();
   return (
     <>
       <NotFoundPageMeta />
       <Container>
         <Content>
           <h1>404</h1>
-          <p>{t("pageNotFound")}</p>
-          <IconLink href="/" iconPath={mdiHome} text={t("home")} />
+          <p>Page not found</p>
+          <IconLink href="/" iconPath={mdiHome} text="Home" />
         </Content>
       </Container>
     </>

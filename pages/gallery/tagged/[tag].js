@@ -1,21 +1,19 @@
 import { getGalleryData, getTags, layoutGallery } from "../../../lib/gallery";
 import List from "../../../components/gallery/List";
-import { useTranslation } from "react-i18next";
 import NarrowSection from "../../../components/common/NarrowSection";
 import IconLink from "../../../components/IconLink";
 import { mdiArrowLeft } from "@mdi/js";
 import ImageListMeta from "../../../components/seo/ImageListMeta";
 
 export default function Gallery({ allGalleryData, tagData }) {
-  const { t } = useTranslation();
-
+  const imagesTaggedWith = `Art Containing ${tagData.translation}`;
   return (
     <>
-    <ImageListMeta  title={t("galleryTitle", { tag: tagData.translation })} description={t("imagesTaggedWith", { tag: tagData.translation })}  />
+      <ImageListMeta title={`${tagData.translation} - Gallery`} description={imagesTaggedWith} />
       <NarrowSection>
-        <IconLink href="/gallery" iconPath={mdiArrowLeft} text={t("gallery")} title={t("gallery")} />
+        <IconLink href="/gallery" iconPath={mdiArrowLeft} text="Gallery" />
       </NarrowSection>
-      <List allGalleryData={allGalleryData} title={t("imagesTaggedWith", { tag: tagData.translation })} />
+      <List allGalleryData={allGalleryData} title={imagesTaggedWith} />
     </>
   );
 }

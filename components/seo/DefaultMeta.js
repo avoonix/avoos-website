@@ -22,7 +22,6 @@ export default function DefaultMeta() {
         languageAlternates={[
           { href: `https://avoonix.com${pathWithoutHash}`, hrefLang: "x-default" },
           { href: `https://avoonix.com${pathWithoutHash}`, hrefLang: "en" },
-          { href: `https://de.avoonix.com${pathWithoutHash}`, hrefLang: "de" },
         ]}
         openGraph={{
           url: `https://avoonix.com${pathWithoutHash}`,

@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import styles from "./KinkList.module.css";
 
 const colors = {
@@ -8,11 +7,19 @@ const colors = {
   5: "#06ff00"
 }
 
+const names = {
+  1: "Meh",
+  2: "Okay",
+  3: "Neutral",
+  4: "Enjoy",
+  5: "UwU~",
+}
+
+export const getName = (rating) => (rating === false ? "Hard Limit" : rating === 0 ? "Soft Limit" : typeof rating === "number" ? names[rating] : "-");
+
 export const getColor = (rating) => colors[rating];
 
 export default function KinkList({ kinks }) {
-  const { t } = useTranslation();
-  const getName = (rating) => (rating === false ? t("kinks.hard-limit") : rating === 0 ? t("kinks.soft-limit") : typeof rating === "number" ? t(`kinks.numbered.${rating}`) : "-");
 
   return (
     <div>

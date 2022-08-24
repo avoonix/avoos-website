@@ -2,7 +2,7 @@ module.exports = {
   swcMinify: true,
   compiler: {
     styledComponents: true,
-    removeConsole: true,
+    // removeConsole: true,
   },
   webpack: (config, { isServer }) => {
     if (isServer) {
@@ -11,9 +11,4 @@ module.exports = {
 
     return config;
   },
-  // i18n: {
-  //   locales: ["en", "de"],
-  //   defaultLocale: "en",
-  //   localeDetection: true,
-  // },
 };

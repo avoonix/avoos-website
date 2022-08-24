@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { useTranslation } from "react-i18next";
 import { getImageTitle } from "../../utils/i18n";
 import { getSlug } from "../../utils/img";
 import AspectRatio from "../AspectRatio";
@@ -8,8 +7,6 @@ import LazyImage from "../LazyImage";
 import { GridContainer, GridItem } from "./Grid";
 
 export default function List({ allGalleryData, title }) {
-  const { t } = useTranslation();
-
   return (
     <NarrowSection>
       <div>
@@ -27,7 +24,7 @@ export default function List({ allGalleryData, title }) {
           >
             <AspectRatio ratio={grid.h / grid.w}>
               <Link href={`/gallery/${getSlug({ path, id })}`}>
-                <a title={getImageTitle({ title, artist, t })}>
+                <a title={getImageTitle({ title, artist })}>
                   <LazyImage loaderColor={color} src={path} />
                 </a>
               </Link>

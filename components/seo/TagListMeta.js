@@ -1,10 +1,7 @@
 import { NextSeo } from "next-seo";
-import { useTranslation } from "react-i18next";
 
 export default function TagListMeta() {
-  const { t } = useTranslation();
-
-  const title = t("gallery");
+  const title = "Gallery";
 
   return (
     <>

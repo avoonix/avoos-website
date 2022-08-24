@@ -1,5 +1,4 @@
 import { mdiArrowLeft } from "@mdi/js";
-import { useTranslation } from "react-i18next";
 import NarrowSection from "../../../components/common/NarrowSection";
 import List from "../../../components/gallery/List";
 import IconLink from "../../../components/IconLink";
@@ -7,15 +6,14 @@ import ImageListMeta from "../../../components/seo/ImageListMeta";
 import { getArtistData, getArtists, getGalleryData } from "../../../lib/gallery";
 
 export default function ByArtist({ allGalleryData, artistData }) {
-  const { t } = useTranslation();
-
+  const imagesBy = `Art by ${artistData.name}`;
   return (
     <>
-      <ImageListMeta title={t("imagesBy", { artist: artistData.name })} description="" />
+      <ImageListMeta title={imagesBy} description="" />
       <NarrowSection>
-        <IconLink href="/gallery" iconPath={mdiArrowLeft} text={t("gallery")} title={t("gallery")} />
+        <IconLink href="/gallery" iconPath={mdiArrowLeft} text="Gallery" />
       </NarrowSection>
-      <List allGalleryData={allGalleryData} title={t("imagesBy", { artist: artistData.name })} />;
+      <List allGalleryData={allGalleryData} title={imagesBy} />;
     </>
   );
 }

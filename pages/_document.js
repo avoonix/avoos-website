@@ -5,7 +5,7 @@ import bundleCss from "!raw-loader!../styles/critical.css";
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang={process.env.NEXT_PUBLIC_I18N_LOCALE}>
+      <Html lang="en">
         <Head>{this.props.styleTags}</Head>
         <body>
           <Main />

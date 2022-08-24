@@ -1,7 +1,6 @@
 import IconLink from "../../components/IconLink";
 import { mdiArrowLeft, mdiPageNext } from "@mdi/js";
 import Layout from "../../components/Layout";
-import { useTranslation } from "react-i18next";
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from "../../lib/blog";
 import { formatPostDate } from "../../utils/post";
 import LazyImage from "../../components/LazyImage";
@@ -12,7 +11,6 @@ import MarkdownRenderer from "../../components/MarkdownRenderer";
 import NarrowSection from "../../components/common/NarrowSection";
 
 export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
-  const { t } = useTranslation();
 
   return (
     <Layout
@@ -24,7 +22,7 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
       }}
     >
       <NarrowSection>
-        <IconLink href="/blog" iconPath={mdiArrowLeft} text={t("blog")} />
+        <IconLink href="/blog" iconPath={mdiArrowLeft} text="Blog" />
       </NarrowSection>
 
       <div style={{ height: "80vh", position: "relative" }}>
@@ -39,7 +37,7 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
           <NarrowSection>
             <div>
               <div>
-                {Math.ceil(frontMatter.readingTime.minutes)} {t("minutesRead")}
+                {Math.ceil(frontMatter.readingTime.minutes)} minutes read
               </div>
               <div>
                 {frontMatter.tags.map((tag, idx) => (
@@ -88,7 +86,7 @@ export default function Post({ post: { mdxSource, frontMatter }, prev, next }) {
 
       {prev || next ? (
         <NarrowSection>
-          <h3>{t("continueReading")}</h3>
+          <h3>Other Posts</h3>
           {prev && <IconLink href={`/blog/${prev.slug}`} iconPath={mdiPageNext} text={prev.title} title={prev.title} />}
           {next && <IconLink href={`/blog/${next.slug}`} iconPath={mdiPageNext} text={next.title} title={next.title} />}
         </NarrowSection>

@@ -11,7 +11,7 @@ const getSlug = ({ path, id }) => {
   return `${id}-${baseWithoutExt}`;
 };
 
-const prefix = process.env.NEXT_PUBLIC_I18N_LOCALE === "de" ? "https://de.avoonix.com" : "https://avoonix.com";
+const prefix = "https://avoonix.com";
 
 async function generateSiteMap() {
   const meta = YAML.parse(fs.readFileSync(path.join(process.cwd(), "meta.yaml"), "utf8"));
@@ -40,7 +40,7 @@ async function generateSiteMap() {
   fs.writeFileSync(
     "public/_redirects",
     [
-      "/de https://de.avoonix.com",
+      "/de https://avoonix.com",
       "/en https://avoonix.com",
       "/reference /gallery/ref-avoonix-reference-sheet",
       "/ref /gallery/ref-avoonix-reference-sheet",

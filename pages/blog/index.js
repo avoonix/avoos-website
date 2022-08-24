@@ -1,24 +1,22 @@
 import IconLink from "../../components/IconLink";
 import { mdiArrowLeft, mdiPageNext } from "@mdi/js";
 import Layout from "../../components/Layout";
-import { useTranslation } from "react-i18next";
 import { getAllFilesFrontMatter } from "../../lib/blog";
 import { formatPostDate } from "../../utils/post";
 import classNames from "classnames";
 
 export default function Posts({ posts }) {
-  const { t } = useTranslation();
 
   return (
     <Layout
       meta={{
-        title: t("blogTitle"),
-        description: t("blogDescription"),
+        title: "Blog",
+        description: "Thoughts and stuff",
         image: "/collage.png",
       }}
     >
       <div>
-        <IconLink href="/" iconPath={mdiArrowLeft} text={t("home")} />
+        <IconLink href="/" iconPath={mdiArrowLeft} text="Home" />
       </div>
       <div>
         <h1>Blog</h1>
@@ -35,7 +33,7 @@ export default function Posts({ posts }) {
               <IconLink
                 href={`/blog/${frontMatter.slug}`}
                 iconPath={mdiPageNext}
-                text={t("readMore")}
+                text="Read More"
                 title={frontMatter.title}
                 style={{margin: 0, marginTop: 8}}
               />

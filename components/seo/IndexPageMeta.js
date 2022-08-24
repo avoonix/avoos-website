@@ -1,19 +1,18 @@
 import { NextSeo, SocialProfileJsonLd } from "next-seo";
-import { useTranslation } from "react-i18next";
 
 export default function IndexPageMeta() {
-  const { t } = useTranslation();
-
+  const title = "Avoonix the Pink Fox"
+  const description = "Hewwo! I'm Avoonix, a pink furry fox from Austria :3. Among other things, I am passionate about programming, and love hugs and collars."
   return (
     <>
       <NextSeo
-        title={t("title")}
+        title={title}
         titleTemplate="%s"
-        description={t("description")}
+        description={description}
         openGraph={{
           type: "profile",
-          title: t("title"),
-          description: t("description"),
+          title,
+          description,
           profile: {
             firstName: "Avoonix",
             username: "avoonix",
@@ -26,7 +25,7 @@ export default function IndexPageMeta() {
           ],
         }}
       />
-      <SocialProfileJsonLd description={t("description")} alternateName="Avoo" twitter="@avoonix" type="Person" name="Avoonix" url="https://avoonix.com/" sameAs={["https://twitter.com/avoonix", "https://t.me/avoonix", "https://github.com/avoonix", "https://steamcommunity.com/id/avoonix"]} />
+      <SocialProfileJsonLd description={description} alternateName="Avoo" twitter="@avoonix" type="Person" name="Avoonix" url="https://avoonix.com/" sameAs={["https://twitter.com/avoonix", "https://t.me/avoonix", "https://github.com/avoonix", "https://steamcommunity.com/id/avoonix"]} />
     </>
   );
 }
