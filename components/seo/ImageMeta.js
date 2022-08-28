@@ -11,6 +11,9 @@ export default function ImageMeta({ imageData, artistData }) {
     <>
       <NextSeo
         title={title}
+        twitter={{
+          cardType: "summary_large_image",
+        }}
         openGraph={{
           title,
           description: imageData.description,
