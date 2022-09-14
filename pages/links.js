@@ -18,6 +18,7 @@ export default function Home() {
 
         <IconLink href="https://steamcommunity.com/id/avoonix" iconPath={mdiSteam} text="Steam" title="Steam Profile" />
         <IconLink href="https://github.com/avoonix" iconPath={mdiGithub} text="GitHub" title="GitHub Profile" />
+        <IconLink href="https://e621.net/artists/71584" iconPath={mdiHexagon} text="e621" title="e6 Profile" />
         <IconLink href="https://www.furaffinity.net/user/avoonix" iconPath={mdiPawOutline} text="Fur Affinity" title="Fur Affinity Profile" />
         <IconLink href="https://www.f-list.net/c/avoonix" iconPath={mdiDogSide} text="F-list" title="f-list.net Profile" />
         <IconLink href="https://twitter.com/avoonix" iconPath={mdiTwitter} text="Twitter" title="Twitter Profile" />
