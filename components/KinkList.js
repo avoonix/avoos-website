@@ -30,7 +30,8 @@ export default function KinkList({ kinks }) {
             <thead>
               <tr>
                 <th></th>
-                <th>Preference</th>
+                <th>IRL</th>
+                <th>RP</th>
               </tr>
             </thead>
             <tbody>
