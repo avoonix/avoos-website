@@ -4,10 +4,13 @@ import { useInView } from "react-intersection-observer";
 
 const threshold = new Array(101).fill(null).map((_, idx) => idx / 100);
 
-const Container = styled.div`
+const Container = styled.article`
   display: flex;
   margin: 16px;
   flex-direction: ${(props) => (props.reverse ? "row-reverse" : "row")};
+  opacity: ${(props) => (props.intersecting ? 1 : 0)};
+  transform: ${(props) => (props.intersecting ? "" : `translateX(${props.reverse ? "" : "-"}10%)`)};
+  transition: all .5s ease-in-out;
   @media (max-width: 800px) {
     flex-direction: column;
   }
@@ -45,7 +48,7 @@ const TextContainer = styled.div`
 
 const Link = styled.a`
   text-decoration: none;
-`
+`;
 
 export default function Project({ image, title, description, reverse, link }) {
   const { ref, entry } = useInView({
@@ -53,23 +56,10 @@ export default function Project({ image, title, description, reverse, link }) {
   });
 
   const bottom = entry?.boundingClientRect?.bottom > entry?.boundingClientRect?.height;
-  const progress = Math.min(1, entry?.intersectionRatio * 2);
-  const dir = reverse ? -1 : 1;
+  const intersecting = entry?.isIntersecting;
 
   return (
-    <Container
-      as="article"
-      ref={ref}
-      reverse={reverse}
-      style={
-        bottom
-          ? {
-              opacity: progress,
-              transform: `translate(${(1 - progress) * 10 * dir}vw)`,
-            }
-          : {}
-      }
-    >
+    <Container ref={ref} reverse={reverse} intersecting={!bottom || intersecting}>
       <ImageContainer as="a" href={link} target="_blank">
         <LazyImage src={image} />
       </ImageContainer>
