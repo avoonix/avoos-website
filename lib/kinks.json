@@ -39,7 +39,7 @@
         { "name": "Honorifics (Sir, Master, ...)", "rating": [4, 4] },
         { "name": "Lectures for Corrections", "rating": [3, 3] },
         { "name": "Forced Servitude", "rating": [3, 3] },
-        { "name": "Bathroom Use Control", "rating": [3, 3] },
+        { "name": "Bathroom Use Control", "rating": [3, 4] },
         { "name": "Objectification", "rating": [3, 3] },
         { "name": "Name Calling", "rating": [3, 3] },
         { "name": "Discipline", "rating": [3, 4] },
@@ -112,6 +112,7 @@
         { "name": "Human Furniture", "rating": [1, 1] },
         { "name": "Satanic Ritual Scene", "rating": [1, 1] },
         { "name": "Giants", "rating": [1, 1] },
+        { "name": "Exorcism", "rating": [1, 1] },
         { "name": "Blackmail Fantasy", "rating": [0, 0] }
       ]
     },
@@ -188,6 +189,7 @@
         { "name": "Choking/Breath Play", "rating": [2, 4] },
         { "name": "Weights (Genital)", "rating": [2, 4] },
         { "name": "Wax Play", "rating": [2, 4] },
+        { "name": "Cupping", "rating": [2, 3] },
         { "name": "Chemical Play (Cooling Gels)", "rating": [2, 4] },
         { "name": "Tickle Torture", "rating": [1, 3] },
         { "name": "Aroma (Burps)", "rating": [1, 1] }
@@ -204,6 +206,7 @@
         { "name": "Mittens", "rating": [4, 5] },
         { "name": "Cross Dressing", "rating": [4, 5] },
         { "name": "Forced Nudity", "rating": [4, 5] },
+        { "name": "Plush Suit/Autoplushophilia", "rating": [4, 5] },
         { "name": "Straight Jacket", "rating": [3, 3] },
         { "name": "Swimwear", "rating": [3, 3] },
         { "name": "Collar (Permanent)", "rating": [3, 5] },
@@ -274,6 +277,7 @@
       "items": [
         { "name": "Edging", "rating": [5, 5] },
         { "name": "Milking", "rating": [5, 5] },
+        { "name": "Orgasm Denial", "rating": [5, 5] },
         { "name": "Tease and Denial", "rating": [5, 5] },
         { "name": "Sexual Activity Control (Timing, Where, How Long, etc)", "rating": [5, 5] },
         { "name": "Fingering", "rating": [4, 5] },
@@ -282,18 +286,24 @@
         { "name": "Mutual Masturbation ", "rating": [4, 5] },
         { "name": "Face Fucking", "rating": [4, 5] },
         { "name": "Threesomes", "rating": [4, 5] },
+        { "name": "Frotting", "rating": [4, 3] },
+        { "name": "Jerk Off Instructions", "rating": [4, 5] },
         { "name": "Vanilla Sex", "rating": [3, 1] },
         { "name": "Sexual Deprivation", "rating": [3, 5] },
         { "name": "Ruined Orgasms", "rating": [4, 5] },
         { "name": "Glory Hole", "rating": [3, 5] },
         { "name": "Forced Masturbation", "rating": [3, 5] },
         { "name": "Group Sex (4+)", "rating": [3, 5] },
+        { "name": "Sex in/around Water", "rating": [3, 2] },
+        { "name": "Barebacking", "rating": [3, 5] },
         { "name": "Post Orgasm Torture", "rating": [2, 5] },
         { "name": "Forced Orgasms", "rating": [2, 5] },
         { "name": "Orgasm On Demand", "rating": [2, 5] },
+        { "name": "Sex While Fully/Partially Clothed", "rating": [2, 3] },
         { "name": "Car Sex", "rating": [1, 3] },
         { "name": "Outdoor Sex", "rating": [1, 3] },
-        { "name": "Public Sex", "rating": [0, 4] }
+        { "name": "Public Sex", "rating": [0, 4] },
+        { "name": "Anonymous Sex", "rating": [false, 4] }
       ]
     },
     {
@@ -310,9 +320,14 @@
         { "name": "Serving with Others", "rating": [3, 5] },
         { "name": "Multiple Doms", "rating": [3, 5] },
         { "name": "Swap Partners", "rating": [3, 3] },
+        { "name": "Tentacles", "rating": [3, 3] },
         { "name": "Exhibitionism (Friends)", "rating": [2, 4] },
         { "name": "Voyeurism", "rating": [2, 2] },
+        { "name": "Muscles", "rating": [2, 3] },
         { "name": "Erotic Dance (Private)", "rating": [1, 1] },
+        { "name": "Forced Feeding", "rating": [1, 2] },
+        { "name": "Hypnosis", "rating": [1, 4] },
+        { "name": "Slime", "rating": [1, 3] },
         { "name": "Sleep Deprivation", "rating": [0, 5] },
         { "name": "Gun Play", "rating": [0, 0] },
         { "name": "Fire Play", "rating": [0, 1] },
@@ -334,7 +349,10 @@
         { "name": "Genital Piercings", "rating": [false, 3] },
         { "name": "Nipple Piercings", "rating": [false, 3] },
         { "name": "Emasculation", "rating": [false, 4] },
-        { "name": "Branding", "rating": [false, 4] }
+        { "name": "Branding", "rating": [false, 4] },
+        { "name": "Obesity", "rating": [false, 1] },
+        { "name": "Inflation", "rating": [false, 3] },
+        { "name": "Amputation/Nullification", "rating": [false, 0] }
       ]
     },
     {
@@ -351,22 +369,23 @@
         { "name": "Wet & Messy", "rating": [1, 4] },
         { "name": "Urine Consumption", "rating": [1, 5] },
         { "name": "Scat", "rating": [0, 2] },
-        { "name": "Puke", "rating": [0, 2] },
+        { "name": "Puke/Vomit", "rating": [0, 2] },
         { "name": "Blood Play", "rating": [false, false] }
       ]
     },
     {
       "name": "AB/DL",
       "items": [
+        { "name": "Plushies", "rating": [5, 5] },
         { "name": "Diapers (Wearing)", "rating": [5, 5] },
         { "name": "Diapers (Forced Wetting)", "rating": [4, 5] },
         { "name": "Pacifier Gags", "rating": [3, 5] },
         { "name": "AB/DL Scenarios", "rating": [3, 5] },
         { "name": "Diapers (Wetting)", "rating": [2, 5] },
+        { "name": "Wetting/Omorashi", "rating": [2, 4] },
         { "name": "Age Play", "rating": [1, 2] },
         { "name": "Crawling", "rating": [1, 3] },
         { "name": "Crying", "rating": [1, 1] },
-        { "name": "Wetting (No Diapers)", "rating": [1, 4] },
         { "name": "Diapers (Soiling)", "rating": [0, 2] }
       ]
     }
