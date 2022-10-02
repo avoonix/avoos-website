@@ -56,6 +56,7 @@
         { "name": "Insults", "rating": [2, 4] },
         { "name": "Housework/Chores/Tasks", "rating": [2, 3] },
         { "name": "Micromanaging ", "rating": [1, 3] },
+        { "name": "Findom", "rating": [1, 1] },
         { "name": "Human Ashtray", "rating": [false, false] }
       ]
     },
@@ -181,7 +182,6 @@
         { "name": "Aroma (Under Arms)", "rating": [3, 3] },
         { "name": "Aroma (Farts)", "rating": [3, 5] },
         { "name": "Aroma (Body Odor)", "rating": [3, 3] },
-        { "name": "Aroma (Licking Feet/Paws)", "rating": [3, 5] },
         { "name": "Weights (Other)", "rating": [3, 3] },
         { "name": "Chemical Play (Hot Oil)", "rating": [3, 3] },
         { "name": "Chemical Play (Numbing Creams)", "rating": [3, 3] },
@@ -192,6 +192,7 @@
         { "name": "Wax Play", "rating": [2, 4] },
         { "name": "Cupping", "rating": [2, 3] },
         { "name": "Chemical Play (Cooling Gels)", "rating": [2, 4] },
+        { "name": "Aroma (Licking Feet/Paws)", "rating": [2, 4] },
         { "name": "Tickle Torture", "rating": [1, 3] },
         { "name": "Aroma (Burps)", "rating": [1, 1] }
       ]
@@ -333,10 +334,11 @@
         { "name": "Gun Play", "rating": [0, 0] },
         { "name": "Fire Play", "rating": [0, 1] },
         { "name": "Knife Play", "rating": [0, 1] },
-        { "name": "Fear Play", "rating": [false, 2] },
-        { "name": "Blackmail", "rating": [false, 0] },
         { "name": "Exhibitionism (Strangers)", "rating": [false, 4] },
         { "name": "Removal of Privacy", "rating": [false, 4] },
+        { "name": "Fear Play", "rating": [false, 2] },
+        { "name": "Intoxication Play", "rating": [false, 1] },
+        { "name": "Blackmail", "rating": [false, 0] },
         { "name": "Smoking", "rating": [false, false] }
       ]
     },
