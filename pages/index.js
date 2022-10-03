@@ -22,7 +22,7 @@ export default function Home() {
           description={
             <>
               <ProfileImage />
-              <p className="text-center">Hi there, I'm Avoo. I'm a software engineer and also play games sometimes.</p>
+              <p className="text-center">Hi there! I'm Avoo, a pink fluffy foxo, gamer and software engineer from Austria who is learning how to draw and stream.</p>
             </>
           }
           hidePaw
