@@ -55,6 +55,7 @@ async function generateSiteMap() {
       "/fetishes /kinks",
       "/nsfw-gallery /gallery/tagged/yiff",
       "/socials-and-other-links /links",
+      "/linktree /links",
       ...Object.entries(meta.gallery).map(([path, g]) => `/gallery/${g.id} /gallery/${getSlug({ path, id: g.id })}`),
       ...Object.entries(meta.gallery).map(([path, g]) => `/${g.id} /gallery/${getSlug({ path, id: g.id })}`),
       ...Object.entries(meta.gallery).map(([path, g]) => `/images/${g.oldPath} https://i.avoonix.com/images/${path}`),
