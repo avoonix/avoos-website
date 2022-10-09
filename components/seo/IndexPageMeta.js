@@ -2,7 +2,7 @@ import { NextSeo, SocialProfileJsonLd } from "next-seo";
 
 export default function IndexPageMeta() {
   const title = "Avoonix the Pink Fox"
-  const description = "Hewwo! I'm Avoonix, a pink furry fox from Austria :3. Among other things, I am passionate about programming, and love hugs and collars."
+  const description = "A pink fluffy foxo, gamer and software engineer from Austria who is learning how to draw and stream UwU"
   return (
     <>
       <NextSeo

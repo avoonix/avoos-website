@@ -44,6 +44,7 @@ async function generateSiteMap() {
       "/en https://avoonix.com",
       "/reference /gallery/ref-avoonix-reference-sheet",
       "/ref /gallery/ref-avoonix-reference-sheet",
+      "/ass /stickers",
       "/contact https://t.me/avoonix",
       "/collage.png https://i.avoonix.com/collage.png",
       "/collage.avif https://i.avoonix.com/collage.avif",

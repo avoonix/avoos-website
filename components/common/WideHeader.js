@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { createSvgUrl, headerPawSvg, headerSvg } from "../../svg";
 import MaskedDiv from "./MaskedDiv";
+import NarrowSection from "./NarrowSection";
 
 const Container = styled.div`
   display: flex;
@@ -27,7 +28,9 @@ export default function WideHeader({ title, description, hidePaw = false }) {
       <div className="invert-background">
         <Centered>
           <Title>{title}</Title>
-          <div>{description}</div>
+          <NarrowSection>
+            <div>{description}</div>
+          </NarrowSection>
         </Centered>
       </div>
       <SvgContainer>

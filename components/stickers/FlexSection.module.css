@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.middle {
+  max-width: 600;
+  flex: 0 1 600px;
+}
+
+.padded {
+  padding: 0 8px;
+}
+
+.side {
+  flex: 1 0 0px;
+  position: relative;
+  overflow: hidden;
+}
