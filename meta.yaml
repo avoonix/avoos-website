@@ -2095,9 +2095,9 @@ gallery:
     grid:
       w: 1
       h: 1
-    title: "Bondage Cuddles (no text)"
+    title: Bondage Cuddles (no text)
     description: ""
-    alt: "brown wolf hugging a bound and muzzled pink fox"
+    alt: brown wolf hugging a bound and muzzled pink fox
     tags:
       - yiff
       - bed
@@ -2117,9 +2117,9 @@ gallery:
     grid:
       w: 3
       h: 5
-    title: "Bondage Cuddles (see-through blanket)"
+    title: Bondage Cuddles (see-through blanket)
     description: ""
-    alt: "brown wolf hugging a bound and muzzled pink fox"
+    alt: brown wolf hugging a bound and muzzled pink fox
     tags:
       - yiff
       - bed
@@ -2139,9 +2139,9 @@ gallery:
     grid:
       w: 1
       h: 1
-    title: "Bondage Cuddles (blanket)"
+    title: Bondage Cuddles (blanket)
     description: ""
-    alt: "brown wolf hugging a bound and muzzled pink fox"
+    alt: brown wolf hugging a bound and muzzled pink fox
     tags:
       - yiff
       - bed
@@ -2155,6 +2155,26 @@ gallery:
     width: 2480
     height: 3508
     oldPath: rhubin-the-pet/BedCuddle4.png
+  luhrak/wolf-sniffing-paws-on-a-sofa-in-the-evening.png:
+    id: kcC
+    artist: luhrak
+    grid:
+      w: 1
+      h: 1
+    title: Lou Sniffing Paws
+    description: ""
+    alt: brown wolf next to sofa sniffing fox paws, fox laying on sofa bound
+    tags:
+      - yiff
+      - bondage
+      - paws
+      - collar
+      - fox
+      - pink
+      - wolf
+    color: "#896867"
+    width: 3000
+    height: 3000
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
@@ -2223,8 +2243,11 @@ artists:
     url: https://twitter.com/evilthewolf
     name: evilthewolf
   rhubin-the-pet:
-    url: "https://twitter.com/RhubinThePet"
+    url: https://twitter.com/RhubinThePet
     name: Rhubin
+  luhrak:
+    url: https://twitter.com/luhrak_
+    name: Luhrak
 tags:
   yiff:
     display: Yiff
