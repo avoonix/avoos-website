@@ -1,10 +1,6 @@
-import Link from "next/link";
-import { getImageTitle } from "../../utils/i18n";
-import { getSlug } from "../../utils/img";
-import AspectRatio from "../AspectRatio";
 import NarrowSection from "../common/NarrowSection";
-import LazyImage from "../LazyImage";
-import { GridContainer, GridItem } from "./Grid";
+import { GridContainer } from "./Grid";
+import ImageItem from "./ImageItem";
 
 export default function List({ allGalleryData, title }) {
   return (
@@ -14,22 +10,7 @@ export default function List({ allGalleryData, title }) {
       </div>
       <GridContainer>
         {allGalleryData.map(({ id, path, grid, color, title, artist }) => (
-          <GridItem
-            id={id}
-            key={id}
-            style={{
-              gridColumn: `span ${grid.w}`,
-              gridRow: `span ${grid.h}`,
-            }}
-          >
-            <AspectRatio ratio={grid.h / grid.w}>
-              <Link href={`/gallery/${getSlug({ path, id })}`}>
-                <a title={getImageTitle({ title, artist })}>
-                  <LazyImage loaderColor={color} src={path} />
-                </a>
-              </Link>
-            </AspectRatio>
-          </GridItem>
+          <ImageItem key={id} id={id} path={path} grid={grid} color={color} title={title} artist={artist} />
         ))}
       </GridContainer>
     </NarrowSection>

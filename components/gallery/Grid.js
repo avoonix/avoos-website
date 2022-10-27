@@ -8,4 +8,7 @@ export const GridContainer = styled.div`
 
 export const GridItem = styled.div`
   position: relative;
+  opacity: ${(props) => (props.intersecting ? 1 : 0)};
+  transform: ${(props) => (props.intersecting ? "" : `translateY(10%)`)};
+  transition: all 0.5s ease-in-out;
 `;

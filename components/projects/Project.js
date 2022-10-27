@@ -1,8 +1,6 @@
 import styled from "styled-components";
+import { useIntersection } from "../common/useIntersection";
 import LazyImage from "../LazyImage";
-import { useInView } from "react-intersection-observer";
-
-const threshold = new Array(101).fill(null).map((_, idx) => idx / 100);
 
 const Container = styled.article`
   display: flex;
@@ -10,7 +8,7 @@ const Container = styled.article`
   flex-direction: ${(props) => (props.reverse ? "row-reverse" : "row")};
   opacity: ${(props) => (props.intersecting ? 1 : 0)};
   transform: ${(props) => (props.intersecting ? "" : `translateX(${props.reverse ? "" : "-"}10%)`)};
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   @media (max-width: 800px) {
     flex-direction: column;
   }
@@ -51,15 +49,10 @@ const Link = styled.a`
 `;
 
 export default function Project({ image, title, description, reverse, link }) {
-  const { ref, entry } = useInView({
-    threshold,
-  });
-
-  const bottom = entry?.boundingClientRect?.bottom > entry?.boundingClientRect?.height;
-  const intersecting = entry?.isIntersecting;
+  const { intersectingFromBottom, ref } = useIntersection();
 
   return (
-    <Container ref={ref} reverse={reverse} intersecting={!bottom || intersecting}>
+    <Container ref={ref} reverse={reverse} intersecting={intersectingFromBottom}>
       <ImageContainer as="a" href={link} target="_blank">
         <LazyImage src={image} />
       </ImageContainer>
