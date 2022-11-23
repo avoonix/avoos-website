@@ -1042,7 +1042,7 @@ gallery:
     grid:
       w: 1
       h: 1
-    title: Avoo in a leaky used diaper with cum
+    title: Avoo in a leaky used diaper with cum (ahegao face)
     description: ""
     alt: ""
     color: "#c9b9bb"
@@ -2219,6 +2219,24 @@ gallery:
     color: "#2f261e"
     width: 3000
     height: 3000
+  sorajona-ebc/alto-licking-avoos-paws.png:
+    id: W9R
+    artist: sorajona-ebc
+    grid:
+      w: 1
+      h: 1
+    title: Alto licking Avoo's paws
+    description: ""
+    alt: orange fox licking pink fox paws
+    tags:
+      - sfw
+      - sticker
+      - paws
+      - fox
+      - pink
+    color: "#ec67be"
+    width: 512
+    height: 512
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
@@ -2292,6 +2310,9 @@ artists:
   luhrak:
     url: https://twitter.com/luhrak_
     name: Luhrak
+  sorajona-ebc:
+    url: https://t.me/SorajonaEBC
+    name: Sorajona
 tags:
   yiff:
     display: Yiff
