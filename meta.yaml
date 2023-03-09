@@ -2159,8 +2159,8 @@ gallery:
     id: kcC
     artist: luhrak
     grid:
-      w: 1
-      h: 1
+      w: 2
+      h: 2
     title: Lou Sniffing Paws
     description: ""
     alt: brown wolf next to sofa sniffing fox paws, fox laying on sofa bound
@@ -2237,6 +2237,61 @@ gallery:
     color: "#ec67be"
     width: 512
     height: 512
+  avoonix/femboy-maid-tabaxi-abdl-diaper-furry-art.png:
+    id: R6k
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    title: "Tabaxi Maid Reveals He's Wearing a Diaper"
+    description: ""
+    alt: "tabaxi from dnd in maid outfit lifting skirt revealing dry diaper with blurry nature background"
+    tags:
+      - yiff
+      - thigh-highs
+      - diaper
+      - standing
+      - abdl
+      - femboy
+    color: "#3a3320"
+    width: 4000
+    height: 4000
+  avoonix/femboy-maid-tabaxi-abdl-wet-diaper-furry-art.png:
+    id: Dbh
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    title: "Tabaxi Maid Reveals He's Wet His Diaper"
+    description: ""
+    alt: "tabaxi from dnd in maid outfit lifting skirt revealing wet diaper with blurry nature background"
+    tags:
+      - yiff
+      - thigh-highs
+      - diaper
+      - standing
+      - abdl
+      - femboy
+    color: "#3a3320"
+    width: 4000
+    height: 4000
+  avoonix/femboy-maid-tabaxi.png:
+    id: WM7
+    artist: avoonix
+    grid:
+      w: 2
+      h: 2
+    title: "Tabaxi Maid Reveals Panties"
+    description: ""
+    alt: "tabaxi from dnd in maid outfit lifting skirt with blurry nature background"
+    tags:
+      - yiff
+      - thigh-highs
+      - standing
+      - femboy
+    color: "#3a3320"
+    width: 4000
+    height: 4000
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
