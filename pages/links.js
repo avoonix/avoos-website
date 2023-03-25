@@ -4,6 +4,7 @@ import { mdiTelegram } from "../components/icons";
 import NarrowSection from "../components/common/NarrowSection";
 import LinksMeta from "../components/seo/LinksMeta";
 import { mdiMastodon } from "@mdi/js";
+import { mdiPatreon } from "@mdi/js";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <IconLink href="https://www.f-list.net/c/avoonix" iconPath={mdiDogSide} text="F-list" title="f-list.net Profile" />
         <IconLink href="https://twitter.com/avoonix" iconPath={mdiTwitter} text="Twitter" title="Twitter Profile" />
         <IconLink href="https://t.me/avoonix" iconPath={mdiTelegram} text="Telegram" title="Contact" />
+        <IconLink href="https://patreon.com/avoonix" iconPath={mdiPatreon} text="Patreon" title="Support Me" />
         <IconLink href="https://www.reddit.com/user/avoonix" iconPath={mdiReddit} text="Reddit" title="Reddit Profile" />
         <IconLink href="https://www.instagram.com/avoonix.foxo/" iconPath={mdiInstagram} text="Instagram" title="Instagram Profile" />
         <IconLink href="https://yiff.life/@avoonix" iconPath={mdiMastodon} text="Mastodon Profile (yiff.life)" />
