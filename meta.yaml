@@ -2243,9 +2243,10 @@ gallery:
     grid:
       w: 1
       h: 1
-    title: "Tabaxi Maid Reveals He's Wearing a Diaper"
+    title: Tabaxi Maid Reveals He's Wearing a Diaper
     description: ""
-    alt: "tabaxi from dnd in maid outfit lifting skirt revealing dry diaper with blurry nature background"
+    alt: tabaxi from dnd in maid outfit lifting skirt revealing dry diaper with
+      blurry nature background
     tags:
       - yiff
       - thigh-highs
@@ -2262,9 +2263,10 @@ gallery:
     grid:
       w: 1
       h: 1
-    title: "Tabaxi Maid Reveals He's Wet His Diaper"
+    title: Tabaxi Maid Reveals He's Wet His Diaper
     description: ""
-    alt: "tabaxi from dnd in maid outfit lifting skirt revealing wet diaper with blurry nature background"
+    alt: tabaxi from dnd in maid outfit lifting skirt revealing wet diaper with
+      blurry nature background
     tags:
       - yiff
       - thigh-highs
@@ -2281,9 +2283,9 @@ gallery:
     grid:
       w: 2
       h: 2
-    title: "Tabaxi Maid Reveals Panties"
+    title: Tabaxi Maid Reveals Panties
     description: ""
-    alt: "tabaxi from dnd in maid outfit lifting skirt with blurry nature background"
+    alt: tabaxi from dnd in maid outfit lifting skirt with blurry nature background
     tags:
       - yiff
       - thigh-highs
@@ -2292,12 +2294,123 @@ gallery:
     color: "#3a3320"
     width: 4000
     height: 4000
+  avoonix/pink-fox-gets-headpats.png:
+    id: xh0
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    title: "Avoo receives headpats :3"
+    description: ""
+    alt: ""
+    tags:
+      - sfw
+      - sticker
+      - collar
+      - standing
+      - fox
+      - pink
+    color: "#e9c15b"
+    width: 512
+    height: 512
+  avoonix/pink-fox-holds-giant-heart.png:
+    id: loL
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    title: "Avoo holds giant heart"
+    description: ""
+    alt: ""
+    tags:
+      - sfw
+      - heart
+      - sticker
+      - standing
+      - fox
+      - pink
+    color: "#cb0434"
+    width: 512
+    height: 512
+  avoonix/pink-fox-hugs-you.png:
+    id: o6a
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    title: "Avoo hugs you"
+    description: ""
+    alt: ""
+    tags:
+      - sfw
+      - sticker
+      - hug
+      - collar
+      - standing
+      - fox
+      - pink
+    color: "#e8c15b"
+    width: 512
+    height: 512
+  avoonix/pink-fox-in-halloween-pumpkin-uwu.png:
+    id: SN8
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    title: "Halloween"
+    description: ""
+    alt: ""
+    tags:
+      - sfw
+      - sticker
+      - fox
+      - pink
+    color: "#cc5814"
+    width: 512
+    height: 512
+  avoonix/pink-fox-popcat.png:
+    id: 2wg
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    title: "*pop*"
+    description: ""
+    alt: ""
+    tags:
+      - sfw
+      - sticker
+      - collar
+      - fox
+      - pink
+    color: "#471e2f"
+    width: 512
+    height: 512
+  avoonix/pink-paws-beans.png:
+    id: yVl
+    artist: avoonix
+    grid:
+      w: 1
+      h: 1
+    title: "Beans"
+    description: ""
+    alt: ""
+    tags:
+      - sfw
+      - sticker
+      - paws
+      - fox
+      - pink
+    color: "#ec61bd"
+    width: 512
+    height: 512
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
     name: Salem/Oat
   avoonix:
-    url: https://avoonix.com/
+    url: https://stickers.avoonix.com/
     name: Avoonix
   asgardianartist:
     url: https://linktr.ee/asgardian.artist
