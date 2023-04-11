@@ -2300,7 +2300,7 @@ gallery:
     grid:
       w: 1
       h: 1
-    title: "Avoo receives headpats :3"
+    title: Avoo receives headpats :3
     description: ""
     alt: ""
     tags:
@@ -2319,7 +2319,7 @@ gallery:
     grid:
       w: 1
       h: 1
-    title: "Avoo holds giant heart"
+    title: Avoo holds giant heart
     description: ""
     alt: ""
     tags:
@@ -2338,7 +2338,7 @@ gallery:
     grid:
       w: 1
       h: 1
-    title: "Avoo hugs you"
+    title: Avoo hugs you
     description: ""
     alt: ""
     tags:
@@ -2358,7 +2358,7 @@ gallery:
     grid:
       w: 1
       h: 1
-    title: "Halloween"
+    title: Halloween
     description: ""
     alt: ""
     tags:
@@ -2393,7 +2393,7 @@ gallery:
     grid:
       w: 1
       h: 1
-    title: "Beans"
+    title: Beans
     description: ""
     alt: ""
     tags:
@@ -2405,6 +2405,42 @@ gallery:
     color: "#ec61bd"
     width: 512
     height: 512
+  frodo0o/avoo-lick-lou-beans.png:
+    id: dAi
+    artist: frodo0o
+    grid:
+      w: 2
+      h: 1
+    title: "Avoo Licks Lou's Beans"
+    description: ""
+    alt: "furry paws beans being licked blush uwu pink fox"
+    tags:
+      - sfw
+      - paws
+      - fox
+      - pink
+      - wolf
+    color: "#d7c8d8"
+    width: 950
+    height: 580
+  frodo0o/lou-lick-avoo-beans.png:
+    id: xwy
+    artist: frodo0o
+    grid:
+      w: 2
+      h: 1
+    title: "Lou Licks Avoo's Beans"
+    description: ""
+    alt: "furry paws beans being licked blush uwu brown wolf"
+    tags:
+      - sfw
+      - paws
+      - fox
+      - pink
+      - wolf
+    color: "#d7bbcd"
+    width: 950
+    height: 580
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
@@ -2481,6 +2517,9 @@ artists:
   sorajona-ebc:
     url: https://t.me/SorajonaEBC
     name: Sorajona
+  frodo0o:
+    url: "https://twitter.com/frodo0o"
+    name: Frodo
 tags:
   yiff:
     display: Yiff
