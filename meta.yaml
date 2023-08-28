@@ -168,8 +168,8 @@ gallery:
     id: RTP
     artist: strawbear
     grid:
-      w: 4
-      h: 3
+      w: 2
+      h: 1
     title: Loucas and Avoonix enjoying paws
     description: ""
     alt: ""
@@ -188,8 +188,8 @@ gallery:
     id: Hah
     artist: hufnaar
     grid:
-      w: 3
-      h: 5
+      w: 2
+      h: 3
     title: Lou and Avoo Visit Santa
     description: Santa is https://www.furaffinity.net/user/sockstehfox
     alt: ""
@@ -1451,8 +1451,8 @@ gallery:
     id: WPt
     artist: wallswhisper
     grid:
-      w: 4
-      h: 3
+      w: 2
+      h: 1
     title: Lou and Avoo in missionary position
     description: ""
     alt: ""
@@ -2411,9 +2411,9 @@ gallery:
     grid:
       w: 2
       h: 1
-    title: "Avoo Licks Lou's Beans"
+    title: Avoo Licks Lou's Beans
     description: ""
-    alt: "furry paws beans being licked blush uwu pink fox"
+    alt: furry paws beans being licked blush uwu pink fox
     tags:
       - sfw
       - paws
@@ -2429,9 +2429,9 @@ gallery:
     grid:
       w: 2
       h: 1
-    title: "Lou Licks Avoo's Beans"
+    title: Lou Licks Avoo's Beans
     description: ""
-    alt: "furry paws beans being licked blush uwu brown wolf"
+    alt: furry paws beans being licked blush uwu brown wolf
     tags:
       - sfw
       - paws
@@ -2441,6 +2441,29 @@ gallery:
     color: "#d7bbcd"
     width: 950
     height: 580
+  zombineko/abdl-crib-cuddle-with-vibrators-gagged.png:
+    id: P1A
+    artist: zombineko
+    grid:
+      w: 2
+      h: 3
+    title: "Babs Cuddling in Crib"
+    description: ""
+    alt: "abdl crib cuddle, vibrators on cocks, chastity caged, paci gagged, zombineko"
+    tags:
+      - yiff
+      - cum
+      - thigh-highs
+      - bed
+      - diaper
+      - hug
+      - fox
+      - pink
+      - abdl
+      - femboy
+    color: "#dccadd"
+    width: 2933
+    height: 3849
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
@@ -2518,7 +2541,7 @@ artists:
     url: https://t.me/SorajonaEBC
     name: Sorajona
   frodo0o:
-    url: "https://twitter.com/frodo0o"
+    url: https://twitter.com/frodo0o
     name: Frodo
 tags:
   yiff:
