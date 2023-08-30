@@ -33,7 +33,7 @@
     "remark-slug": "^7.0.1",
     "seedrandom": "^3.0.5",
     "styled-components": "^5.3.5",
-    "webpack": "^5.72.1",
+    "webpack": "^5.76.0",
     "yaml": "^2.1.0"
   }
 }
