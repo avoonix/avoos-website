@@ -81,8 +81,8 @@ dependencies:
     specifier: ^5.72.1
     version: 5.72.1
   yaml:
-    specifier: ^2.1.0
-    version: 2.1.0
+    specifier: ^2.2.2
+    version: 2.2.2
 
 packages:
 
@@ -2438,8 +2438,8 @@ packages:
       webidl-conversions: 4.0.2
     dev: false
 
-  /yaml@2.1.0:
-    resolution: {integrity: sha512-OuAINfTsoJrY5H7CBWnKZhX6nZciXBydrMtTHr1dC4nP40X5jyTIVlogZHxSlVZM8zSgXRfgZGsaHF4+pV+JRw==}
+  /yaml@2.2.2:
+    resolution: {integrity: sha512-CBKFWExMn46Foo4cldiChEzn7S7SRV+wqiluAb6xmueD/fGyRHIhX8m14vVGgeFWjN540nKCNVj6P21eQjgTuA==}
     engines: {node: '>= 14'}
     dev: false
 
