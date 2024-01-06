@@ -2759,6 +2759,44 @@ gallery:
     color: "#30432a"
     width: 1008
     height: 1048
+  cremetorteee/alto-avoo-licking-paws-christmas.png:
+    id: NdD
+    artist: cremetorteee
+    grid:
+      w: 1
+      h: 1
+    title: Alto and Avoo Licking Paws on Christmas
+    description: ""
+    alt: orange femboy fox and pink femboy fox licking paws, christmas thigh highs
+    tags:
+      - thigh-highs
+      - paws
+      - collar
+      - fox
+      - pink
+      - femboy
+    color: "#fbe8b6"
+    width: 2362
+    height: 1516
+  cremetorteee/alto-avoo-licking-paws-femboy.png:
+    id: zvj
+    artist: cremetorteee
+    grid:
+      w: 3
+      h: 2
+    title: Alto and Avoo Licking Paws
+    description: ""
+    alt: orange femboy fox and pink femboy fox licking paws
+    tags:
+      - thigh-highs
+      - paws
+      - collar
+      - fox
+      - pink
+      - femboy
+    color: "#f6debe"
+    width: 2362
+    height: 1516
 artists:
   spookyfoxinc:
     url: https://www.spookyfoxinc.com/
@@ -2841,6 +2879,9 @@ artists:
   zer0twentyfour:
     url: https://twitter.com/zer0twentyfour
     name: Bonello
+  cremetorteee:
+    url: https://t.me/cremetorteee
+    name: Spooky Mulder
 tags:
   yiff:
     display: Yiff
