@@ -1,6 +1,6 @@
 import IconLink from "../components/IconLink";
 import styles from "../styles/container.module.css";
-import { mdiGithub, mdiTwitter, mdiImageMultiple, mdiSteam, mdiLink } from "@mdi/js";
+import { mdiGithub, mdiTwitter, mdiImageMultiple, mdiSteam, mdiLink, mdiPawOutline } from "@mdi/js";
 import ProfileImage from "../components/ProfileImage";
 import { mdiTelegram } from "../components/icons";
 import WideHeader from "../components/common/WideHeader";
@@ -37,12 +37,12 @@ export default function Home() {
               }}
             >
               <IconLink href="https://t.me/avoonix" iconPath={mdiTelegram} title="Contact me on Telegram" icon style={{ margin: "5px" }} rel="me" />
-              <IconLink href="https://steamcommunity.com/id/avoonix" iconPath={mdiSteam} title="Steam" icon style={{ margin: "5px" }} rel="me" />
               <IconLink href="https://github.com/avoonix" iconPath={mdiGithub} title="GitHub" icon style={{ margin: "5px" }} rel="me" />
               <IconLink href="https://twitter.com/avoonix" iconPath={mdiTwitter} title="Twitter" icon style={{ margin: "5px" }} rel="me" />
             </div>
 
-            <IconLink href="/gallery" iconPath={mdiImageMultiple} text="Gallery" />
+            <IconLink href="https://www.furtrack.com/user/Avoonix/fursuiting" iconPath={mdiPawOutline} text="FurTrack Gallery" title="Fursuit Pictures on FurTrack" />
+            <IconLink href="/gallery" iconPath={mdiImageMultiple} text="Art Gallery" />
             <IconLink href="/links" iconPath={mdiLink} text="More links" />
           </div>
         </NarrowSection>

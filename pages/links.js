@@ -18,6 +18,7 @@ export default function Home() {
           <h1>Socials and Other Links</h1>
         </div>
 
+        <IconLink href="https://www.furtrack.com/user/Avoonix/fursuiting" iconPath={mdiPawOutline} text="FurTrack Gallery" title="Fursuit Pictures on FurTrack" />
         <IconLink href="https://steamcommunity.com/id/avoonix" iconPath={mdiSteam} text="Steam" title="Steam Profile" />
         <IconLink href="https://github.com/avoonix" iconPath={mdiGithub} text="GitHub" title="GitHub Profile" />
         <IconLink href="https://e621.net/artists/71584" iconPath={mdiHexagon} text="e621" title="e6 Profile" />
