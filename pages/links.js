@@ -3,7 +3,6 @@ import { mdiInstagram, mdiGithub, mdiPawOutline, mdiTwitter, mdiImageMultiple, m
 import { mdiTelegram } from "../components/icons";
 import NarrowSection from "../components/common/NarrowSection";
 import LinksMeta from "../components/seo/LinksMeta";
-import { mdiMastodon } from "@mdi/js";
 import { mdiPatreon } from "@mdi/js";
 
 export default function Home() {
@@ -29,8 +28,6 @@ export default function Home() {
         <IconLink href="https://patreon.com/avoonix" iconPath={mdiPatreon} text="Patreon" title="Support Me" />
         <IconLink href="https://www.reddit.com/user/avoonix" iconPath={mdiReddit} text="Reddit" title="Reddit Profile" />
         <IconLink href="https://www.instagram.com/avoonix.foxo/" iconPath={mdiInstagram} text="Instagram" title="Instagram Profile" />
-        <IconLink href="https://yiff.life/@avoonix" iconPath={mdiMastodon} text="Mastodon Profile (yiff.life)" />
-        <IconLink href="https://meow.social/@avoonix" iconPath={mdiMastodon} text="Mastodon Profile (meow.social)" />
         <IconLink href="https://material-e621.vercel.app/#/posts?tags=fav:Avoonix" iconPath={mdiHexagon} text="e6 Favorites" title="e6 Favorites" />
         <IconLink href="/gallery/ref-avoonix-reference-sheet" iconPath={mdiAccountHeart} text="Reference" />
         <IconLink href="/gallery" iconPath={mdiImageMultiple} text="Gallery" />
