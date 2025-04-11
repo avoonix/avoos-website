@@ -28,7 +28,7 @@ export default function Home() {
         <IconLink href="https://patreon.com/avoonix" iconPath={mdiPatreon} text="Patreon" title="Support Me" />
         <IconLink href="https://www.reddit.com/user/avoonix" iconPath={mdiReddit} text="Reddit" title="Reddit Profile" />
         <IconLink href="https://www.instagram.com/avoonix.foxo/" iconPath={mdiInstagram} text="Instagram" title="Instagram Profile" />
-        <IconLink href="https://material-e621.vercel.app/#/posts?tags=fav:Avoonix" iconPath={mdiHexagon} text="e6 Favorites" title="e6 Favorites" />
+        <IconLink href="https://material-e621.avoonix.com/#/posts?tags=fav:Avoonix" iconPath={mdiHexagon} text="e6 Favorites" title="e6 Favorites" />
         <IconLink href="/gallery/ref-avoonix-reference-sheet" iconPath={mdiAccountHeart} text="Reference" />
         <IconLink href="/gallery" iconPath={mdiImageMultiple} text="Gallery" />
         <IconLink href="https://github.com/avoonix/material-e621#readme" iconPath={mdiGithub} text="Material e621 (Project)" />

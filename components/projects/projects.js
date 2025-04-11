@@ -1,7 +1,7 @@
 export const projects = [
   {
     image: "https://i.avoonix.com/images/projects/material-e621-screenshot-posts-page.png",
-    link: "https://material-e621.vercel.app/",
+    link: "https://material-e621.avoonix.com/",
     title: "Material e621",
     description: "A web app for e621.net",
     reverse: false,
