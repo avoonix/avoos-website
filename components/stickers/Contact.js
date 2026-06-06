@@ -8,14 +8,7 @@ export const Contact = ({ dense = true }) => {
       <IconLink
         href="https://t.me/avoonix"
         iconPath={mdiTelegram}
-        text="Telegram (preferred)"
-        inverted
-        dense={dense}
-      />
-      <IconLink
-        href="https://twitter.com/avoonix"
-        iconPath={mdiTwitter}
-        text="Twitter"
+        text="Telegram"
         inverted
         dense={dense}
       />

@@ -23,11 +23,9 @@ export default function Home() {
         <IconLink href="https://e621.net/artists/71584" iconPath={mdiHexagon} text="e621" title="e6 Profile" />
         <IconLink href="https://www.furaffinity.net/user/avoonix" iconPath={mdiPawOutline} text="Fur Affinity" title="Fur Affinity Profile" />
         <IconLink href="https://www.f-list.net/c/avoonix" iconPath={mdiDogSide} text="F-list" title="f-list.net Profile" />
-        <IconLink href="https://twitter.com/avoonix" iconPath={mdiTwitter} text="Twitter" title="Twitter Profile" />
         <IconLink href="https://t.me/avoonix" iconPath={mdiTelegram} text="Telegram" title="Contact" />
         <IconLink href="https://patreon.com/avoonix" iconPath={mdiPatreon} text="Patreon" title="Support Me" />
         <IconLink href="https://www.reddit.com/user/avoonix" iconPath={mdiReddit} text="Reddit" title="Reddit Profile" />
-        <IconLink href="https://www.instagram.com/avoonix.foxo/" iconPath={mdiInstagram} text="Instagram" title="Instagram Profile" />
         <IconLink href="https://material-e621.avoonix.com/#/posts?tags=fav:Avoonix" iconPath={mdiHexagon} text="e6 Favorites" title="e6 Favorites" />
         <IconLink href="/gallery/ref-avoonix-reference-sheet" iconPath={mdiAccountHeart} text="Reference" />
         <IconLink href="/gallery" iconPath={mdiImageMultiple} text="Gallery" />

@@ -38,7 +38,6 @@ export default function Home() {
             >
               <IconLink href="https://t.me/avoonix" iconPath={mdiTelegram} title="Contact me on Telegram" icon style={{ margin: "5px" }} rel="me" />
               <IconLink href="https://github.com/avoonix" iconPath={mdiGithub} title="GitHub" icon style={{ margin: "5px" }} rel="me" />
-              <IconLink href="https://twitter.com/avoonix" iconPath={mdiTwitter} title="Twitter" icon style={{ margin: "5px" }} rel="me" />
             </div>
 
             <IconLink href="https://www.furtrack.com/user/Avoonix/fursuiting" iconPath={mdiPawOutline} text="FurTrack Gallery" title="Fursuit Pictures on FurTrack" />

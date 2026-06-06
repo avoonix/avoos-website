@@ -25,7 +25,7 @@ export default function IndexPageMeta() {
           ],
         }}
       />
-      <SocialProfileJsonLd description={description} alternateName="Avoo" twitter="@avoonix" type="Person" name="Avoonix" url="https://avoonix.com/" sameAs={["https://twitter.com/avoonix", "https://t.me/avoonix", "https://github.com/avoonix", "https://steamcommunity.com/id/avoonix"]} />
+      <SocialProfileJsonLd description={description} alternateName="Avoo" type="Person" name="Avoonix" url="https://avoonix.com/" sameAs={["https://t.me/avoonix", "https://github.com/avoonix", "https://steamcommunity.com/id/avoonix"]} />
     </>
   );
 }
